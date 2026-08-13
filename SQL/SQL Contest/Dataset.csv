@@ -1,0 +1,301 @@
+SaleID,SaleDate,CustomerName,City,State,Product,Category,Quantity,Price,Discount,SalesAmount
+1,2026-01-01,"Arun Kumar",Chennai,"Tamil Nadu",Laptop,Electronics,1,65000.00,5.00,61750.00
+2,2026-01-02,"Meena Devi",Coimbatore,"Tamil Nadu",Mouse,Electronics,2,850.00,10.00,1530.00
+3,2026-01-03,"Rahul Sharma",Bengaluru,Karnataka,"Office Chair",Furniture,1,8200.00,7.50,7585.00
+4,2026-01-04,"Priya Nair",Kochi,Kerala,"Desk Lamp","Home Decor",3,1200.00,5.00,3420.00
+5,2026-01-05,"Karthik R",Madurai,"Tamil Nadu",Keyboard,Electronics,1,2400.00,0.00,2400.00
+6,2026-01-06,"Anita S",Hyderabad,Telangana,Monitor,Electronics,2,12500.00,8.00,23000.00
+7,2026-01-07,"Vijay P",Chennai,"Tamil Nadu","Water Bottle",Accessories,5,450.00,12.00,1980.00
+8,2026-01-08,"Suman L",Pune,Maharashtra,Tablet,Electronics,1,28000.00,6.00,26320.00
+9,2026-01-09,"Nisha B",Mumbai,Maharashtra,Shoes,Apparel,2,3500.00,15.00,5950.00
+10,2026-01-10,"Deepak M",Delhi,Delhi,Backpack,Accessories,1,1800.00,5.00,1710.00
+11,2026-01-11,"Lakshmi K",Salem,"Tamil Nadu",Laptop,Electronics,2,62000.00,10.00,111600.00
+12,2026-01-12,"Rohit Jain",Ahmedabad,Gujarat,"Desk Chair",Furniture,1,7600.00,5.00,7220.00
+13,2026-01-13,"Sneha V",Chennai,"Tamil Nadu",Headphones,Electronics,3,3200.00,12.00,8448.00
+14,2026-01-14,"Manoj T",Mysuru,Karnataka,Notebook,Stationery,10,120.00,0.00,1200.00
+15,2026-01-15,"Asha R",Trichy,"Tamil Nadu",Smartphone,Electronics,1,42000.00,7.00,39060.00
+16,2026-01-16,"Imran Khan",Lucknow,"Uttar Pradesh",Printer,Electronics,1,14500.00,10.00,13050.00
+17,2026-01-17,"Divya N",Kochi,Kerala,T-Shirt,Apparel,4,900.00,20.00,2880.00
+18,2026-01-18,"Hari P",Bengaluru,Karnataka,Smartwatch,Electronics,2,8500.00,5.00,16150.00
+19,2026-01-19,"Farah S",Mumbai,Maharashtra,Bookshelf,Furniture,1,5400.00,8.00,4968.00
+20,2026-01-20,"Naveen D",Chennai,"Tamil Nadu","Pen Set",Stationery,6,250.00,0.00,1500.00
+21,2026-01-21,"Geetha M",Coimbatore,"Tamil Nadu",Refrigerator,Appliances,1,48000.00,6.00,45120.00
+22,2026-01-22,"Aman P",Delhi,Delhi,Mouse,Electronics,4,900.00,10.00,3240.00
+23,2026-01-23,"Kavya S",Hyderabad,Telangana,"Office Table",Furniture,1,9500.00,5.00,9025.00
+24,2026-01-24,"Ramesh C",Madurai,"Tamil Nadu",Earbuds,Electronics,2,2800.00,15.00,4760.00
+25,2026-01-25,"Pooja L",Pune,Maharashtra,Jacket,Apparel,2,4200.00,10.00,7560.00
+26,2026-01-26,"Suresh K",Chennai,"Tamil Nadu","Mixer Grinder",Appliances,1,6800.00,8.00,6256.00
+27,2026-01-27,"Madhuri A",Kochi,Kerala,Notebook,Stationery,15,100.00,5.00,1425.00
+28,2026-01-28,"Vikram N",Bengaluru,Karnataka,Monitor,Electronics,1,15500.00,12.00,13640.00
+29,2026-01-29,"Shalini R",Mumbai,Maharashtra,"Sofa Set",Furniture,1,45000.00,7.00,41850.00
+30,2026-01-30,"Ajay B",Delhi,Delhi,Cap,Apparel,3,600.00,0.00,1800.00
+31,2026-01-31,"Neha T",Chennai,"Tamil Nadu",Laptop,Electronics,1,70000.00,10.00,63000.00
+32,2026-02-01,"Prakash V",Salem,"Tamil Nadu","Desk Lamp","Home Decor",2,1100.00,5.00,2090.00
+33,2026-02-02,"Riya K",Hyderabad,Telangana,"Phone Case",Accessories,8,300.00,10.00,2160.00
+34,2026-02-03,"Ashok M",Bengaluru,Karnataka,Keyboard,Electronics,2,2200.00,0.00,4400.00
+35,2026-02-04,"Sandhya P",Kochi,Kerala,"Water Bottle",Accessories,4,500.00,5.00,1900.00
+36,2026-02-05,"Mohan R",Madurai,"Tamil Nadu",Tablet,Electronics,1,31000.00,7.00,28830.00
+37,2026-02-06,"Revathi S",Pune,Maharashtra,"Office Chair",Furniture,2,7800.00,8.00,14352.00
+38,2026-02-07,"Sathish D",Mumbai,Maharashtra,Shoes,Apparel,1,4000.00,12.00,3520.00
+39,2026-02-08,"Anjali N",Delhi,Delhi,Notebook,Stationery,20,90.00,0.00,1800.00
+40,2026-02-09,"Dinesh R",Chennai,"Tamil Nadu",Printer,Electronics,1,16000.00,10.00,14400.00
+41,2026-02-10,"Harini L",Coimbatore,"Tamil Nadu",Smartphone,Electronics,2,39000.00,6.00,73440.00
+42,2026-02-11,"Kiran J",Mysuru,Karnataka,"Desk Table",Furniture,1,10500.00,5.00,9975.00
+43,2026-02-12,"Bhavna C",Trichy,"Tamil Nadu",Headphones,Electronics,1,2800.00,15.00,2380.00
+44,2026-02-13,"Sanjay P",Ahmedabad,Gujarat,T-Shirt,Apparel,5,800.00,10.00,3600.00
+45,2026-02-14,"Malar A",Chennai,"Tamil Nadu","Mixer Grinder",Appliances,2,7200.00,8.00,13248.00
+46,2026-02-15,"Firoz H",Hyderabad,Telangana,Bookshelf,Furniture,1,6200.00,5.00,5890.00
+47,2026-02-16,"Keerthi S",Kochi,Kerala,Laptop,Electronics,1,68000.00,5.00,64600.00
+48,2026-02-17,"Arvind N",Bengaluru,Karnataka,Backpack,Accessories,2,2100.00,12.00,3696.00
+49,2026-02-18,"Nandhini V",Mumbai,Maharashtra,Monitor,Electronics,3,13000.00,10.00,35100.00
+50,2026-02-19,"Selvam K",Delhi,Delhi,"Pen Set",Stationery,12,200.00,0.00,2400.00
+51,2026-02-20,"Tarun M",Chennai,"Tamil Nadu",Laptop,Electronics,1,72000.00,8.00,66240.00
+52,2026-02-21,"Aparna S",Coimbatore,"Tamil Nadu",Mouse,Electronics,3,800.00,5.00,2280.00
+53,2026-02-22,"Naveen K",Bengaluru,Karnataka,"Office Chair",Furniture,2,7900.00,10.00,14220.00
+54,2026-02-23,"Jaya R",Hyderabad,Telangana,"Desk Lamp","Home Decor",4,950.00,0.00,3800.00
+55,2026-02-24,"Raghu P",Mumbai,Maharashtra,Keyboard,Electronics,2,2100.00,7.00,3906.00
+56,2026-02-25,"Sangeetha L",Delhi,Delhi,Monitor,Electronics,1,15000.00,5.00,14250.00
+57,2026-02-26,"Mahesh V",Kochi,Kerala,"Water Bottle",Accessories,6,400.00,10.00,2160.00
+58,2026-02-27,"Priyanka D",Pune,Maharashtra,Tablet,Electronics,1,29000.00,6.00,27260.00
+59,2026-02-28,"Kumar S",Madurai,"Tamil Nadu",Shoes,Apparel,2,3600.00,12.00,6336.00
+60,2026-03-01,"Divya N",Chennai,"Tamil Nadu",Backpack,Accessories,1,1700.00,5.00,1615.00
+61,2026-03-02,"Arun K",Salem,"Tamil Nadu",Smartphone,Electronics,1,45000.00,7.00,41850.00
+62,2026-03-03,"Meena D",Ahmedabad,Gujarat,"Desk Table",Furniture,1,9800.00,5.00,9310.00
+63,2026-03-04,"Rahul S",Trichy,"Tamil Nadu",Headphones,Electronics,2,3000.00,10.00,5400.00
+64,2026-03-05,"Priya N",Mysuru,Karnataka,Notebook,Stationery,25,100.00,0.00,2500.00
+65,2026-03-06,"Karthik R",Chennai,"Tamil Nadu",Printer,Electronics,1,15500.00,8.00,14260.00
+66,2026-03-07,"Anita S",Lucknow,"Uttar Pradesh",T-Shirt,Apparel,4,700.00,15.00,2380.00
+67,2026-03-08,"Vijay P",Hyderabad,Telangana,Smartwatch,Electronics,2,9000.00,5.00,17100.00
+68,2026-03-09,"Suman L",Mumbai,Maharashtra,Bookshelf,Furniture,1,6000.00,7.00,5580.00
+69,2026-03-10,"Nisha B",Bengaluru,Karnataka,"Pen Set",Stationery,10,180.00,0.00,1800.00
+70,2026-03-11,"Deepak M",Delhi,Delhi,Refrigerator,Appliances,1,50000.00,6.00,47000.00
+71,2026-03-12,"Lakshmi K",Chennai,"Tamil Nadu",Mouse,Electronics,5,900.00,10.00,4050.00
+72,2026-03-13,"Rohit J",Coimbatore,"Tamil Nadu","Office Chair",Furniture,1,8500.00,5.00,8075.00
+73,2026-03-14,"Sneha V",Kochi,Kerala,"Desk Lamp","Home Decor",2,1000.00,0.00,2000.00
+74,2026-03-15,"Manoj T",Pune,Maharashtra,Keyboard,Electronics,1,2300.00,5.00,2185.00
+75,2026-03-16,"Asha R",Madurai,"Tamil Nadu",Monitor,Electronics,2,14000.00,8.00,25760.00
+76,2026-03-17,"Imran K",Chennai,"Tamil Nadu","Water Bottle",Accessories,3,450.00,12.00,1188.00
+77,2026-03-18,"Divya N",Hyderabad,Telangana,Tablet,Electronics,1,27000.00,6.00,25380.00
+78,2026-03-19,"Hari P",Mumbai,Maharashtra,Shoes,Apparel,1,4200.00,10.00,3780.00
+79,2026-03-20,"Farah S",Delhi,Delhi,Backpack,Accessories,2,1600.00,5.00,3040.00
+80,2026-03-21,"Naveen D",Bengaluru,Karnataka,Smartphone,Electronics,2,41000.00,7.00,76260.00
+81,2026-03-22,"Geetha M",Salem,"Tamil Nadu","Desk Table",Furniture,2,9200.00,5.00,17480.00
+82,2026-03-23,"Aman P",Ahmedabad,Gujarat,Headphones,Electronics,4,2800.00,10.00,10080.00
+83,2026-03-24,"Kavya S",Trichy,"Tamil Nadu",Notebook,Stationery,30,80.00,0.00,2400.00
+84,2026-03-25,"Ramesh C",Mysuru,Karnataka,Printer,Electronics,1,14800.00,8.00,13616.00
+85,2026-03-26,"Pooja L",Kochi,Kerala,T-Shirt,Apparel,5,850.00,15.00,3612.50
+86,2026-03-27,"Suresh K",Chennai,"Tamil Nadu",Smartwatch,Electronics,1,7800.00,5.00,7410.00
+87,2026-03-28,"Madhuri A",Mumbai,Maharashtra,Bookshelf,Furniture,2,5500.00,7.00,10230.00
+88,2026-03-29,"Vikram N",Delhi,Delhi,"Pen Set",Stationery,15,150.00,0.00,2250.00
+89,2026-03-30,"Shalini R",Hyderabad,Telangana,Refrigerator,Appliances,1,47000.00,6.00,44180.00
+90,2026-03-31,"Ajay B",Pune,Maharashtra,Mouse,Electronics,6,750.00,10.00,4050.00
+91,2026-04-01,"Neha T",Chennai,"Tamil Nadu",Laptop,Electronics,1,68000.00,8.00,62560.00
+92,2026-04-02,"Prakash V",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",3,1100.00,5.00,3135.00
+93,2026-04-03,"Riya K",Bengaluru,Karnataka,"Phone Case",Accessories,10,250.00,10.00,2250.00
+94,2026-04-04,"Ashok M",Kochi,Kerala,Keyboard,Electronics,2,2400.00,0.00,4800.00
+95,2026-04-05,"Sandhya P",Madurai,"Tamil Nadu","Water Bottle",Accessories,7,500.00,5.00,3325.00
+96,2026-04-06,"Mohan R",Hyderabad,Telangana,Tablet,Electronics,1,30000.00,7.00,27900.00
+97,2026-04-07,"Revathi S",Mumbai,Maharashtra,"Office Chair",Furniture,1,8000.00,8.00,7360.00
+98,2026-04-08,"Sathish D",Delhi,Delhi,Shoes,Apparel,3,3900.00,12.00,10344.00
+99,2026-04-09,"Anjali N",Chennai,"Tamil Nadu",Notebook,Stationery,40,70.00,0.00,2800.00
+100,2026-04-10,"Dinesh R",Pune,Maharashtra,Printer,Electronics,1,15800.00,10.00,14220.00
+101,2026-04-11,"Harini L",Salem,"Tamil Nadu",Smartphone,Electronics,1,44000.00,6.00,41360.00
+102,2026-04-12,"Kiran J",Ahmedabad,Gujarat,"Desk Table",Furniture,1,10200.00,5.00,9690.00
+103,2026-04-13,"Bhavna C",Trichy,"Tamil Nadu",Headphones,Electronics,3,3100.00,10.00,8370.00
+104,2026-04-14,"Sanjay P",Mysuru,Karnataka,Notebook,Stationery,20,95.00,0.00,1900.00
+105,2026-04-15,"Malar A",Chennai,"Tamil Nadu",Printer,Electronics,1,15000.00,8.00,13800.00
+106,2026-04-16,"Firoz H",Lucknow,"Uttar Pradesh",T-Shirt,Apparel,6,750.00,15.00,3825.00
+107,2026-04-17,"Keerthi S",Hyderabad,Telangana,Smartwatch,Electronics,2,9200.00,5.00,17480.00
+108,2026-04-18,"Arvind N",Mumbai,Maharashtra,Bookshelf,Furniture,1,5800.00,7.00,5394.00
+109,2026-04-19,"Nandhini V",Bengaluru,Karnataka,"Pen Set",Stationery,8,200.00,0.00,1600.00
+110,2026-04-20,"Selvam K",Delhi,Delhi,Refrigerator,Appliances,1,49000.00,6.00,46060.00
+111,2026-04-21,"Tarun M",Chennai,"Tamil Nadu",Mouse,Electronics,4,850.00,10.00,3060.00
+112,2026-04-22,"Aparna S",Coimbatore,"Tamil Nadu","Office Chair",Furniture,2,7800.00,5.00,14820.00
+113,2026-04-23,"Naveen K",Bengaluru,Karnataka,"Desk Lamp","Home Decor",5,900.00,0.00,4500.00
+114,2026-04-24,"Jaya R",Hyderabad,Telangana,Keyboard,Electronics,2,2250.00,7.00,4185.00
+115,2026-04-25,"Raghu P",Mumbai,Maharashtra,Monitor,Electronics,1,14500.00,5.00,13775.00
+116,2026-04-26,"Sangeetha L",Delhi,Delhi,"Water Bottle",Accessories,10,420.00,12.00,3696.00
+117,2026-04-27,"Mahesh V",Kochi,Kerala,Tablet,Electronics,2,28500.00,6.00,53640.00
+118,2026-04-28,"Priyanka D",Pune,Maharashtra,Shoes,Apparel,2,3700.00,10.00,6660.00
+119,2026-04-29,"Kumar S",Madurai,"Tamil Nadu",Backpack,Accessories,3,1500.00,5.00,4275.00
+120,2026-04-30,"Divya N",Chennai,"Tamil Nadu",Smartphone,Electronics,1,46000.00,7.00,42780.00
+121,2026-05-01,"Arun K",Salem,"Tamil Nadu","Desk Table",Furniture,1,9900.00,5.00,9405.00
+122,2026-05-02,"Meena D",Ahmedabad,Gujarat,Headphones,Electronics,2,2900.00,10.00,5220.00
+123,2026-05-03,"Rahul S",Trichy,"Tamil Nadu",Notebook,Stationery,15,110.00,0.00,1650.00
+124,2026-05-04,"Priya N",Mysuru,Karnataka,Printer,Electronics,1,14700.00,8.00,13524.00
+125,2026-05-05,"Karthik R",Chennai,"Tamil Nadu",T-Shirt,Apparel,3,800.00,15.00,2040.00
+126,2026-05-06,"Anita S",Lucknow,"Uttar Pradesh",Smartwatch,Electronics,1,8500.00,5.00,8075.00
+127,2026-05-07,"Vijay P",Hyderabad,Telangana,Bookshelf,Furniture,2,5600.00,7.00,10416.00
+128,2026-05-08,"Suman L",Mumbai,Maharashtra,"Pen Set",Stationery,20,170.00,0.00,3400.00
+129,2026-05-09,"Nisha B",Bengaluru,Karnataka,Refrigerator,Appliances,1,48500.00,6.00,45590.00
+130,2026-05-10,"Deepak M",Delhi,Delhi,Mouse,Electronics,5,780.00,10.00,3510.00
+131,2026-05-11,"Lakshmi K",Chennai,"Tamil Nadu",Laptop,Electronics,2,64000.00,8.00,117760.00
+132,2026-05-12,"Rohit J",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",2,1150.00,5.00,2185.00
+133,2026-05-13,"Sneha V",Kochi,Kerala,"Phone Case",Accessories,12,280.00,10.00,3024.00
+134,2026-05-14,"Manoj T",Pune,Maharashtra,Keyboard,Electronics,1,2350.00,0.00,2350.00
+135,2026-05-15,"Asha R",Madurai,"Tamil Nadu",Monitor,Electronics,2,13800.00,8.00,25392.00
+136,2026-05-16,"Imran K",Chennai,"Tamil Nadu","Water Bottle",Accessories,4,480.00,12.00,1689.60
+137,2026-05-17,"Divya N",Hyderabad,Telangana,Tablet,Electronics,1,29500.00,6.00,27730.00
+138,2026-05-18,"Hari P",Mumbai,Maharashtra,Shoes,Apparel,2,3800.00,10.00,6840.00
+139,2026-05-19,"Farah S",Delhi,Delhi,Backpack,Accessories,1,1750.00,5.00,1662.50
+140,2026-05-20,"Naveen D",Bengaluru,Karnataka,Smartphone,Electronics,1,45500.00,7.00,42315.00
+141,2026-05-21,"Geetha M",Salem,"Tamil Nadu","Desk Table",Furniture,2,9400.00,5.00,17860.00
+142,2026-05-22,"Aman P",Ahmedabad,Gujarat,Headphones,Electronics,1,3000.00,10.00,2700.00
+143,2026-05-23,"Kavya S",Trichy,"Tamil Nadu",Notebook,Stationery,50,75.00,0.00,3750.00
+144,2026-05-24,"Ramesh C",Mysuru,Karnataka,Printer,Electronics,2,15200.00,8.00,27968.00
+145,2026-05-25,"Pooja L",Kochi,Kerala,T-Shirt,Apparel,6,780.00,15.00,3978.00
+146,2026-05-26,"Suresh K",Chennai,"Tamil Nadu",Smartwatch,Electronics,2,8700.00,5.00,16530.00
+147,2026-05-27,"Madhuri A",Mumbai,Maharashtra,Bookshelf,Furniture,1,6100.00,7.00,5673.00
+148,2026-05-28,"Vikram N",Delhi,Delhi,"Pen Set",Stationery,12,190.00,0.00,2280.00
+149,2026-05-29,"Shalini R",Hyderabad,Telangana,Refrigerator,Appliances,1,49500.00,6.00,46530.00
+150,2026-05-30,"Ajay B",Pune,Maharashtra,Mouse,Electronics,8,700.00,10.00,5040.00
+151,2026-05-31,"Neha T",Chennai,"Tamil Nadu",Laptop,Electronics,1,71000.00,8.00,65320.00
+152,2026-06-01,"Prakash V",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",4,1000.00,5.00,3800.00
+153,2026-06-02,"Riya K",Bengaluru,Karnataka,"Phone Case",Accessories,15,260.00,10.00,3510.00
+154,2026-06-03,"Ashok M",Kochi,Kerala,Keyboard,Electronics,2,2400.00,0.00,4800.00
+155,2026-06-04,"Sandhya P",Madurai,"Tamil Nadu","Water Bottle",Accessories,5,500.00,5.00,2375.00
+156,2026-06-05,"Mohan R",Hyderabad,Telangana,Tablet,Electronics,2,30500.00,7.00,56670.00
+157,2026-06-06,"Revathi S",Mumbai,Maharashtra,"Office Chair",Furniture,1,7900.00,8.00,7268.00
+158,2026-06-07,"Sathish D",Delhi,Delhi,Shoes,Apparel,1,4100.00,12.00,3608.00
+159,2026-06-08,"Anjali N",Chennai,"Tamil Nadu",Notebook,Stationery,30,85.00,0.00,2550.00
+160,2026-06-09,"Dinesh R",Pune,Maharashtra,Printer,Electronics,1,15900.00,10.00,14310.00
+161,2026-06-10,"Harini L",Salem,"Tamil Nadu",Smartphone,Electronics,1,43000.00,6.00,40420.00
+162,2026-06-11,"Kiran J",Ahmedabad,Gujarat,"Desk Table",Furniture,1,10100.00,5.00,9595.00
+163,2026-06-12,"Bhavna C",Trichy,"Tamil Nadu",Headphones,Electronics,2,2950.00,10.00,5310.00
+164,2026-06-13,"Sanjay P",Mysuru,Karnataka,Notebook,Stationery,18,100.00,0.00,1800.00
+165,2026-06-14,"Malar A",Chennai,"Tamil Nadu",Printer,Electronics,1,14900.00,8.00,13708.00
+166,2026-06-15,"Firoz H",Lucknow,"Uttar Pradesh",T-Shirt,Apparel,5,760.00,15.00,3230.00
+167,2026-06-16,"Keerthi S",Hyderabad,Telangana,Smartwatch,Electronics,1,8800.00,5.00,8360.00
+168,2026-06-17,"Arvind N",Mumbai,Maharashtra,Bookshelf,Furniture,2,5700.00,7.00,10578.00
+169,2026-06-18,"Nandhini V",Bengaluru,Karnataka,"Pen Set",Stationery,9,180.00,0.00,1620.00
+170,2026-06-19,"Selvam K",Delhi,Delhi,Refrigerator,Appliances,1,48800.00,6.00,45872.00
+171,2026-06-20,"Tarun M",Chennai,"Tamil Nadu",Mouse,Electronics,3,820.00,10.00,2214.00
+172,2026-06-21,"Aparna S",Coimbatore,"Tamil Nadu","Office Chair",Furniture,1,8100.00,5.00,7695.00
+173,2026-06-22,"Naveen K",Bengaluru,Karnataka,"Desk Lamp","Home Decor",3,980.00,0.00,2940.00
+174,2026-06-23,"Jaya R",Hyderabad,Telangana,Keyboard,Electronics,1,2300.00,7.00,2139.00
+175,2026-06-24,"Raghu P",Mumbai,Maharashtra,Monitor,Electronics,2,14200.00,5.00,26980.00
+176,2026-06-25,"Sangeetha L",Delhi,Delhi,"Water Bottle",Accessories,8,430.00,12.00,3014.40
+177,2026-06-26,"Mahesh V",Kochi,Kerala,Tablet,Electronics,1,28700.00,6.00,26978.00
+178,2026-06-27,"Priyanka D",Pune,Maharashtra,Shoes,Apparel,3,3750.00,10.00,10125.00
+179,2026-06-28,"Kumar S",Madurai,"Tamil Nadu",Backpack,Accessories,2,1550.00,5.00,2945.00
+180,2026-06-29,"Divya N",Chennai,"Tamil Nadu",Smartphone,Electronics,2,44000.00,7.00,81840.00
+181,2026-06-30,"Arun K",Salem,"Tamil Nadu","Desk Table",Furniture,1,9700.00,5.00,9215.00
+182,2026-07-01,"Meena D",Ahmedabad,Gujarat,Headphones,Electronics,4,2850.00,10.00,10260.00
+183,2026-07-02,"Rahul S",Trichy,"Tamil Nadu",Notebook,Stationery,22,90.00,0.00,1980.00
+184,2026-07-03,"Priya N",Mysuru,Karnataka,Printer,Electronics,1,15100.00,8.00,13892.00
+185,2026-07-04,"Karthik R",Chennai,"Tamil Nadu",T-Shirt,Apparel,4,820.00,15.00,2788.00
+186,2026-07-05,"Anita S",Lucknow,"Uttar Pradesh",Smartwatch,Electronics,2,8600.00,5.00,16340.00
+187,2026-07-06,"Vijay P",Hyderabad,Telangana,Bookshelf,Furniture,1,5900.00,7.00,5487.00
+188,2026-07-07,"Suman L",Mumbai,Maharashtra,"Pen Set",Stationery,14,175.00,0.00,2450.00
+189,2026-07-08,"Nisha B",Bengaluru,Karnataka,Refrigerator,Appliances,1,49200.00,6.00,46248.00
+190,2026-07-09,"Deepak M",Delhi,Delhi,Mouse,Electronics,7,760.00,10.00,4788.00
+191,2026-07-10,"Lakshmi K",Chennai,"Tamil Nadu",Laptop,Electronics,1,69000.00,8.00,63480.00
+192,2026-07-11,"Rohit J",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",2,1080.00,5.00,2052.00
+193,2026-07-12,"Sneha V",Kochi,Kerala,"Phone Case",Accessories,9,290.00,10.00,2349.00
+194,2026-07-13,"Manoj T",Pune,Maharashtra,Keyboard,Electronics,2,2450.00,0.00,4900.00
+195,2026-07-14,"Asha R",Madurai,"Tamil Nadu",Monitor,Electronics,1,14600.00,8.00,13432.00
+196,2026-07-15,"Imran K",Chennai,"Tamil Nadu","Water Bottle",Accessories,5,470.00,12.00,2074.00
+197,2026-07-16,"Divya N",Hyderabad,Telangana,Tablet,Electronics,2,29800.00,6.00,56024.00
+198,2026-07-17,"Hari P",Mumbai,Maharashtra,Shoes,Apparel,1,3950.00,10.00,3555.00
+199,2026-07-18,"Farah S",Delhi,Delhi,Backpack,Accessories,2,1650.00,5.00,3135.00
+200,2026-07-19,"Naveen D",Bengaluru,Karnataka,Smartphone,Electronics,1,44800.00,7.00,41664.00
+201,2026-07-20,"Geetha M",Salem,"Tamil Nadu","Desk Table",Furniture,2,9300.00,5.00,17670.00
+202,2026-07-21,"Aman P",Ahmedabad,Gujarat,Headphones,Electronics,2,3050.00,10.00,5490.00
+203,2026-07-22,"Kavya S",Trichy,"Tamil Nadu",Notebook,Stationery,35,85.00,0.00,2975.00
+204,2026-07-23,"Ramesh C",Mysuru,Karnataka,Printer,Electronics,1,15300.00,8.00,14076.00
+205,2026-07-24,"Pooja L",Kochi,Kerala,T-Shirt,Apparel,7,790.00,15.00,4684.50
+206,2026-07-25,"Suresh K",Chennai,"Tamil Nadu",Smartwatch,Electronics,1,8900.00,5.00,8455.00
+207,2026-07-26,"Madhuri A",Mumbai,Maharashtra,Bookshelf,Furniture,1,6000.00,7.00,5580.00
+208,2026-07-27,"Vikram N",Delhi,Delhi,"Pen Set",Stationery,18,160.00,0.00,2880.00
+209,2026-07-28,"Shalini R",Hyderabad,Telangana,Refrigerator,Appliances,1,47800.00,6.00,44932.00
+210,2026-07-29,"Ajay B",Pune,Maharashtra,Mouse,Electronics,4,790.00,10.00,2844.00
+211,2026-07-30,"Neha T",Chennai,"Tamil Nadu",Laptop,Electronics,1,70500.00,8.00,64860.00
+212,2026-07-31,"Prakash V",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",3,1020.00,5.00,2907.00
+213,2026-08-01,"Riya K",Bengaluru,Karnataka,"Phone Case",Accessories,14,275.00,10.00,3465.00
+214,2026-08-02,"Ashok M",Kochi,Kerala,Keyboard,Electronics,1,2380.00,0.00,2380.00
+215,2026-08-03,"Sandhya P",Madurai,"Tamil Nadu","Water Bottle",Accessories,6,490.00,5.00,2787.00
+216,2026-08-04,"Mohan R",Hyderabad,Telangana,Tablet,Electronics,1,30100.00,7.00,27993.00
+217,2026-08-05,"Revathi S",Mumbai,Maharashtra,"Office Chair",Furniture,2,7850.00,8.00,14476.00
+218,2026-08-06,"Sathish D",Delhi,Delhi,Shoes,Apparel,2,3850.00,12.00,6776.00
+219,2026-08-07,"Anjali N",Chennai,"Tamil Nadu",Notebook,Stationery,28,92.00,0.00,2576.00
+220,2026-08-08,"Dinesh R",Pune,Maharashtra,Printer,Electronics,1,15750.00,10.00,14175.00
+221,2026-08-09,"Harini L",Salem,"Tamil Nadu",Smartphone,Electronics,2,43500.00,6.00,81810.00
+222,2026-08-10,"Kiran J",Ahmedabad,Gujarat,"Desk Table",Furniture,1,10050.00,5.00,9547.50
+223,2026-08-11,"Bhavna C",Trichy,"Tamil Nadu",Headphones,Electronics,2,2920.00,10.00,5256.00
+224,2026-08-12,"Sanjay P",Mysuru,Karnataka,Notebook,Stationery,16,95.00,0.00,1520.00
+225,2026-08-13,"Malar A",Chennai,"Tamil Nadu",Printer,Electronics,2,14850.00,8.00,27378.00
+226,2026-08-14,"Firoz H",Lucknow,"Uttar Pradesh",T-Shirt,Apparel,4,770.00,15.00,2618.00
+227,2026-08-15,"Keerthi S",Hyderabad,Telangana,Smartwatch,Electronics,2,8750.00,5.00,16625.00
+228,2026-08-16,"Arvind N",Mumbai,Maharashtra,Bookshelf,Furniture,1,5950.00,7.00,5533.50
+229,2026-08-17,"Nandhini V",Bengaluru,Karnataka,"Pen Set",Stationery,11,185.00,0.00,2035.00
+230,2026-08-18,"Selvam K",Delhi,Delhi,Refrigerator,Appliances,1,48600.00,6.00,45684.00
+231,2026-08-19,"Tarun M",Chennai,"Tamil Nadu",Mouse,Electronics,6,810.00,10.00,4374.00
+232,2026-08-20,"Aparna S",Coimbatore,"Tamil Nadu","Office Chair",Furniture,1,8050.00,5.00,7647.50
+233,2026-08-21,"Naveen K",Bengaluru,Karnataka,"Desk Lamp","Home Decor",4,970.00,0.00,3880.00
+234,2026-08-22,"Jaya R",Hyderabad,Telangana,Keyboard,Electronics,1,2280.00,7.00,2120.40
+235,2026-08-23,"Raghu P",Mumbai,Maharashtra,Monitor,Electronics,1,14350.00,5.00,13632.50
+236,2026-08-24,"Sangeetha L",Delhi,Delhi,"Water Bottle",Accessories,9,440.00,12.00,3475.20
+237,2026-08-25,"Mahesh V",Kochi,Kerala,Tablet,Electronics,1,28900.00,6.00,27166.00
+238,2026-08-26,"Priyanka D",Pune,Maharashtra,Shoes,Apparel,2,3725.00,10.00,6705.00
+239,2026-08-27,"Kumar S",Madurai,"Tamil Nadu",Backpack,Accessories,1,1580.00,5.00,1501.00
+240,2026-08-28,"Divya N",Chennai,"Tamil Nadu",Smartphone,Electronics,1,44250.00,7.00,41152.50
+241,2026-08-29,"Arun K",Salem,"Tamil Nadu","Desk Table",Furniture,1,9600.00,5.00,9120.00
+242,2026-08-30,"Meena D",Ahmedabad,Gujarat,Headphones,Electronics,3,2990.00,10.00,8073.00
+243,2026-08-31,"Rahul S",Trichy,"Tamil Nadu",Notebook,Stationery,24,88.00,0.00,2112.00
+244,2026-09-01,"Priya N",Mysuru,Karnataka,Printer,Electronics,1,15050.00,8.00,13846.00
+245,2026-09-02,"Karthik R",Chennai,"Tamil Nadu",T-Shirt,Apparel,5,790.00,15.00,3357.50
+246,2026-09-03,"Anita S",Lucknow,"Uttar Pradesh",Smartwatch,Electronics,1,8650.00,5.00,8217.50
+247,2026-09-04,"Vijay P",Hyderabad,Telangana,Bookshelf,Furniture,2,5750.00,7.00,10695.00
+248,2026-09-05,"Suman L",Mumbai,Maharashtra,"Pen Set",Stationery,16,170.00,0.00,2720.00
+249,2026-09-06,"Nisha B",Bengaluru,Karnataka,Refrigerator,Appliances,1,48750.00,6.00,45825.00
+250,2026-09-07,"Deepak M",Delhi,Delhi,Mouse,Electronics,4,770.00,10.00,2772.00
+251,2026-09-08,"Lakshmi K",Chennai,"Tamil Nadu",Laptop,Electronics,1,69500.00,8.00,63940.00
+252,2026-09-09,"Rohit J",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",2,1040.00,5.00,1976.00
+253,2026-09-10,"Sneha V",Kochi,Kerala,"Phone Case",Accessories,20,265.00,10.00,4770.00
+254,2026-09-11,"Manoj T",Pune,Maharashtra,Keyboard,Electronics,1,2390.00,0.00,2390.00
+255,2026-09-12,"Asha R",Madurai,"Tamil Nadu",Monitor,Electronics,2,14400.00,8.00,26496.00
+256,2026-09-13,"Imran K",Chennai,"Tamil Nadu","Water Bottle",Accessories,6,460.00,12.00,2431.20
+257,2026-09-14,"Divya N",Hyderabad,Telangana,Tablet,Electronics,1,29750.00,6.00,27965.00
+258,2026-09-15,"Hari P",Mumbai,Maharashtra,Shoes,Apparel,2,3900.00,10.00,7020.00
+259,2026-09-16,"Farah S",Delhi,Delhi,Backpack,Accessories,3,1625.00,5.00,4621.88
+260,2026-09-17,"Naveen D",Bengaluru,Karnataka,Smartphone,Electronics,1,44750.00,7.00,41617.50
+261,2026-09-18,"Geetha M",Salem,"Tamil Nadu","Desk Table",Furniture,2,9350.00,5.00,17765.00
+262,2026-09-19,"Aman P",Ahmedabad,Gujarat,Headphones,Electronics,1,3030.00,10.00,2727.00
+263,2026-09-20,"Kavya S",Trichy,"Tamil Nadu",Notebook,Stationery,40,82.00,0.00,3280.00
+264,2026-09-21,"Ramesh C",Mysuru,Karnataka,Printer,Electronics,1,15450.00,8.00,14214.00
+265,2026-09-22,"Pooja L",Kochi,Kerala,T-Shirt,Apparel,8,760.00,15.00,5168.00
+266,2026-09-23,"Suresh K",Chennai,"Tamil Nadu",Smartwatch,Electronics,2,8800.00,5.00,16720.00
+267,2026-09-24,"Madhuri A",Mumbai,Maharashtra,Bookshelf,Furniture,1,6050.00,7.00,5626.50
+268,2026-09-25,"Vikram N",Delhi,Delhi,"Pen Set",Stationery,10,180.00,0.00,1800.00
+269,2026-09-26,"Shalini R",Hyderabad,Telangana,Refrigerator,Appliances,1,47950.00,6.00,45072.00
+270,2026-09-27,"Ajay B",Pune,Maharashtra,Mouse,Electronics,5,795.00,10.00,3577.50
+271,2026-09-28,"Neha T",Chennai,"Tamil Nadu",Laptop,Electronics,1,71500.00,8.00,65780.00
+272,2026-09-29,"Prakash V",Coimbatore,"Tamil Nadu","Desk Lamp","Home Decor",5,990.00,5.00,4702.50
+273,2026-09-30,"Riya K",Bengaluru,Karnataka,"Phone Case",Accessories,11,270.00,10.00,2673.00
+274,2026-10-01,"Ashok M",Kochi,Kerala,Keyboard,Electronics,2,2425.00,0.00,4850.00
+275,2026-10-02,"Sandhya P",Madurai,"Tamil Nadu","Water Bottle",Accessories,4,495.00,5.00,1881.00
+276,2026-10-03,"Mohan R",Hyderabad,Telangana,Tablet,Electronics,2,29950.00,7.00,55603.00
+277,2026-10-04,"Revathi S",Mumbai,Maharashtra,"Office Chair",Furniture,1,7950.00,8.00,7314.00
+278,2026-10-05,"Sathish D",Delhi,Delhi,Shoes,Apparel,2,3875.00,12.00,6815.00
+279,2026-10-06,"Anjali N",Chennai,"Tamil Nadu",Notebook,Stationery,32,88.00,0.00,2816.00
+280,2026-10-07,"Dinesh R",Pune,Maharashtra,Printer,Electronics,1,15600.00,10.00,14040.00
+281,2026-10-08,"Harini L",Salem,"Tamil Nadu",Smartphone,Electronics,1,43800.00,6.00,41172.00
+282,2026-10-09,"Kiran J",Ahmedabad,Gujarat,"Desk Table",Furniture,1,9950.00,5.00,9452.50
+283,2026-10-10,"Bhavna C",Trichy,"Tamil Nadu",Headphones,Electronics,2,2975.00,10.00,5355.00
+284,2026-10-11,"Sanjay P",Mysuru,Karnataka,Notebook,Stationery,14,98.00,0.00,1372.00
+285,2026-10-12,"Malar A",Chennai,"Tamil Nadu",Printer,Electronics,1,14950.00,8.00,13754.00
+286,2026-10-13,"Firoz H",Lucknow,"Uttar Pradesh",T-Shirt,Apparel,3,780.00,15.00,1989.00
+287,2026-10-14,"Keerthi S",Hyderabad,Telangana,Smartwatch,Electronics,1,8925.00,5.00,8478.75
+288,2026-10-15,"Arvind N",Mumbai,Maharashtra,Bookshelf,Furniture,2,5850.00,7.00,10881.00
+289,2026-10-16,"Nandhini V",Bengaluru,Karnataka,"Pen Set",Stationery,13,165.00,0.00,2145.00
+290,2026-10-17,"Selvam K",Delhi,Delhi,Refrigerator,Appliances,1,48450.00,6.00,45543.00
+291,2026-10-18,"Tarun M",Chennai,"Tamil Nadu",Mouse,Electronics,5,805.00,10.00,3622.50
+292,2026-10-19,"Aparna S",Coimbatore,"Tamil Nadu","Office Chair",Furniture,1,7980.00,5.00,7581.00
+293,2026-10-20,"Naveen K",Bengaluru,Karnataka,"Desk Lamp","Home Decor",2,1010.00,0.00,2020.00
+294,2026-10-21,"Jaya R",Hyderabad,Telangana,Keyboard,Electronics,1,2330.00,7.00,2166.10
+295,2026-10-22,"Raghu P",Mumbai,Maharashtra,Monitor,Electronics,2,14150.00,5.00,26885.00
+296,2026-10-23,"Sangeetha L",Delhi,Delhi,"Water Bottle",Accessories,7,445.00,12.00,2734.70
+297,2026-10-24,"Mahesh V",Kochi,Kerala,Tablet,Electronics,1,29150.00,6.00,27400.00
+298,2026-10-25,"Priyanka D",Pune,Maharashtra,Shoes,Apparel,1,3980.00,10.00,3582.00
+299,2026-10-26,"Kumar S",Madurai,"Tamil Nadu",Backpack,Accessories,2,1490.00,5.00,2831.00
+300,2026-10-27,"Divya N",Chennai,"Tamil Nadu",Smartphone,Electronics,1,44950.00,7.00,41803.50

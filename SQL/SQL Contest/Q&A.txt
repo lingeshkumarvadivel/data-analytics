@@ -176,12 +176,92 @@ from sales group by `Sales Level` order by `Sales Level`  desc;
 
 Subqueries
 1. Find customers whose sales amount is greater than the average sales amount.
+SELECT CustomerName, SUM(SalesAmount) AS TotalSales
+FROM sales
+GROUP BY CustomerName
+HAVING SUM(SalesAmount) > (
+    SELECT AVG(CustomerTotal)
+    FROM (
+        SELECT SUM(SalesAmount) AS CustomerTotal
+        FROM sales
+        GROUP BY CustomerName
+    ) t
+);	
+
 2. Find products whose total sales are greater than the average product sales.
+SELECT Product, SUM(SalesAmount) AS TotalSales
+FROM sales
+GROUP BY Product
+HAVING SUM(SalesAmount) > (
+    SELECT AVG(ProductSales)
+    FROM (
+        SELECT SUM(SalesAmount) AS ProductSales
+        FROM sales
+        GROUP BY Product
+    ) t
+)
+ORDER BY TotalSales DESC;	
+
 3. Find the product with the highest sales amount.
+SELECT Product, SUM(SalesAmount) AS TotalSales
+FROM sales GROUP BY Product ORDER BY TotalSales DESC
+LIMIT 1;	
+
 4. Find the second-highest sales amount.
+SELECT DISTINCT SalesAmount,Product
+FROM sales
+ORDER BY SalesAmount DESC
+LIMIT 1 OFFSET 1;	
+
 5. Find customers who have made more sales than the average customer sales.
+WITH customer_totals AS (
+    SELECT CustomerName, SUM(SalesAmount) AS TotalSales
+    FROM sales
+    GROUP BY CustomerName
+)
+SELECT CustomerName, TotalSales
+FROM customer_totals
+WHERE TotalSales > (SELECT AVG(TotalSales) FROM customer_totals)
+ORDER BY TotalSales DESC;	
+
 6. Find the city having the highest total sales.
-7. Find all transactions having sales greater than the maximum sales of Chennai.
+SELECT City, SUM(SalesAmount) AS TotalSales
+FROM sales
+GROUP BY City
+HAVING SUM(SalesAmount) = (
+    SELECT MAX(CitySales)
+    FROM (
+        SELECT SUM(SalesAmount) AS CitySales
+        FROM sales
+        GROUP BY City
+    ) t
+);	
+
+7. Find all transactions having sales greater than the maximum sales of Bengaluru.
+SELECT SaleID, SaleDate, CustomerName, City, SalesAmount
+FROM sales
+WHERE SalesAmount > (
+    SELECT MAX(SalesAmount)
+    FROM sales
+    WHERE City = 'Bengaluru'
+);	
+
 8. Find products whose price is greater than the average product price.
+SELECT Product, Category, Price
+FROM sales
+WHERE Price > (SELECT AVG(Price) FROM sales)
+ORDER BY Price DESC;	
+
 9. Find the customer with the highest total purchase amount.
-10. Find the second-highest-selling product.	
+SELECT CustomerName, SUM(SalesAmount) AS TotalPurchaseAmount
+FROM sales
+GROUP BY CustomerName
+ORDER BY TotalPurchaseAmount DESC
+LIMIT 1;	
+
+10. Find the second-highest-selling product.
+SELECT Product, SUM(SalesAmount) AS TotalSales
+FROM sales
+GROUP BY Product
+ORDER BY TotalSales DESC
+LIMIT 1 OFFSET 1;		
