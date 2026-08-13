@@ -1,0 +1,187 @@
+Basic SQL
+1. Display all records from the sales table.
+select * from sales;
+
+2. Display only CustomerName, Product, Quantity, and SalesAmount.
+select CustomerName, Product, Quantity, SalesAmount from sales;
+
+3. Find all sales made from Tamil Nadu.
+select SaleID,SaleDate,CustomerName,State from sales where State = 'Tamil Nadu';
+
+4. Find all sales where SalesAmount is greater than ₹10,000.
+select SaleID,SaleDate,Product,Quantity,SalesAmount from sales where SalesAmount > 10000 ;
+
+5. Display all products belonging to the Electronics category.
+select DISTINCT(Product),Category from sales where Category = 'Electronics' ;
+
+6. Find sales where the quantity is between 5 and 20.
+select SaleID,CustomerName,Product,Quantity from sales where Quantity BETWEEN 5 AND 20 ORDER BY QUANTITY;
+
+7. Display sales made from Chennai, Bangalore, and Hyderabad.
+select City,SUM(SalesAmount) from sales where City IN ('Chennai', 'Bengaluru','Hyderabad') GROUP BY City ORDER BY City ;
+
+8. Find customers whose names start with the letter 'A'.
+select CustomerName from sales where CustomerName like 'A%' ;
+
+9. Display all unique cities from the sales table.
+select DISTINCT City,State from sales;
+
+10. Display all records ordered by SalesAmount from highest to lowest.
+select * from sales order by SalesAmount desc;
+
+
+Aggregate Functions
+1. Find the total sales amount.
+select SUM(SalesAmount) AS 'Total Sales',avg(SALESAMOUNT) 'Average Sales',MAX(SALESAMOUNT) AS 'Maximum Sale', MIN(SALESAMOUNT) AS 'Minimum Sale' from sales;
+
+2. Find the average sales amount.
+select SUM(SalesAmount) AS 'Total Sales',avg(SALESAMOUNT) 'Average Sales',MAX(SALESAMOUNT) AS 'Maximum Sale', MIN(SALESAMOUNT) AS 'Minimum Sale' from sales;
+
+3. Find the maximum sales amount.
+select SUM(SalesAmount) AS 'Total Sales',avg(SALESAMOUNT) 'Average Sales',MAX(SALESAMOUNT) AS 'Maximum Sale', MIN(SALESAMOUNT) AS 'Minimum Sale' from sales;
+
+4. Find the minimum sales amount.
+select SUM(SalesAmount) AS 'Total Sales',avg(SALESAMOUNT) 'Average Sales',MAX(SALESAMOUNT) AS 'Maximum Sale', MIN(SALESAMOUNT) AS 'Minimum Sale' from sales;
+
+5. Find the total quantity sold.
+select SUM(Quantity) as 'Total Quantity',Product,Category from sales group by Product,Category order by 'Total Quantity';
+
+6. Count the total number of sales transactions.
+SELECT COUNT(*)  as 'Total Sales Transactions' from sales
+
+7. Find the total sales amount for the Electronics category.
+select sum(salesamount) as 'Sales Amount', Category from sales where category = 'Electronics' group by Category;
+
+8. Find the average quantity sold per transaction.
+select avg(quantity) as 'Average Quantity Sold' from sales;
+
+9. Find the total sales for Tamil Nadu.
+select sum(salesamount) as 'Total Sales Amount',State from sales where State = 'Tamil Nadu' group by state order by 'Total Sales Amount';
+
+10. Find the number of unique customers.
+select count(distinct CustomerName) as 'Unique Customer' from sales ;
+
+
+GROUP BY & HAVING
+1. Find total sales for each category.
+select sum(salesamount) as 'Total Sales Amount',category from sales group by category order by sum(salesamount) desc;
+
+2. Find total sales for each city.
+select sum(salesamount) as 'Total Sales Amount',city from sales group by city order by sum(salesamount) desc;
+
+3. Find total sales for each state.
+select sum(salesamount) as 'Total Sales Amount',state from sales group by state order by sum(salesamount) desc;
+
+4. Find the total quantity sold for each product.
+select sum(quantity) as 'Quantity Ordered',Product from sales group by Product order by sum(quantity) desc;
+
+5. Find the average sales amount for each category.
+select round(avg(salesamount),2) as 'Average Sales Amount',category from sales group by category order by avg(salesamount) desc;
+
+6. Find the number of transactions for each city.
+select count(*) as 'Total Transaction',city from sales group by city order by count(*) desc;
+
+7. Find categories where total sales are greater than ₹1,00,000.
+select sum(salesamount) as 'Total Sales Amount' ,category from sales group by category having sum(salesamount) > 100000;
+
+8. Find cities where the average sales amount is greater than ₹15,000.
+select avg(salesamount) as 'Average Sales Amount',city from sales  group by city having avg(salesamount) > 15000;
+
+9. Find the top-selling product based on total sales.
+select sum(salesamount) as 'Sales Amount' ,Product from sales GROUP BY PRODUCT order by sum(salesamount) desc LIMIT 1;
+
+10. Find the state with the highest total sales.
+select sum(salesamount) as 'Sales Amount' ,state from sales GROUP BY state order by sum(salesamount) desc LIMIT 1;
+
+Date & Time Analysis
+1. Find the total sales made during January 2026.
+select sum(salesamount) as 'Total Sales Amount',monthname(saledate)  from sales where monthname(saledate) = 'January' GROUP BY monthname(saledate) order by sum(salesamount) desc;
+
+2. Find the total sales made during Independence Day month – August 2026.
+select sum(salesamount) as 'Total Sales Amount',monthname(saledate)  from sales where monthname(saledate) = 'August' and year(saledate) = 2026 GROUP BY monthname(saledate) order by sum(salesamount) desc;
+
+3. Display sales made in the last 30 days.
+select * from sales where saledate >= current_date - INTERVAL 30 DAY and saledate < current_date order by saledate desc  ;
+
+4. Find total sales for each month.
+select sum(salesamount) as 'Sales Amount', monthname(saledate) from sales group by month(saledate)	,monthname(saledate) order by month(saledate)	;
+
+5. Find the number of transactions for each month.
+select count(*) as 'Sales Transaction', monthname(saledate) as 'Month' from sales group by month(saledate)	,monthname(saledate) order by month(saledate);
+
+6. Find the highest-sales month.
+select sum(salesamount),monthname(saledate) from sales group by month(saledate), monthname(saledate) order by sum(salesamount) desc limit 1;
+
+7. Find the lowest-sales month.
+select sum(salesamount),monthname(saledate) from sales group by month(saledate), monthname(saledate) order by sum(salesamount) limit 1;
+
+8. Find total sales for each year.
+select sum(salesamount) as 'Sales Amount' ,year(saledate) as 'year' from sales group by year(saledate) order by sum(salesamount) desc ;
+
+9. Find sales made on weekends.
+select *,dayname(saledate) from sales where weekday(saledate) >= 5;
+
+
+10. Find the number of sales transactions made on each day of the week.
+select count(*) as 'Total Transaction' ,dayname(saledate) as 'Day of Week' from sales  group by DAYOFWEEK(SaleDate),dayname(saledate) order by dayofweek(saledate) ;
+
+CASE Statement
+1. Create a SalesLevel column: Sales ≥ ₹50,000 → High, Sales ≥ ₹20,000 → Medium, Otherwise → Low
+select saleid,salesamount,
+case 
+	when salesamount >= 50000 then 'High'
+	when salesamount >= 20000 then 'Medium'
+	else 'Low'
+end as 'Sales_Level'
+from sales order by salesamount desc;
+
+2. Create a QuantityLevel column: Quantity ≥ 20 → Bulk, Quantity ≥ 10 → Medium, Otherwise → Regular
+select saleid,quantity,
+case 
+	when quantity >= 20 then 'Bulk'
+	when quantity >= 10 then 'Medium'
+	else 'Regular'
+end as 'Quantity Level'
+from sales order by quantity desc;
+
+3. Categorize products based on sales amount.
+SELECT     Product, COUNT(*) AS 'Total Transactions', SUM(SalesAmount) AS 'Total Sales Amount',
+    CASE
+        WHEN SUM(SalesAmount) >= 50000 THEN 'High'
+        WHEN SUM(SalesAmount) >= 20000 THEN 'Medium'
+        ELSE 'Low'
+    END AS `Sales_Level`
+FROM sales
+GROUP BY product
+ORDER BY `Total Sales Amount` DESC;
+
+4. Calculate a DiscountCategory using: Discount ≥ 20% → High Discount, Discount ≥ 10% → Medium Discount, Otherwise → Low Discount
+select product,category,discount,
+case 
+	when Discount >= 20 then 'High Discount'
+    when Discount >= 10 then 'Medium Discount'
+    else 'Low Discount' 
+end as 'Discount Category'
+from sales group by product,category,discount,`Discount Category`  order by discount desc;
+
+5. Find the number of transactions in each sales level.
+select 
+case 
+	when salesamount >= 50000 then 'High'
+	when salesamount >= 20000 then 'Medium'
+	else 'Low'
+end as 'Sales Level',
+count(*) as 'Transaction'
+from sales group by `Sales Level` order by `Sales Level`  desc;
+
+Subqueries
+1. Find customers whose sales amount is greater than the average sales amount.
+2. Find products whose total sales are greater than the average product sales.
+3. Find the product with the highest sales amount.
+4. Find the second-highest sales amount.
+5. Find customers who have made more sales than the average customer sales.
+6. Find the city having the highest total sales.
+7. Find all transactions having sales greater than the maximum sales of Chennai.
+8. Find products whose price is greater than the average product price.
+9. Find the customer with the highest total purchase amount.
+10. Find the second-highest-selling product.	
