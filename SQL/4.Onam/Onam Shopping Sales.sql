@@ -1,0 +1,89 @@
+create database onam_db;
+
+use onam_db;
+
+create table onam_sales ( order_id varchar (10),
+order_date	date,
+customer_id	varchar (10),
+customer_name	varchar (30),
+city	varchar (30),
+category	varchar (30),
+product_name	varchar (30),
+quantity	int,
+unit_price	int,
+discount_percent	int,
+payment_mode varchar(10),
+order_status varchar(20) );
+
+
+-- sales
+-- Total records
+select * from onam_sales;
+
+-- Number of sales 
+select count(*) as 'Total Sales' from onam_sales;
+
+-- --Total sales,discount, net sales. 
+select sum(quantity * unit_price) as 'Total Revenue', round(sum(quantity * unit_price * discount_percent/100),2) as 'Total Discount' ,
+round(SUM(quantity * unit_price) - SUM(quantity * unit_price * discount_percent / 100),2) as 'Net Sales'
+from onam_sales  where order_status like 'Delivered%';
+
+-- average order value
+select round(sum(quantity * unit_price - quantity * unit_price * discount_percent/100)/count(*),2) as 'Average order value' from onam_sales where order_status like 'Delivered%';
+
+-- Number of customers
+select count(distinct(customer_id)) as 'No of Customers' from onam_sales;
+
+
+-- units sold
+select sum(quantity) as 'Units sold' from onam_sales where order_status like 'Delivered%' ;
+
+-- revenue by payment modes
+select payment_mode as 'Payment Mode', count(*) as 'No of orders' ,sum(unit_price) as 'Sum of amount' from onam_sales 
+group by payment_mode order by sum(unit_price) desc;
+
+
+-- order status
+select order_status as 'Order Status' ,count(*) as 'No of orders' from onam_sales group by order_status;
+
+
+-- product
+-- top 10 sold by revencue
+select distinct(product_name) as 'Product Name' ,count(*) as 'No of orders' ,sum(unit_price) as 'Sum of amount' from onam_sales 
+where order_status like 'Delivered%' group by product_name order by 3 desc limit 10;	
+
+-- top 10 sold by quantity
+select distinct(product_name) as 'Product Name' ,count(*) as 'No of orders' ,sum(quantity) as 'Total quantity' from onam_sales
+where order_status like 'Delivered%'  group by product_name order by 2 desc limit 10;	
+
+-- revenue and units sold categorieswise
+select distinct(category) as 'Categories' ,count(*) as 'No of orders' ,sum(unit_price) as 'Sum of amount' from onam_sales 
+where order_status like 'Delivered%'  group by category order by 2 desc,3 desc;	
+
+-- revenue and units sold  productswise
+select distinct(product_name) as 'Product Name' ,count(*) as 'No of orders' ,sum(unit_price) as 'Sum of amount' from onam_sales where order_status like 'Delivered%' group by product_name order by 2 desc,3 desc;	
+
+
+-- revenue and units sold by citywise
+select City, sum(quantity) as 'Units sold',sum(unit_price) as 'Revenue'  from onam_sales where order_status like 'Delivered%' group by city order by `Units Sold` desc, `Revenue` desc;
+
+-- customer
+select * from onam_sales;
+-- customer with most order value
+select customer_id as 'Customer ID' ,customer_name as 'Customer Name',count(*) as 'Number of Order' ,sum(quantity * unit_price - quantity * unit_price * discount_percent/100) as 'Order Value'  from onam_sales where order_status like 'Delivered%' group by order_id,customer_id,customer_name order by  sum(quantity * unit_price) desc;
+-- repeated customer 
+select customer_id as 'Customer ID' ,customer_name as 'Customer Name',count(*) as 'Number of Order' from onam_sales where order_status like 'Delivered%' 
+group by customer_id,customer_name HAVING  COUNT(*) > 1 ORDER BY count(*) desc;
+
+-- citywise rank 
+with citywise_sale as 
+(select city,sum( quantity * unit_price - quantity * unit_price * discount_percent/100) as Net_sale
+from onam_sales where order_status like 'Delivered%' group by city)
+select city,Net_sale, rank() over (order by net_sale desc) as rank_by_net_sale from citywise_sale order by  rank_by_net_sale;
+
+-- productwise rank
+
+with productwise_sale as 
+(select product_name,sum(quantity), sum(quantity * unit_price - quantity * unit_price * discount_percent/100) as net_sale
+from onam_sales where order_status like 'Delivered%' group by product_name)
+select product_name,net_sale, dense_rank() over ( order by net_sale desc) as product_wise_rank from productwise_sale order by product_wise_rank;

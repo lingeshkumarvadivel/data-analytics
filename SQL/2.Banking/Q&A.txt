@@ -1,0 +1,195 @@
+1. Display all customer details.
+select * from customers;
+
+2. Find all customers who have an active bank account.
+select c.customer_id as "Customer ID", CONCAT(C.first_name, ' ', c.last_name) as "Customer Name",a.status as "Account Status"  from customers  as c
+join accounts as a
+on c.customer_id = a.customer_id
+where a.status = "Active";
+
+3. Display accounts with a balance greater than ₹1,00,000.
+select * from accounts where balance > 100000 order by balance desc;	
+
+4. Find the total number of accounts in each branch.
+select b.branch_id as "Branch ID" ,b.branch_name as "Branch Name",count(*) as "Total Accounts"
+from branches as b
+join accounts as a
+on b.branch_id = a.branch_id group by b.branch_id,b.branch_name;
+
+5. Calculate the total account balance for each branch.
+select b.branch_id as "Branch ID" ,b.branch_name as "Branch Name",SUM(A.BALANCE) as "Total Balance"
+from branches as b
+join accounts as a
+on b.branch_id = a.branch_id group by b.branch_id,b.branch_name;
+
+6. Find the average account balance by account type.
+select account_type as "Account Type",round(avg(balance),2)  as "Average Balance"  from accounts group by account_type;
+
+7. Find customers who have more than one account.
+select a.customer_id as "Customer ID" ,CONCAT(c.first_name, ' ',c.last_name) AS "Customer Name" , count(a.account_id) as " No of Accounts" from accounts as a
+join customers as c
+on a.customer_id = c.customer_id
+group by 1,2 having count(account_id) > 1;
+
+8. Find the customer with the highest account balance.
+select a.account_id as "Account ID" ,concat(c.first_name, ' ',c.last_name) AS "Customer Name" , c.customer_id as "Customer ID" , sum(a.balance) as "Total Balance" 
+from accounts as a
+join customers as c
+on a.customer_id = c.customer_id group by 1,2,3 order by `Total Balance`  limit 1;
+
+9. Find the total deposits made by each customer.
+SELECT concat(c.first_name, ' ',c.last_name)as "Customer Name",t.transaction_type as "Transaction Type" ,sum(t.amount) as "Total Amount" FROM transactions as t 
+join accounts as a 
+on a.account_id=t.account_id 
+join customers as c
+on a.customer_id = c.customer_id 
+where t.transaction_type = "Deposit" group by 1,2 order by 3 desc;
+
+10. Find the total withdrawals made by each customer.
+SELECT concat(c.first_name, ' ',c.last_name)as "Customer Name",t.transaction_type as "Transaction Type" ,sum(t.amount) as "Total Amount Withdrawn" FROM transactions as t 
+join accounts as a 
+on a.account_id=t.account_id 
+join customers as c
+on a.customer_id = c.customer_id 
+where t.transaction_type = "Withdrawal" group by 1,2 order by 3 desc;
+
+11. Calculate the net transaction amount for each customer.
+select a.account_id as "Account ID",
+concat(c.first_name,' ',c.last_name) AS "Customer Name", 
+ sum(case
+		when t.transaction_type = 'Deposit' THEN t.amount
+        else 0
+        end )as "Deposit Amount" ,
+sum(case
+		when t.transaction_type = 'Withdrawal' then t.amount
+        else 0
+        end ) as "Withdrawal Amount",
+sum(case 
+    when t.transaction_type = 'Deposit' THEN t.amount
+	when t.transaction_type = 'Withdrawal' then -t.amount
+        else 0
+        end) as "Net Transaction Amount"
+ from transactions as t
+join accounts as a
+on t.account_id = a.account_id
+join customers as c
+on c.customer_id = a.customer_id group by 1,2 order by 5 desc;
+
+12. Find customers whose withdrawals are greater than their deposits.
+select a.account_id as "Account ID",
+concat(c.first_name,' ',c.last_name) AS "Customer Name", 
+sum(case
+		when t.transaction_type = 'Withdrawal' then t.amount
+        else 0
+        end ) as "Withdrawal Amount",
+ sum(case
+		when t.transaction_type = 'Deposit' THEN t.amount
+        else 0
+        end )as "Deposit Amount" 
+
+ from transactions as t
+join accounts as a
+on t.account_id = a.account_id
+join customers as c
+on c.customer_id = a.customer_id group by 1,2 having `Withdrawal Amount` >  `Deposit Amount`  order by 4 desc  
+;
+
+13. Find the top 10 customers based on total transaction value.
+select a.customer_id as "Customer ID",
+concat(c.first_name,' ',c.last_name) AS "Customer Name",
+sum(t.amount) as "Total Transaction Value",
+count(t.transaction_id) as "No of Transaction"
+from transactions AS t
+JOIN accounts AS a
+    ON t.account_id = a.account_id
+JOIN customers AS c
+    ON a.customer_id = c.customer_id
+GROUP BY
+    a.customer_id,
+    c.first_name,
+    c.last_name
+ORDER BY `Total Transaction Value` DESC
+LIMIT 10;
+
+14. Find the monthly transaction amount.
+select YEAR(transaction_date) AS "Transaction Year", MONTH(transaction_date) AS "Month Number",monthname(transaction_date) as "Month" , sum(amount) from transactions
+group by YEAR(transaction_date), MONTH(transaction_date), monthname(transaction_date) ORDER BY `Transaction Year`,`Month Number`;
+
+15. Find the highest transaction performed by each customer.
+SELECT     a.customer_id AS `Customer ID`,    CONCAT(c.first_name, ' ', c.last_name) AS `Customer Name`,    MAX(t.amount) AS `Highest Transaction Amount` 
+FROM transactions AS t
+JOIN accounts AS a
+    ON t.account_id = a.account_id
+JOIN customers AS c
+    ON a.customer_id = c.customer_id
+GROUP BY a.customer_id, c.first_name, c.last_name
+ORDER BY `Highest Transaction Amount` DESC;
+
+16. Find customers who have not performed any transaction during the last 6 months.
+SELECT c.customer_id,c.first_name, c.last_name, c.phone, c.email, c.city FROM customers c
+LEFT JOIN accounts a
+    ON c.customer_id = a.customer_id
+LEFT JOIN transactions t
+    ON a.account_id = t.account_id
+   AND t.transaction_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+WHERE t.transaction_id IS NULL;
+	
+17. Calculate the running account balance using SUM() OVER().
+SELECT t.account_id as "Account ID",t.transaction_id as "Transaction ID" ,t.transaction_date " Transaction Date", t.transaction_type "Transaction Date",t.amount "Transaction Amount",
+    SUM(
+        CASE 
+            WHEN t.transaction_type IN ('CREDIT', 'DEPOSIT') THEN t.amount
+            WHEN t.transaction_type IN ('DEBIT', 'WITHDRAWAL') THEN -t.amount
+            ELSE 0
+        END
+    ) OVER (
+        PARTITION BY t.account_id
+        ORDER BY t.transaction_date, t.transaction_id
+        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+    ) AS "Running Balance"
+FROM transactions t
+JOIN accounts a
+    ON t.account_id = a.account_id
+ORDER BY t.account_id,t.transaction_date,t.transaction_id;
+18. Find the previous transaction amount for every customer using LAG().
+SELECT c.customer_id "Customer ID", c.first_name "First Name", c.last_name "Last Name",t.transaction_id "Transaction Date",t.transaction_date "Transaction Date", T.transaction_type AS "Transaction Type", t.amount AS "Current Amount",    
+LAG(t.amount) OVER (
+        PARTITION BY c.customer_id
+        ORDER BY t.transaction_date, t.transaction_id
+    ) AS "Previous Amount"
+FROM transactions t
+JOIN accounts a
+    ON t.account_id = a.account_id
+JOIN customers c
+    ON a.customer_id = c.customer_id
+ORDER BY c.customer_id,t.transaction_date,t.transaction_id;
+
+19. Rank customers based on their total deposits.
+SELECT c.customer_id as "Customer ID", c.first_name as "First Name", c.last_name AS "Last Name", SUM(t.amount) AS "Total Deposits",
+    RANK() OVER (
+        ORDER BY SUM(t.amount) DESC
+    ) AS "Deposite Rank"
+FROM transactions t
+JOIN accounts a
+    ON t.account_id = a.account_id
+JOIN customers c
+    ON a.customer_id = c.customer_id
+WHERE t.transaction_type = 'DEPOSIT' 
+GROUP BY c.customer_id,c.first_name,c.last_name
+ORDER BY `Deposite Rank`;
+20. Identify customers who are eligible for a premium banking category based on balance and transaction activity.
+
+SELECT c.customer_id, c.first_name, c.last_name, c.phone, c.email,
+    MAX(a.balance) AS max_account_balance,
+    COUNT(t.transaction_id) AS txn_count_6m,
+    SUM(t.amount) AS txn_volume_6m
+FROM customers c
+JOIN accounts a
+    ON c.customer_id = a.customer_id
+LEFT JOIN transactions t
+    ON a.account_id = t.account_id
+   AND t.transaction_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+GROUP BY  c.customer_id,c.first_name,c.last_name,c.phone,c.email
+HAVING 
+    MAX(a.balance) >= 500000
+    AND COUNT(t.transaction_id) >= 5;  
