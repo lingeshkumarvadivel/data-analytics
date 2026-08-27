@@ -87,3 +87,24 @@ with productwise_sale as
 (select product_name,sum(quantity), sum(quantity * unit_price - quantity * unit_price * discount_percent/100) as net_sale
 from onam_sales where order_status like 'Delivered%' group by product_name)
 select product_name,net_sale, dense_rank() over ( order by net_sale desc) as product_wise_rank from productwise_sale order by product_wise_rank;
+
+-- month with sales more than average sale 
+WITH monthly_sales AS (
+    SELECT 
+        MONTH(order_date) AS Month,
+        round(SUM(quantity * unit_price - quantity * unit_price * discount_percent / 100),2) AS Net_Sales
+    FROM onam_sales
+    WHERE order_status LIKE 'Delivered%'
+    GROUP BY MONTH(order_date)
+),
+avg_sales AS (
+    SELECT round(AVG(Net_Sales),2) AS Avg_Monthly_Sales FROM monthly_sales
+)
+SELECT 
+    m.Month,
+    m.Net_Sales,
+    a.Avg_Monthly_Sales
+FROM monthly_sales m
+CROSS JOIN avg_sales a
+WHERE m.Net_Sales > a.Avg_Monthly_Sales
+ORDER BY m.Net_Sales DESC;
