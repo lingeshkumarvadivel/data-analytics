@@ -1,0 +1,5 @@
+relationship abf60d38-e049-4daf-a800-f2199727c768
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Onam Sales Data'.order_date
+	toColumn: LocalDateTable_c35ce48e-bf21-43b7-8bfc-489150ed5af8.Date
+

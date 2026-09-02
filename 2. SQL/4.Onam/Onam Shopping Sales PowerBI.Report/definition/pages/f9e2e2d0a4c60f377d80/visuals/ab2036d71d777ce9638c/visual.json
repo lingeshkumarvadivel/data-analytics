@@ -1,0 +1,123 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "ab2036d71d777ce9638c",
+  "position": {
+    "x": 18,
+    "y": 564,
+    "z": 6000,
+    "height": 462,
+    "width": 786,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Onam Sales Data"
+                    }
+                  },
+                  "Property": "Category"
+                }
+              },
+              "queryRef": "Onam Sales Data.category",
+              "nativeQueryRef": "category"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Onam Sales Data"
+                    }
+                  },
+                  "Property": "AvgDiscountPercent"
+                }
+              },
+              "queryRef": "Onam Sales Data.AvgDiscountPercent",
+              "nativeQueryRef": "AvgDiscountPercent",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Onam Sales Data"
+                    }
+                  },
+                  "Property": "SalesVolume"
+                }
+              },
+              "queryRef": "Onam Sales Data.SalesVolume",
+              "nativeQueryRef": "SalesVolume"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Discount Impact'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "35D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

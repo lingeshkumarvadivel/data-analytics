@@ -1,0 +1,284 @@
+table 'Onam Sales Data'
+	lineageTag: ade595b3-41cc-423b-a6bc-04eb9fc4a796
+
+	measure RowCount_Varchar = ```
+			COUNTROWS(VALUES('Onam Sales Data'[order_id]))
+			
+			```
+		formatString: 0
+		lineageTag: f5234fdd-5b5b-497c-b691-081167857853
+
+	measure AverageOrderValue = ```
+			
+			DIVIDE(
+			    SUMX('Onam Sales Data','Onam Sales Data'[quantity] * 'Onam Sales Data'[unit_price] * (1 - 'Onam Sales Data'[discount_percent]/100)),
+			    COUNTROWS('Onam Sales Data')
+			)
+			
+			```
+		lineageTag: 6c93a8a1-c9c5-4a4c-8c3f-8050d5b01021
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure CancellationRate = ```
+			
+			DIVIDE(
+			    COUNTROWS(FILTER('Onam Sales Data','Onam Sales Data'[order_status] = "Cancelled")),
+			    COUNTROWS('Onam Sales Data'),
+			    0
+			) * 100
+			
+			```
+		lineageTag: d1be0d2b-9f66-4f67-8379-25570da11681
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure CancelledOrders = ```
+			COUNTROWS(FILTER('Onam Sales Data','Onam Sales Data'[order_status] = "Cancelled"))
+			
+			```
+		formatString: 0
+		lineageTag: 2cee9d90-cf05-489c-856b-f92cfa31382f
+
+	measure DeliveredOrders = COUNTROWS(FILTER('Onam Sales Data', 'Onam Sales Data'[order_status] = "Delivered"))
+		formatString: 0
+		lineageTag: 88ba9399-5f6b-43db-a3bc-bd1a910683ab
+
+	measure ReturnedOrders = COUNTROWS(FILTER('Onam Sales Data','Onam Sales Data'[order_status] = "Returned"))
+		formatString: 0
+		lineageTag: faac438e-a8a8-4f42-9d40-ba907ad1c05d
+
+	measure 'Order Count' =
+			
+			CALCULATE(
+				COUNTA('Onam Sales Data'[order_id]),
+				ALLSELECTED('Onam Sales Data'[order_id])
+			)
+		formatString: 0
+		lineageTag: d1190850-e692-4685-a2d3-7a1a3fc94273
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "TotalForSelectedCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure Revenue = ```
+			SUM('Onam Sales Data'[Sale AMount])
+			
+			
+			```
+		lineageTag: 203abbb5-1aa5-4f33-aca8-70f51c9d230b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure SalesVolume = SUM('Onam Sales Data'[quantity])
+		formatString: 0
+		lineageTag: 752eac53-6a04-4a48-81eb-1cdb5590fb68
+
+	measure AvgDiscountPercent = AVERAGE('Onam Sales Data'[discount_percent])
+		lineageTag: 21665119-573b-4f83-a7e0-d05cba60431a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TotalSpend = ```
+			SUM('Onam Sales Data'[Sale AMount])
+			
+			
+			```
+		lineageTag: 40079053-d899-4a63-acfd-429724561a5d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure OrderFrequency = ```
+			COUNTROWS('Onam Sales Data')
+			
+			
+			```
+		formatString: 0
+		lineageTag: 858a0fc4-801b-4b66-beb7-e5c2f6373a59
+
+	measure PreferredPaymentMode = ```
+			
+			VAR ModeTable =
+			    ADDCOLUMNS (
+			        SUMMARIZE ( 'Onam Sales Data','Onam Sales Data'[customer_id],'Onam Sales Data'[payment_mode] ),
+			        "OrderCount", COUNTROWS ( FILTER ('Onam Sales Data','Onam Sales Data'[customer_id] = EARLIER('Onam Sales Data'[customer_id]) 
+			                                           && 'Onam Sales Data'[payment_mode] = EARLIER('Onam Sales Data'[payment_mode]) ) )
+			    )
+			VAR TopMode =
+			    TOPN ( 1, ModeTable, [OrderCount], DESC )
+			RETURN
+			    MAXX ( TopMode, 'Onam Sales Data'[payment_mode] )
+			
+			```
+		lineageTag: b318ea33-41c9-4c08-91b9-48686cb0d244
+
+	column order_id
+		dataType: string
+		lineageTag: d897f3a2-037c-446c-80ed-aa5d43a4a58c
+		summarizeBy: none
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: e0157306-ee59-46b2-add9-6aa73fbc89ff
+		summarizeBy: none
+		sourceColumn: order_date
+
+		variation Variation
+			isDefault
+			relationship: abf60d38-e049-4daf-a800-f2199727c768
+			defaultHierarchy: LocalDateTable_c35ce48e-bf21-43b7-8bfc-489150ed5af8.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column customer_id
+		dataType: string
+		lineageTag: ed2ab9ca-5038-4944-a6d0-0005be35d9bc
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_name
+		dataType: string
+		lineageTag: 4446a1d7-b95e-410b-9462-1b60a39785e5
+		summarizeBy: none
+		sourceColumn: customer_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 0d4e84bb-84e2-4003-93c7-b0ec505d3337
+		dataCategory: City
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 640cd740-1176-489c-a9fa-c04e83160d54
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		lineageTag: 6099620c-682c-477d-9d02-83f5526e8bc5
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: abab12b6-1e03-45d7-92bf-4e56aace8c50
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: int64
+		formatString: 0
+		lineageTag: df93ede5-56f9-444e-bafc-96b15f2adf47
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+	column discount_percent
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d1ef1fe-4d2a-4ebe-ba1a-b05708efd98d
+		summarizeBy: sum
+		sourceColumn: discount_percent
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_mode
+		dataType: string
+		lineageTag: e36375e1-9450-488c-9dab-b84088b058f1
+		summarizeBy: none
+		sourceColumn: payment_mode
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_status
+		dataType: string
+		lineageTag: c4c5e9bb-2d86-410f-b508-b35dfe98e065
+		summarizeBy: none
+		sourceColumn: order_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sale AMount'
+		dataType: double
+		lineageTag: b510e1d5-2ddb-431d-9ec6-ed46e3e09108
+		summarizeBy: sum
+		sourceColumn: Sale AMount
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Discount Amount'
+		dataType: double
+		lineageTag: d5650b75-ae07-42ab-b81c-d4401988debe
+		summarizeBy: sum
+		sourceColumn: Discount Amount
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Net Sale Amount'
+		dataType: double
+		lineageTag: 3e894951-9b5d-4685-8a8b-3660fe70b7e5
+		summarizeBy: sum
+		sourceColumn: Net Sale Amount
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Onam Sales Data' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("D:\Career\Learning\Credo\Projects\SQL Projects\4.Onam\Onam_Shopping_Sales_Analysis_5000_Records.xlsx"), null, true),
+				    #"Onam Sales Data_Sheet" = Source{[Item="Onam Sales Data",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Onam Sales Data_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"order_id", type text}, {"order_date", type date}, {"customer_id", type text}, {"customer_name", type text}, {"city", type text}, {"category", type text}, {"product_name", type text}, {"quantity", Int64.Type}, {"unit_price", Int64.Type}, {"discount_percent", Int64.Type}, {"payment_mode", type text}, {"order_status", type text}}),
+				    #"Added Custom" = Table.AddColumn(#"Changed Type", "Sale AMount", each [quantity]*[unit_price]),
+				    #"Added Custom1" = Table.AddColumn(#"Added Custom", "Net Sale AMount", each [Sale AMount]*[discount_percent]/100),
+				    #"Renamed Columns" = Table.RenameColumns(#"Added Custom1",{{"Net Sale AMount", "Discount Amount"}}),
+				    #"Added Custom2" = Table.AddColumn(#"Renamed Columns", "Net Sale Amount", each [Sale AMount]-[Discount Amount]),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Added Custom2",{{"city", "City"}, {"category", "Category"}})
+				in
+				    #"Renamed Columns1"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

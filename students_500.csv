@@ -1,0 +1,501 @@
+Student_ID,Name,Class,DOB,Admission_Date,English_Marks,Mathematics_Marks,Science_Marks,Social_Science_Marks,Tamil_Marks,Computer_Science_Marks,Attendance_Percentage,Residency,City,Sports,Club
+STU0001,Aadhya Krishnan,Class 8-B,04-03-2015,30-08-2020,52,26,88,26,94,64,68.93,Hosteller,Hosur,Tennis,Coding Club
+STU0002,Ishwarya Kumar,Class 7-C,13-01-2013,08-01-2026,71,32,47,66,96,57,87.93,Day Scholar,Salem,Badminton,Music Club
+STU0003,Raja Shankar,Class 12-C,30-03-2012,18-04-2020,27,55,56,79,73,31,84.74,Day Scholar,Kanchipuram,Volleyball,Coding Club
+STU0004,Surya Murugan,Class 12-B,08-05-2010,29-05-2022,90,64,99,64,70,54,85.4,Hosteller,Madurai,Kho-Kho,Eco Club
+STU0005,Swathi Natarajan,Class 8-A,14-05-2010,10-10-2025,65,84,87,87,64,58,86.22,Day Scholar,Hosur,Kho-Kho,Literary Club
+STU0006,Ananya Raj,Class 7-A,18-09-2013,12-12-2024,32,79,85,50,57,84,66.11,Hosteller,Hosur,Kabaddi,Drama Club
+STU0007,Arun Shankar,Class 10-B,28-12-2010,25-03-2023,82,90,90,62,44,44,66.33,Hosteller,Puducherry,Basketball,Quiz Club
+STU0008,Rohit Natarajan,Class 11-A,12-12-2013,03-06-2019,86,55,54,84,58,85,60.78,Day Scholar,Salem,Volleyball,Science Club
+STU0009,Priya Balaji,Class 8-A,07-11-2009,21-05-2022,91,83,65,71,37,64,97.16,Hosteller,Puducherry,Basketball,Eco Club
+STU0010,Swathi Raj,Class 8-B,30-01-2008,17-03-2020,92,84,49,86,100,76,62.7,Hosteller,Tirunelveli,Football,Quiz Club
+STU0011,Arjun Balaji,Class 9-C,18-02-2010,21-06-2020,91,32,56,62,58,67,76.94,Day Scholar,Puducherry,Cricket,None
+STU0012,Akshaya Senthil,Class 11-C,09-03-2013,20-03-2022,80,75,60,74,100,68,63.92,Hosteller,Coimbatore,Volleyball,Literary Club
+STU0013,Siva Mohan,Class 7-B,28-09-2012,24-08-2025,30,38,83,36,25,22,67.6,Hosteller,Chennai,Table Tennis,Quiz Club
+STU0014,Lokesh Vel,Class 12-A,28-07-2015,19-01-2022,86,66,95,66,92,79,69.85,Hosteller,Kanchipuram,Football,Eco Club
+STU0015,Aarav Senthil,Class 12-B,19-07-2011,24-03-2020,58,54,73,78,95,91,99.94,Hosteller,Coimbatore,Tennis,Music Club
+STU0016,Siva Devi,Class 9-A,06-12-2013,03-07-2019,97,67,63,63,66,66,97.27,Hosteller,Madurai,Basketball,Coding Club
+STU0017,Sathish Balaji,Class 8-C,27-07-2008,13-06-2020,34,77,57,48,59,73,61.76,Day Scholar,Madurai,None,Dance Club
+STU0018,Bhavya Balaji,Class 7-B,13-07-2014,11-08-2025,92,44,76,97,49,60,61.67,Day Scholar,Chennai,Athletics,Music Club
+STU0019,Aadhya Babu,Class 9-B,26-12-2009,14-01-2024,42,47,35,79,100,64,91.3,Day Scholar,Hosur,Volleyball,Dance Club
+STU0020,Lokesh Natarajan,Class 8-C,06-04-2008,31-07-2021,84,51,28,28,39,96,94.57,Day Scholar,Tirunelveli,None,Quiz Club
+STU0021,Rohit Reddy,Class 7-A,08-07-2011,22-04-2024,49,93,97,62,54,71,75.41,Hosteller,Salem,Cricket,Eco Club
+STU0022,Siva Vel,Class 9-A,27-12-2014,07-12-2022,62,74,61,69,50,63,80.28,Day Scholar,Tirunelveli,Kabaddi,Dance Club
+STU0023,Rohit Natarajan,Class 10-C,26-10-2012,01-12-2025,68,90,55,98,69,62,77.67,Hosteller,Thanjavur,Kho-Kho,Literary Club
+STU0024,Aditya Raman,Class 11-A,26-08-2009,09-09-2019,95,81,59,50,99,99,84.45,Hosteller,Erode,Kabaddi,None
+STU0025,Deepa Reddy,Class 10-C,07-10-2012,13-11-2021,92,85,98,89,82,85,62.01,Hosteller,Coimbatore,Kho-Kho,Literary Club
+STU0026,Usha Mohan,Class 10-C,31-12-2012,13-03-2021,65,54,65,70,55,27,70.37,Hosteller,Hosur,Basketball,Quiz Club
+STU0027,Swathi Prasad,Class 6-C,17-04-2012,15-02-2021,46,99,94,48,74,72,76.59,Day Scholar,Thanjavur,Kho-Kho,Eco Club
+STU0028,Manoj Devi,Class 11-C,08-05-2011,15-10-2023,51,92,75,79,89,75,91.99,Hosteller,Erode,Volleyball,Dance Club
+STU0029,Siva Kumar,Class 6-C,21-08-2014,28-09-2025,70,70,74,76,55,97,85.71,Hosteller,Erode,Badminton,Science Club
+STU0030,Kishore Raman,Class 12-C,18-01-2014,31-12-2019,89,24,57,63,66,60,62.74,Hosteller,Chennai,Volleyball,Music Club
+STU0031,Usha Vel,Class 7-C,17-10-2014,23-03-2026,74,95,38,90,94,93,98.59,Hosteller,Kanchipuram,Cricket,Dance Club
+STU0032,Yazhini Raj,Class 9-C,25-09-2014,08-10-2020,76,56,73,79,77,36,81.31,Day Scholar,Coimbatore,Tennis,None
+STU0033,Sanjay Devi,Class 11-A,18-04-2015,11-06-2022,78,79,92,51,70,26,78.59,Day Scholar,Tirunelveli,Volleyball,Coding Club
+STU0034,Keerthana Krishnan,Class 12-B,24-12-2011,24-04-2022,55,76,98,80,81,51,88.05,Day Scholar,Thanjavur,Cricket,Quiz Club
+STU0035,Gokul Venkatesh,Class 8-B,16-01-2009,18-09-2022,97,72,67,64,26,97,72.25,Day Scholar,Erode,Tennis,Quiz Club
+STU0036,Dharani Prasad,Class 11-A,03-01-2014,28-06-2021,61,95,67,21,94,90,71.06,Day Scholar,Coimbatore,Volleyball,Dance Club
+STU0037,Aarav Shankar,Class 11-A,03-07-2013,25-07-2020,80,22,54,93,24,69,79.15,Day Scholar,Madurai,Cricket,Dance Club
+STU0038,Arun Devi,Class 10-B,14-12-2008,13-03-2022,69,77,89,43,44,63,84.25,Hosteller,Thanjavur,Kabaddi,Robotics Club
+STU0039,Charan Raman,Class 7-C,19-12-2010,28-04-2020,80,64,68,79,27,100,82.08,Hosteller,Chennai,Kabaddi,Robotics Club
+STU0040,Siva Prasad,Class 10-B,04-01-2015,10-01-2026,54,45,97,68,79,94,64.59,Hosteller,Hosur,Badminton,Dance Club
+STU0041,Pranav Devi,Class 11-A,06-07-2012,20-06-2022,55,93,86,51,93,86,77.51,Hosteller,Vellore,Athletics,Drama Club
+STU0042,Naveen Reddy,Class 12-C,13-06-2008,18-05-2021,81,80,71,56,71,81,77.69,Day Scholar,Madurai,Table Tennis,Eco Club
+STU0043,Vignesh Devi,Class 6-B,26-03-2011,27-11-2023,75,50,84,53,31,81,78.19,Day Scholar,Salem,Athletics,Coding Club
+STU0044,Vignesh Raj,Class 8-A,05-01-2015,15-05-2024,40,65,69,85,64,57,70.68,Hosteller,Salem,Kho-Kho,Robotics Club
+STU0045,Shalini Selvam,Class 11-A,05-03-2013,24-09-2020,80,85,26,82,58,67,97.31,Day Scholar,Thanjavur,Basketball,Eco Club
+STU0046,Yazhini Reddy,Class 8-C,26-08-2012,24-03-2023,92,59,80,85,74,70,92.82,Day Scholar,Puducherry,Basketball,Drama Club
+STU0047,Ranjith Venkatesh,Class 8-B,11-02-2010,03-02-2022,74,92,91,81,58,87,94.24,Day Scholar,Chennai,Athletics,Robotics Club
+STU0048,Mithun Vel,Class 11-B,21-09-2011,16-07-2020,59,45,71,75,71,84,96.42,Hosteller,Puducherry,Badminton,Eco Club
+STU0049,Sathish Mohan,Class 11-C,05-04-2012,19-12-2022,64,77,98,56,94,51,61.44,Hosteller,Trichy,None,None
+STU0050,Yazhini Raj,Class 9-A,07-07-2008,19-01-2023,93,60,39,89,81,59,74.34,Day Scholar,Madurai,Volleyball,Quiz Club
+STU0051,Sathish Krishnan,Class 10-C,09-08-2010,01-08-2024,54,72,69,77,79,62,70.21,Hosteller,Erode,Basketball,None
+STU0052,Arjun Raman,Class 10-A,24-04-2012,31-10-2024,92,50,93,53,97,68,82.88,Day Scholar,Puducherry,Basketball,Science Club
+STU0053,Kishore Raman,Class 12-C,31-07-2010,22-03-2026,90,40,69,52,96,49,67.61,Day Scholar,Hosur,None,None
+STU0054,Usha Balaji,Class 7-C,23-04-2011,29-01-2023,66,80,68,71,79,59,68.03,Day Scholar,Thanjavur,Tennis,Dance Club
+STU0055,Raja Srinivasan,Class 6-C,13-07-2010,14-11-2023,93,66,90,56,80,48,91.63,Hosteller,Salem,Tennis,Coding Club
+STU0056,Sanjay Raman,Class 12-C,18-04-2014,03-02-2023,58,21,81,27,58,73,62.53,Day Scholar,Puducherry,Basketball,None
+STU0057,Manoj Selvam,Class 10-B,09-07-2015,21-06-2025,31,78,73,41,91,75,86.2,Day Scholar,Kanchipuram,Kabaddi,Dance Club
+STU0058,Arun Senthil,Class 6-C,04-02-2011,17-07-2021,100,54,85,63,64,59,86.51,Hosteller,Chennai,Athletics,Music Club
+STU0059,Ishwarya Selvam,Class 7-B,07-09-2014,12-06-2019,31,65,51,21,33,97,81.61,Hosteller,Coimbatore,None,Science Club
+STU0060,Mithun Srinivasan,Class 11-B,17-09-2008,02-10-2024,45,92,79,51,35,77,83.75,Day Scholar,Thanjavur,Volleyball,Drama Club
+STU0061,Nithya Senthil,Class 6-C,11-09-2015,16-08-2020,39,85,74,83,82,56,95.97,Day Scholar,Kanchipuram,Badminton,Coding Club
+STU0062,Shalini Devi,Class 8-A,14-11-2015,11-09-2020,96,33,66,59,80,46,77.2,Hosteller,Vellore,Athletics,Robotics Club
+STU0063,Meena Vel,Class 9-C,15-12-2008,16-06-2020,57,92,77,96,29,72,92.47,Hosteller,Kanchipuram,Tennis,Quiz Club
+STU0064,Pranav Prasad,Class 7-B,28-02-2009,23-11-2025,98,64,85,89,91,88,86.27,Hosteller,Coimbatore,Athletics,Quiz Club
+STU0065,Aadhya Babu,Class 8-C,18-05-2015,31-05-2022,24,75,43,51,36,76,88.11,Day Scholar,Tirunelveli,Athletics,Science Club
+STU0066,Charan Srinivasan,Class 9-A,01-02-2013,28-03-2023,53,67,77,78,63,57,88.86,Hosteller,Chennai,Badminton,Literary Club
+STU0067,Arun Shankar,Class 12-A,14-11-2011,26-03-2024,53,29,99,28,57,43,79.47,Day Scholar,Chennai,Volleyball,Eco Club
+STU0068,Bala Venkatesh,Class 11-C,29-10-2012,20-05-2021,79,70,86,90,57,70,88.15,Day Scholar,Coimbatore,Kabaddi,Science Club
+STU0069,Nandhini Srinivasan,Class 6-C,04-12-2009,06-05-2026,55,69,64,60,40,36,77.47,Hosteller,Trichy,Kabaddi,Drama Club
+STU0070,Kishore Selvam,Class 8-B,05-03-2010,02-05-2023,44,61,90,98,87,86,64.11,Day Scholar,Trichy,Badminton,Drama Club
+STU0071,Kavya Natarajan,Class 7-B,18-03-2015,02-06-2026,87,36,34,53,68,47,77.59,Day Scholar,Erode,None,Dance Club
+STU0072,Rohit Reddy,Class 10-A,04-01-2009,24-04-2026,39,59,78,48,95,40,78.51,Hosteller,Erode,Table Tennis,None
+STU0073,Hari Senthil,Class 10-C,07-12-2009,08-11-2019,99,88,40,54,85,68,80.96,Hosteller,Tirunelveli,Athletics,Dance Club
+STU0074,Bhavya Natarajan,Class 6-C,29-10-2010,04-03-2026,75,42,69,91,58,97,83.31,Hosteller,Tirunelveli,Basketball,None
+STU0075,Ananya Balaji,Class 11-B,08-09-2015,26-04-2025,99,64,59,47,82,97,74.47,Day Scholar,Salem,Badminton,Music Club
+STU0076,Siva Natarajan,Class 12-B,26-11-2013,02-11-2019,99,60,52,93,78,98,65.24,Day Scholar,Madurai,Badminton,Literary Club
+STU0077,Rahul Raman,Class 9-A,12-01-2013,14-01-2022,78,68,82,60,88,28,98.62,Day Scholar,Trichy,Athletics,None
+STU0078,Krishna Devi,Class 7-A,01-08-2008,20-10-2024,82,33,49,78,51,75,88.46,Hosteller,Salem,Football,Literary Club
+STU0079,Hari Venkatesh,Class 6-C,18-08-2013,10-08-2023,59,29,80,58,80,50,75.0,Hosteller,Tirunelveli,Football,None
+STU0080,Harini Prasad,Class 7-B,20-11-2008,17-08-2019,53,90,79,46,88,90,81.95,Day Scholar,Coimbatore,Basketball,Music Club
+STU0081,Hari Selvam,Class 9-A,11-10-2013,11-11-2025,41,31,36,100,85,47,77.17,Day Scholar,Trichy,Table Tennis,Eco Club
+STU0082,Sathish Venkatesh,Class 9-C,09-04-2013,26-11-2019,92,99,98,52,71,61,70.15,Hosteller,Tirunelveli,Football,Art Club
+STU0083,Surya Mohan,Class 12-C,05-09-2015,16-08-2024,52,52,69,84,52,62,67.29,Hosteller,Coimbatore,Kho-Kho,Science Club
+STU0084,Vishal Raj,Class 12-C,17-03-2011,02-06-2023,74,61,81,83,55,55,73.28,Hosteller,Tirunelveli,Kabaddi,Eco Club
+STU0085,Deepa Devi,Class 9-A,29-10-2012,03-03-2026,88,60,72,96,72,77,72.85,Hosteller,Tirunelveli,None,Dance Club
+STU0086,Akshaya Venkatesh,Class 9-C,29-01-2011,21-01-2020,78,22,91,74,52,93,80.52,Hosteller,Chennai,Badminton,Drama Club
+STU0087,Krishna Senthil,Class 6-C,16-01-2013,29-07-2023,57,25,74,57,66,63,82.96,Day Scholar,Vellore,Athletics,None
+STU0088,Surya Mohan,Class 8-A,11-11-2014,13-08-2022,93,70,95,37,69,95,64.91,Hosteller,Erode,Badminton,Robotics Club
+STU0089,Yazhini Srinivasan,Class 11-B,16-12-2015,14-05-2021,37,79,85,48,29,95,68.97,Hosteller,Madurai,Volleyball,Robotics Club
+STU0090,Manoj Balaji,Class 12-A,14-05-2013,23-04-2025,83,99,87,24,53,83,62.95,Day Scholar,Hosur,Football,Robotics Club
+STU0091,Charan Babu,Class 9-B,18-09-2009,28-10-2022,66,37,90,84,40,38,97.39,Hosteller,Tirunelveli,Tennis,Dance Club
+STU0092,Siva Natarajan,Class 12-A,23-09-2009,02-05-2021,66,99,89,81,84,69,61.65,Hosteller,Coimbatore,Cricket,None
+STU0093,Sowmiya Venkatesh,Class 9-A,01-06-2013,28-02-2022,63,59,95,72,58,82,78.14,Hosteller,Madurai,Kho-Kho,Eco Club
+STU0094,Kavya Raman,Class 10-C,19-04-2014,08-08-2020,32,76,60,86,62,81,64.9,Day Scholar,Trichy,Badminton,Coding Club
+STU0095,Nithya Shankar,Class 11-A,09-10-2013,25-08-2024,72,29,91,68,56,66,60.93,Day Scholar,Thanjavur,Kho-Kho,Music Club
+STU0096,Krishna Raj,Class 10-A,07-02-2012,08-12-2023,36,85,89,57,23,100,62.05,Hosteller,Tirunelveli,Tennis,Dance Club
+STU0097,Krishna Selvam,Class 8-A,20-10-2011,01-09-2025,42,80,59,82,49,60,84.1,Day Scholar,Thanjavur,Cricket,Science Club
+STU0098,Usha Shankar,Class 12-A,28-05-2012,30-04-2026,51,93,33,100,94,88,73.45,Day Scholar,Puducherry,Table Tennis,Dance Club
+STU0099,Shalini Raman,Class 6-B,27-04-2013,23-05-2022,74,41,86,57,34,59,83.34,Hosteller,Thanjavur,None,Drama Club
+STU0100,Manoj Reddy,Class 12-B,18-08-2012,13-09-2021,70,80,70,79,71,93,96.82,Hosteller,Puducherry,Badminton,Quiz Club
+STU0101,Sanjay Mohan,Class 8-A,20-08-2015,18-05-2022,69,95,95,80,100,68,98.29,Day Scholar,Thanjavur,Basketball,Music Club
+STU0102,Sowmiya Devi,Class 10-A,14-05-2009,04-11-2025,42,49,66,63,84,85,95.83,Day Scholar,Tirunelveli,Badminton,Dance Club
+STU0103,Bala Vel,Class 12-B,22-10-2015,17-06-2022,64,53,30,56,58,37,89.64,Hosteller,Trichy,Cricket,None
+STU0104,Shalini Mohan,Class 11-A,08-10-2009,23-12-2023,44,38,97,52,61,61,86.02,Day Scholar,Tirunelveli,Basketball,None
+STU0105,Yazhini Mohan,Class 7-C,28-05-2008,13-11-2023,56,71,91,81,58,79,97.46,Day Scholar,Chennai,Cricket,Dance Club
+STU0106,Arun Natarajan,Class 7-C,22-01-2011,29-07-2021,100,93,61,90,77,55,89.24,Day Scholar,Puducherry,Badminton,Science Club
+STU0107,Deepa Selvam,Class 11-A,29-06-2012,25-06-2020,98,71,96,66,94,92,72.94,Hosteller,Chennai,Basketball,Eco Club
+STU0108,Karthik Babu,Class 10-A,29-04-2009,19-08-2024,68,64,58,79,88,94,87.44,Day Scholar,Puducherry,Football,None
+STU0109,Vignesh Devi,Class 8-A,27-02-2014,10-09-2024,54,57,37,62,59,47,90.47,Hosteller,Thanjavur,Kho-Kho,Quiz Club
+STU0110,Arun Prasad,Class 12-A,01-11-2013,14-05-2024,79,85,69,75,50,87,79.55,Day Scholar,Chennai,Kho-Kho,Literary Club
+STU0111,Meena Srinivasan,Class 6-C,26-10-2008,03-12-2019,61,99,96,76,74,74,81.65,Hosteller,Coimbatore,Kho-Kho,Science Club
+STU0112,Sowmiya Devi,Class 7-B,18-03-2012,24-04-2020,58,64,98,29,96,84,86.14,Day Scholar,Coimbatore,Badminton,Quiz Club
+STU0113,Hari Senthil,Class 9-C,02-04-2012,27-12-2021,76,51,54,21,93,53,66.2,Hosteller,Puducherry,Football,Science Club
+STU0114,Lokesh Senthil,Class 8-B,29-09-2010,29-11-2019,96,86,93,65,59,83,81.59,Hosteller,Madurai,Tennis,Dance Club
+STU0115,Karthik Krishnan,Class 6-B,24-06-2010,19-01-2024,53,91,100,94,59,61,82.27,Hosteller,Hosur,None,Eco Club
+STU0116,Hari Raman,Class 9-A,12-01-2014,21-09-2024,76,58,66,91,34,55,94.3,Hosteller,Erode,Cricket,Quiz Club
+STU0117,Akash Krishnan,Class 10-A,02-01-2014,20-07-2021,85,63,71,50,62,57,86.95,Hosteller,Coimbatore,Volleyball,Drama Club
+STU0118,Surya Prasad,Class 10-A,15-05-2013,18-02-2022,72,73,81,96,70,73,96.61,Day Scholar,Salem,Kabaddi,Robotics Club
+STU0119,Aditya Raman,Class 7-B,05-07-2011,21-01-2024,74,65,91,71,81,91,60.65,Day Scholar,Salem,Badminton,Music Club
+STU0120,Charan Srinivasan,Class 7-C,02-07-2013,31-07-2024,83,47,46,98,24,64,65.6,Day Scholar,Madurai,Tennis,None
+STU0121,Aarav Prasad,Class 11-B,05-10-2008,08-02-2021,80,51,37,51,67,68,78.24,Hosteller,Kanchipuram,None,None
+STU0122,Surya Balaji,Class 7-C,11-03-2008,17-01-2025,36,72,75,32,65,64,64.28,Hosteller,Thanjavur,Badminton,Music Club
+STU0123,Shalini Raj,Class 6-C,13-05-2011,26-04-2020,94,35,91,86,56,52,76.21,Day Scholar,Thanjavur,Kho-Kho,Science Club
+STU0124,Surya Mohan,Class 8-C,30-07-2010,13-10-2021,52,47,63,98,75,69,61.86,Hosteller,Hosur,Basketball,Quiz Club
+STU0125,Hari Venkatesh,Class 11-C,27-10-2009,26-09-2025,72,33,54,99,88,99,73.27,Hosteller,Puducherry,Football,Quiz Club
+STU0126,Sathish Krishnan,Class 10-C,29-08-2011,30-09-2019,38,55,68,95,28,42,79.62,Day Scholar,Thanjavur,Kabaddi,Eco Club
+STU0127,Usha Venkatesh,Class 9-B,09-02-2015,21-02-2021,67,22,34,82,51,37,74.43,Hosteller,Chennai,Basketball,Robotics Club
+STU0128,Rohit Natarajan,Class 10-A,16-01-2009,09-02-2026,65,60,60,29,59,33,60.49,Day Scholar,Vellore,Football,Quiz Club
+STU0129,Karthik Mohan,Class 6-C,04-02-2011,19-02-2024,62,58,75,89,71,77,74.44,Hosteller,Puducherry,None,Robotics Club
+STU0130,Bala Shankar,Class 9-B,20-04-2015,29-01-2026,70,94,86,70,100,57,84.13,Hosteller,Erode,Athletics,Literary Club
+STU0131,Rithika Devi,Class 7-C,28-04-2014,27-08-2021,68,54,100,93,90,66,87.27,Hosteller,Puducherry,Kho-Kho,Music Club
+STU0132,Swathi Balaji,Class 10-A,21-05-2015,21-02-2021,94,52,73,84,55,27,62.96,Day Scholar,Kanchipuram,Kabaddi,Quiz Club
+STU0133,Charan Raj,Class 12-A,17-05-2015,25-05-2023,28,97,87,64,75,93,99.34,Day Scholar,Tirunelveli,Kabaddi,Coding Club
+STU0134,Bhavya Srinivasan,Class 6-A,07-08-2014,09-01-2025,96,29,100,80,56,94,79.31,Day Scholar,Vellore,Football,Coding Club
+STU0135,Akshaya Shankar,Class 6-B,27-01-2013,28-12-2022,45,43,61,71,79,75,92.41,Hosteller,Chennai,Athletics,None
+STU0136,Deepa Balaji,Class 10-A,23-01-2015,25-06-2021,95,67,100,23,84,30,61.17,Hosteller,Erode,Table Tennis,Eco Club
+STU0137,Arun Krishnan,Class 11-A,18-03-2010,18-07-2024,57,79,93,69,87,24,81.11,Day Scholar,Kanchipuram,Kabaddi,Drama Club
+STU0138,Hari Shankar,Class 7-A,06-07-2011,25-09-2020,86,61,84,91,61,81,67.32,Hosteller,Thanjavur,Kabaddi,Eco Club
+STU0139,Deepa Natarajan,Class 10-C,29-03-2011,26-12-2020,32,82,76,76,78,55,84.78,Day Scholar,Chennai,Kho-Kho,Literary Club
+STU0140,Yazhini Raman,Class 9-A,04-05-2014,05-10-2019,86,99,82,23,84,73,61.31,Hosteller,Thanjavur,Basketball,Literary Club
+STU0141,Vignesh Senthil,Class 11-C,29-01-2014,18-11-2019,52,72,55,57,65,97,68.74,Day Scholar,Coimbatore,None,Music Club
+STU0142,Swathi Balaji,Class 7-C,05-08-2014,07-05-2023,67,60,95,86,82,93,84.65,Hosteller,Trichy,Cricket,Drama Club
+STU0143,Vignesh Balaji,Class 6-B,25-01-2009,07-12-2020,30,98,75,86,90,78,99.7,Hosteller,Puducherry,Badminton,Music Club
+STU0144,Lokesh Reddy,Class 8-C,05-11-2008,16-06-2020,99,55,79,94,54,75,87.79,Day Scholar,Erode,Kho-Kho,Art Club
+STU0145,Divya Mohan,Class 8-C,11-06-2010,25-03-2024,47,71,98,23,79,49,72.91,Day Scholar,Tirunelveli,Tennis,Drama Club
+STU0146,Nandhini Kumar,Class 10-B,09-10-2009,12-05-2024,67,31,73,91,32,96,68.09,Hosteller,Hosur,Basketball,Literary Club
+STU0147,Meena Murugan,Class 7-A,04-11-2015,15-01-2022,93,50,57,77,80,32,60.04,Day Scholar,Coimbatore,Badminton,Drama Club
+STU0148,Arjun Natarajan,Class 9-C,31-12-2008,24-07-2020,59,38,40,31,90,76,95.24,Hosteller,Vellore,Badminton,None
+STU0149,Divya Murugan,Class 7-A,28-11-2014,17-05-2024,70,65,55,88,88,94,65.6,Hosteller,Kanchipuram,Kabaddi,Art Club
+STU0150,Divya Reddy,Class 12-B,19-04-2008,18-10-2022,100,81,65,88,48,73,80.38,Day Scholar,Salem,None,Science Club
+STU0151,Lakshmi Balaji,Class 9-C,20-07-2011,22-11-2020,50,52,100,68,82,77,81.85,Hosteller,Erode,Football,Science Club
+STU0152,Ananya Devi,Class 11-C,14-11-2015,04-12-2023,63,59,75,98,93,69,84.64,Day Scholar,Coimbatore,Basketball,Coding Club
+STU0153,Tamil Raman,Class 6-B,01-11-2015,26-04-2024,69,92,57,24,60,72,69.78,Day Scholar,Coimbatore,Kho-Kho,Drama Club
+STU0154,Yazhini Krishnan,Class 7-C,12-11-2013,19-03-2025,77,54,86,81,73,47,74.87,Day Scholar,Puducherry,Football,Science Club
+STU0155,Krishna Babu,Class 8-C,10-05-2014,14-04-2021,47,21,74,61,52,95,90.93,Hosteller,Trichy,Tennis,Science Club
+STU0156,Gokul Natarajan,Class 8-B,09-05-2015,12-02-2024,82,53,45,52,54,68,76.65,Day Scholar,Salem,Football,Drama Club
+STU0157,Ananya Devi,Class 10-C,26-06-2011,31-01-2023,65,87,99,96,98,59,60.32,Hosteller,Salem,Table Tennis,Dance Club
+STU0158,Aadhya Raman,Class 11-C,27-01-2008,05-01-2024,97,56,65,53,59,55,73.86,Hosteller,Tirunelveli,Cricket,None
+STU0159,Priya Balaji,Class 9-C,28-06-2008,04-01-2022,46,87,77,58,66,75,78.34,Hosteller,Kanchipuram,Football,Quiz Club
+STU0160,Kavya Senthil,Class 8-C,10-11-2015,27-01-2023,25,70,84,99,69,57,69.34,Hosteller,Madurai,Table Tennis,Coding Club
+STU0161,Sowmiya Shankar,Class 12-B,05-01-2009,07-03-2021,75,93,61,32,85,65,61.61,Day Scholar,Madurai,Football,Music Club
+STU0162,Arjun Selvam,Class 7-A,22-01-2009,05-08-2024,90,55,66,54,22,40,60.48,Hosteller,Madurai,Volleyball,Eco Club
+STU0163,Ananya Natarajan,Class 7-A,21-12-2012,09-11-2020,96,51,77,26,67,59,61.71,Day Scholar,Chennai,Badminton,Drama Club
+STU0164,Sanjay Raman,Class 12-C,21-05-2008,20-04-2026,32,26,83,84,74,72,71.8,Day Scholar,Thanjavur,Kho-Kho,Science Club
+STU0165,Yazhini Mohan,Class 9-C,18-05-2013,09-07-2025,39,99,80,99,64,56,96.51,Day Scholar,Vellore,Basketball,Literary Club
+STU0166,Ishwarya Devi,Class 6-B,12-10-2010,12-02-2022,61,38,97,87,42,86,90.56,Hosteller,Kanchipuram,Kabaddi,Art Club
+STU0167,Ranjith Prasad,Class 11-A,27-04-2014,03-01-2021,39,83,71,62,71,70,81.68,Hosteller,Erode,Cricket,Coding Club
+STU0168,Bhavya Selvam,Class 7-A,31-08-2008,29-08-2019,56,70,25,77,81,61,93.86,Day Scholar,Coimbatore,Athletics,None
+STU0169,Surya Srinivasan,Class 8-B,06-12-2015,18-09-2025,43,42,75,99,52,30,86.62,Hosteller,Vellore,Basketball,Dance Club
+STU0170,Sathish Vel,Class 11-A,09-11-2014,21-11-2021,48,95,96,78,26,54,65.63,Hosteller,Trichy,Athletics,Art Club
+STU0171,Yazhini Vel,Class 6-A,06-12-2011,17-04-2022,81,72,56,100,91,64,61.93,Day Scholar,Puducherry,Kabaddi,Literary Club
+STU0172,Akshaya Raj,Class 9-A,28-10-2009,22-06-2024,32,22,55,89,95,40,60.8,Day Scholar,Coimbatore,Football,Art Club
+STU0173,Meena Babu,Class 6-B,06-11-2009,23-03-2026,96,92,65,32,81,31,64.05,Hosteller,Trichy,Kabaddi,Quiz Club
+STU0174,Ananya Shankar,Class 12-C,16-01-2008,17-03-2024,29,80,69,80,92,91,84.01,Hosteller,Coimbatore,Cricket,Music Club
+STU0175,Deepa Srinivasan,Class 10-A,06-02-2014,05-10-2023,64,86,44,56,31,76,74.78,Day Scholar,Chennai,Basketball,Robotics Club
+STU0176,Raja Raj,Class 10-A,12-08-2014,18-12-2021,65,55,95,38,86,89,92.74,Day Scholar,Thanjavur,None,Robotics Club
+STU0177,Vignesh Senthil,Class 7-C,26-08-2009,05-10-2020,22,77,90,39,96,54,97.96,Hosteller,Trichy,Volleyball,Literary Club
+STU0178,Raja Venkatesh,Class 11-C,22-12-2008,07-10-2023,89,100,76,38,98,56,73.05,Day Scholar,Thanjavur,Kho-Kho,Science Club
+STU0179,Vishal Vel,Class 9-A,08-03-2009,21-09-2025,86,52,32,39,75,48,94.7,Day Scholar,Vellore,Basketball,Eco Club
+STU0180,Akash Mohan,Class 8-C,19-09-2011,29-01-2022,81,93,47,69,78,70,95.88,Hosteller,Tirunelveli,Basketball,Dance Club
+STU0181,Rohit Murugan,Class 8-A,08-01-2011,02-02-2024,53,60,42,58,83,51,77.67,Day Scholar,Puducherry,Kho-Kho,Quiz Club
+STU0182,Dharani Raj,Class 8-B,12-12-2009,29-07-2021,79,90,93,31,78,47,61.32,Hosteller,Tirunelveli,Volleyball,Dance Club
+STU0183,Raja Srinivasan,Class 9-C,27-04-2013,29-12-2025,21,38,63,91,63,76,66.54,Day Scholar,Puducherry,Football,Dance Club
+STU0184,Vishal Kumar,Class 11-A,03-10-2013,22-08-2019,69,95,77,72,63,93,96.46,Hosteller,Kanchipuram,Cricket,Music Club
+STU0185,Lokesh Vel,Class 6-A,02-11-2013,29-05-2026,69,80,28,67,95,91,80.46,Day Scholar,Thanjavur,None,Drama Club
+STU0186,Bhavya Reddy,Class 8-B,08-05-2011,11-07-2021,20,68,76,97,42,62,95.99,Day Scholar,Hosur,Athletics,None
+STU0187,Sowmiya Devi,Class 12-C,06-11-2011,27-11-2021,85,23,97,85,61,71,91.4,Day Scholar,Thanjavur,Basketball,Literary Club
+STU0188,Gokul Srinivasan,Class 8-B,04-05-2015,31-05-2020,68,57,90,89,48,23,89.77,Day Scholar,Vellore,Athletics,Art Club
+STU0189,Priya Shankar,Class 10-B,20-08-2015,11-09-2023,86,79,47,99,30,61,62.16,Hosteller,Madurai,Volleyball,Art Club
+STU0190,Aarav Senthil,Class 8-C,07-07-2011,24-01-2020,99,39,77,80,52,96,68.38,Hosteller,Kanchipuram,Badminton,Robotics Club
+STU0191,Kavya Reddy,Class 8-A,08-03-2012,28-07-2019,72,56,87,54,69,79,60.72,Hosteller,Hosur,Volleyball,Music Club
+STU0192,Priya Natarajan,Class 10-B,01-11-2013,06-02-2026,60,75,27,58,51,60,95.52,Hosteller,Tirunelveli,Kho-Kho,Art Club
+STU0193,Swathi Raj,Class 10-A,19-05-2009,11-07-2023,53,91,53,76,57,80,95.06,Day Scholar,Thanjavur,Table Tennis,Science Club
+STU0194,Divya Kumar,Class 9-A,14-11-2015,17-02-2021,94,46,82,57,100,26,76.83,Hosteller,Hosur,Tennis,Dance Club
+STU0195,Vishal Krishnan,Class 11-B,30-10-2014,27-08-2021,37,63,80,50,22,86,98.92,Day Scholar,Puducherry,Kabaddi,Dance Club
+STU0196,Bhavya Murugan,Class 11-B,03-07-2015,14-12-2024,68,53,25,68,93,97,63.0,Hosteller,Salem,None,Music Club
+STU0197,Vignesh Raj,Class 6-A,19-04-2009,24-06-2020,67,55,71,32,79,74,94.08,Hosteller,Tirunelveli,Athletics,Robotics Club
+STU0198,Manoj Babu,Class 7-A,26-09-2015,10-10-2024,80,93,89,72,93,96,65.3,Hosteller,Madurai,Football,Eco Club
+STU0199,Nithya Vel,Class 10-B,19-06-2009,30-10-2024,47,99,96,92,83,94,77.63,Hosteller,Salem,None,Art Club
+STU0200,Meena Raman,Class 11-A,07-12-2014,25-06-2020,40,82,81,54,70,67,73.83,Day Scholar,Madurai,Tennis,Drama Club
+STU0201,Gokul Devi,Class 12-C,25-07-2008,05-02-2025,78,35,57,97,56,52,75.15,Hosteller,Coimbatore,Kho-Kho,Robotics Club
+STU0202,Aarav Murugan,Class 12-B,01-04-2014,28-07-2025,79,73,64,71,89,95,98.53,Day Scholar,Thanjavur,Tennis,Music Club
+STU0203,Swathi Senthil,Class 7-A,15-05-2015,28-06-2023,68,73,52,81,42,76,63.9,Hosteller,Chennai,Athletics,Art Club
+STU0204,Sanjay Prasad,Class 8-A,14-03-2009,07-04-2022,56,52,93,99,79,82,64.83,Day Scholar,Trichy,Kho-Kho,Music Club
+STU0205,Aarav Reddy,Class 6-B,05-07-2009,03-01-2025,61,61,58,41,70,74,82.13,Day Scholar,Kanchipuram,Kho-Kho,Quiz Club
+STU0206,Surya Raman,Class 8-C,10-09-2012,30-03-2026,39,97,94,70,85,62,75.91,Day Scholar,Salem,Kho-Kho,Literary Club
+STU0207,Swathi Shankar,Class 9-C,08-05-2010,31-05-2026,94,95,31,87,92,93,96.85,Hosteller,Puducherry,None,Literary Club
+STU0208,Meena Kumar,Class 11-B,26-12-2013,15-08-2022,28,60,93,53,68,84,64.26,Day Scholar,Madurai,Cricket,None
+STU0209,Mithun Vel,Class 12-B,12-05-2008,09-06-2023,82,94,92,32,100,70,94.72,Hosteller,Puducherry,None,Quiz Club
+STU0210,Aarav Krishnan,Class 8-A,11-03-2014,07-01-2020,87,88,43,68,93,25,84.82,Day Scholar,Trichy,None,None
+STU0211,Lakshmi Raj,Class 10-B,05-10-2013,01-10-2020,50,95,52,30,99,89,71.16,Day Scholar,Madurai,Badminton,Drama Club
+STU0212,Nithya Devi,Class 9-C,04-06-2015,16-10-2022,100,76,75,27,92,73,62.92,Day Scholar,Thanjavur,Volleyball,Literary Club
+STU0213,Vignesh Reddy,Class 11-A,17-04-2011,11-11-2021,91,89,52,70,100,74,99.87,Hosteller,Coimbatore,None,Art Club
+STU0214,Tamil Shankar,Class 6-A,16-11-2010,21-06-2025,68,62,55,60,99,50,96.45,Day Scholar,Thanjavur,Tennis,Robotics Club
+STU0215,Divya Prasad,Class 10-B,11-01-2015,24-02-2020,54,59,42,55,25,85,93.43,Hosteller,Thanjavur,Kabaddi,None
+STU0216,Gokul Krishnan,Class 10-B,15-10-2008,11-11-2025,57,91,54,87,47,49,75.52,Day Scholar,Vellore,Athletics,Science Club
+STU0217,Jeeva Shankar,Class 12-B,21-08-2013,08-08-2020,25,58,100,84,90,41,63.46,Day Scholar,Vellore,Kabaddi,None
+STU0218,Aarav Devi,Class 11-C,07-04-2015,07-08-2023,85,69,97,72,91,59,65.65,Hosteller,Chennai,Table Tennis,Drama Club
+STU0219,Gokul Krishnan,Class 8-A,21-10-2009,23-06-2021,68,66,43,71,92,56,64.58,Hosteller,Thanjavur,Kho-Kho,None
+STU0220,Akshaya Prasad,Class 9-B,13-03-2011,12-05-2026,59,73,77,30,64,91,79.43,Day Scholar,Kanchipuram,None,Dance Club
+STU0221,Krishna Selvam,Class 9-B,21-11-2012,08-07-2022,56,39,28,58,62,90,95.12,Day Scholar,Erode,Athletics,Dance Club
+STU0222,Aadhya Reddy,Class 12-C,09-11-2008,04-04-2020,84,84,99,32,99,68,61.25,Day Scholar,Kanchipuram,Volleyball,Science Club
+STU0223,Pranav Reddy,Class 6-C,02-07-2009,16-08-2024,98,78,38,92,59,80,75.87,Hosteller,Hosur,Volleyball,Drama Club
+STU0224,Gokul Mohan,Class 8-B,09-01-2012,13-11-2019,100,80,52,40,95,90,62.51,Day Scholar,Trichy,Cricket,None
+STU0225,Rithika Devi,Class 12-A,25-01-2011,14-05-2022,54,74,64,72,72,80,66.95,Day Scholar,Tirunelveli,Table Tennis,None
+STU0226,Pranav Selvam,Class 10-C,10-10-2014,28-06-2019,61,39,57,76,96,41,66.62,Hosteller,Thanjavur,None,Dance Club
+STU0227,Divya Babu,Class 12-C,15-05-2013,14-10-2024,60,36,38,25,61,75,93.33,Hosteller,Trichy,Cricket,Literary Club
+STU0228,Sathish Kumar,Class 9-A,20-09-2014,25-09-2025,60,76,100,99,41,60,97.89,Hosteller,Erode,Table Tennis,Robotics Club
+STU0229,Nandhini Murugan,Class 8-B,09-09-2015,04-04-2023,82,59,61,89,100,98,75.13,Hosteller,Coimbatore,Cricket,Music Club
+STU0230,Naveen Selvam,Class 12-B,26-04-2009,16-06-2020,73,94,64,80,74,97,81.57,Hosteller,Hosur,None,Eco Club
+STU0231,Arjun Balaji,Class 7-B,24-10-2015,15-11-2025,76,50,100,36,20,63,70.18,Hosteller,Coimbatore,Basketball,Drama Club
+STU0232,Manoj Srinivasan,Class 7-A,18-09-2015,15-12-2022,89,93,63,100,61,85,66.19,Day Scholar,Salem,Tennis,Eco Club
+STU0233,Karthik Srinivasan,Class 10-A,04-06-2013,05-04-2022,60,36,71,89,95,32,89.43,Hosteller,Puducherry,Volleyball,Robotics Club
+STU0234,Ananya Selvam,Class 11-A,17-02-2015,22-06-2019,55,96,75,83,88,44,97.03,Day Scholar,Coimbatore,Football,Dance Club
+STU0235,Mithun Kumar,Class 8-A,18-12-2009,15-12-2024,94,60,73,50,55,99,94.02,Day Scholar,Trichy,Cricket,Drama Club
+STU0236,Siva Venkatesh,Class 10-A,24-06-2012,17-05-2023,96,87,67,62,75,66,83.44,Hosteller,Puducherry,Football,Coding Club
+STU0237,Pranav Vel,Class 11-C,17-12-2009,24-12-2023,84,86,78,86,65,99,62.9,Day Scholar,Tirunelveli,Football,Quiz Club
+STU0238,Rithika Kumar,Class 11-A,22-02-2013,31-07-2024,64,76,83,94,65,75,64.65,Hosteller,Vellore,None,Music Club
+STU0239,Akshaya Devi,Class 7-C,22-07-2015,01-04-2023,43,62,62,65,63,65,79.06,Day Scholar,Trichy,Table Tennis,Dance Club
+STU0240,Bhavya Vel,Class 7-A,08-12-2014,29-05-2023,80,70,86,81,44,67,96.81,Day Scholar,Kanchipuram,Cricket,Quiz Club
+STU0241,Vignesh Selvam,Class 6-B,17-06-2012,26-11-2021,75,99,23,79,50,26,81.03,Day Scholar,Erode,Tennis,Science Club
+STU0242,Arjun Natarajan,Class 9-C,03-04-2012,05-12-2025,80,71,81,76,73,75,84.51,Day Scholar,Madurai,Tennis,Dance Club
+STU0243,Deepa Selvam,Class 12-A,19-02-2011,20-06-2024,74,45,59,50,35,48,87.44,Hosteller,Puducherry,Basketball,Music Club
+STU0244,Rahul Natarajan,Class 11-A,27-01-2015,18-03-2025,46,90,43,73,85,66,72.0,Hosteller,Vellore,Football,Literary Club
+STU0245,Manoj Vel,Class 9-C,10-11-2011,21-08-2019,61,68,93,99,55,68,94.69,Hosteller,Kanchipuram,Table Tennis,None
+STU0246,Charan Natarajan,Class 10-B,14-03-2013,14-01-2021,70,68,88,67,99,73,85.25,Day Scholar,Coimbatore,Football,Literary Club
+STU0247,Mithun Balaji,Class 7-C,01-08-2014,03-04-2025,97,55,75,22,80,51,67.36,Hosteller,Madurai,Volleyball,None
+STU0248,Vignesh Murugan,Class 7-A,14-06-2012,16-04-2025,65,78,58,60,41,70,70.5,Hosteller,Coimbatore,None,Eco Club
+STU0249,Rahul Krishnan,Class 11-C,04-05-2013,26-08-2024,90,77,90,72,64,78,77.79,Hosteller,Kanchipuram,Table Tennis,Robotics Club
+STU0250,Manoj Krishnan,Class 7-B,15-06-2011,08-07-2023,84,49,98,50,68,100,72.14,Hosteller,Thanjavur,Badminton,Art Club
+STU0251,Krishna Prasad,Class 10-B,30-01-2008,24-07-2025,91,74,55,65,89,93,95.29,Day Scholar,Vellore,Volleyball,Literary Club
+STU0252,Shalini Devi,Class 8-C,18-01-2011,10-08-2022,34,67,81,20,37,23,76.52,Hosteller,Madurai,Badminton,Dance Club
+STU0253,Bala Senthil,Class 6-A,01-03-2011,07-06-2022,69,81,79,52,98,53,69.31,Hosteller,Chennai,Kho-Kho,Music Club
+STU0254,Akshaya Devi,Class 11-A,27-12-2010,25-10-2023,95,99,65,52,43,83,67.26,Day Scholar,Vellore,Cricket,Coding Club
+STU0255,Naveen Venkatesh,Class 9-A,20-06-2015,01-10-2021,66,69,48,41,57,77,97.45,Hosteller,Hosur,Cricket,Quiz Club
+STU0256,Charan Krishnan,Class 12-A,22-08-2011,01-08-2019,80,59,55,81,39,98,64.79,Hosteller,Chennai,Cricket,Drama Club
+STU0257,Akash Srinivasan,Class 12-C,04-01-2015,01-02-2020,85,98,78,51,72,66,66.16,Hosteller,Madurai,Kho-Kho,Music Club
+STU0258,Swathi Senthil,Class 11-C,10-06-2008,08-11-2024,70,67,88,85,36,29,71.79,Day Scholar,Trichy,Table Tennis,Literary Club
+STU0259,Krishna Senthil,Class 6-A,14-12-2010,27-06-2025,73,65,54,84,62,81,91.04,Day Scholar,Puducherry,Badminton,Science Club
+STU0260,Sanjay Shankar,Class 9-B,08-03-2014,21-02-2021,52,58,21,81,21,74,76.39,Day Scholar,Coimbatore,Football,Quiz Club
+STU0261,Priya Krishnan,Class 6-B,18-05-2015,27-11-2024,55,90,37,76,100,89,74.65,Hosteller,Chennai,Volleyball,None
+STU0262,Aditya Murugan,Class 9-A,24-12-2010,06-05-2025,84,62,65,61,85,56,63.12,Hosteller,Thanjavur,Football,Coding Club
+STU0263,Kishore Senthil,Class 10-B,28-02-2015,17-11-2025,92,39,72,85,70,76,95.31,Hosteller,Madurai,Tennis,Eco Club
+STU0264,Tamil Natarajan,Class 12-B,06-02-2015,29-03-2024,78,75,21,88,24,69,69.63,Hosteller,Vellore,Tennis,Dance Club
+STU0265,Gokul Prasad,Class 9-B,27-01-2008,13-10-2022,86,21,59,31,65,69,60.87,Day Scholar,Thanjavur,Tennis,Quiz Club
+STU0266,Lokesh Prasad,Class 6-C,11-01-2009,23-10-2025,56,69,45,55,99,77,88.94,Day Scholar,Madurai,Kho-Kho,Drama Club
+STU0267,Vishal Raman,Class 12-C,02-09-2012,06-10-2020,36,37,70,64,41,75,93.98,Hosteller,Hosur,None,Eco Club
+STU0268,Ranjith Reddy,Class 6-C,30-12-2012,01-02-2026,80,53,66,36,94,24,68.88,Day Scholar,Vellore,Badminton,Literary Club
+STU0269,Dharani Mohan,Class 10-A,23-05-2013,07-09-2025,54,77,86,41,73,70,86.09,Hosteller,Thanjavur,Table Tennis,Quiz Club
+STU0270,Shalini Kumar,Class 9-A,12-11-2011,27-01-2026,21,64,31,43,57,65,66.77,Day Scholar,Kanchipuram,Kho-Kho,Drama Club
+STU0271,Jeeva Kumar,Class 9-B,18-12-2014,25-01-2021,26,63,83,85,96,94,87.75,Hosteller,Salem,Kho-Kho,Robotics Club
+STU0272,Lakshmi Reddy,Class 6-B,02-11-2015,02-11-2019,79,50,41,92,56,47,70.22,Hosteller,Salem,Volleyball,Drama Club
+STU0273,Gokul Venkatesh,Class 11-B,13-04-2015,01-10-2023,61,34,95,27,69,75,99.06,Hosteller,Tirunelveli,Kho-Kho,Drama Club
+STU0274,Kishore Srinivasan,Class 9-C,05-10-2009,15-08-2019,74,51,67,71,92,43,85.01,Hosteller,Thanjavur,Basketball,Science Club
+STU0275,Sowmiya Raman,Class 10-B,14-04-2012,02-04-2025,84,40,37,62,69,83,69.61,Hosteller,Vellore,Basketball,Drama Club
+STU0276,Vishal Selvam,Class 12-C,07-07-2009,27-03-2024,96,30,59,98,76,69,97.32,Hosteller,Tirunelveli,Football,Quiz Club
+STU0277,Bhavya Prasad,Class 7-A,19-12-2012,26-06-2022,89,64,51,94,58,88,65.26,Hosteller,Kanchipuram,Table Tennis,Dance Club
+STU0278,Deepa Venkatesh,Class 11-A,04-04-2013,10-08-2023,50,76,92,98,61,78,78.95,Hosteller,Trichy,Volleyball,Science Club
+STU0279,Surya Natarajan,Class 10-C,02-12-2014,27-11-2024,74,75,97,84,95,83,95.5,Day Scholar,Vellore,Cricket,Drama Club
+STU0280,Nandhini Raj,Class 8-B,23-03-2009,23-06-2024,98,53,34,69,68,77,80.75,Day Scholar,Puducherry,Cricket,Quiz Club
+STU0281,Akash Reddy,Class 7-B,20-04-2011,16-04-2026,38,94,75,78,34,95,78.54,Day Scholar,Coimbatore,Tennis,Coding Club
+STU0282,Ananya Krishnan,Class 9-B,07-04-2010,06-07-2024,34,55,74,82,60,74,87.67,Hosteller,Puducherry,Football,Coding Club
+STU0283,Keerthana Selvam,Class 7-C,28-06-2008,30-04-2021,96,78,61,24,50,66,94.75,Hosteller,Puducherry,Cricket,Eco Club
+STU0284,Nithya Mohan,Class 11-C,20-02-2008,22-07-2024,79,55,50,85,90,63,92.3,Day Scholar,Trichy,Volleyball,Drama Club
+STU0285,Bhavya Raj,Class 12-C,19-07-2008,27-06-2021,69,55,33,60,89,94,73.96,Hosteller,Chennai,None,Drama Club
+STU0286,Yazhini Devi,Class 7-C,02-09-2014,31-10-2025,74,98,85,35,42,71,98.65,Day Scholar,Chennai,Football,Dance Club
+STU0287,Priya Prasad,Class 8-A,28-11-2013,20-01-2024,80,88,95,88,66,89,84.48,Hosteller,Kanchipuram,None,Quiz Club
+STU0288,Sanjay Mohan,Class 11-B,20-12-2011,13-11-2020,68,50,34,57,63,76,89.17,Day Scholar,Erode,Badminton,Drama Club
+STU0289,Keerthana Srinivasan,Class 11-C,22-08-2012,04-12-2019,66,69,85,50,30,96,92.24,Hosteller,Chennai,None,Music Club
+STU0290,Aadhya Babu,Class 8-A,19-05-2014,28-04-2026,91,24,84,79,76,53,73.22,Day Scholar,Hosur,Kho-Kho,Robotics Club
+STU0291,Ranjith Natarajan,Class 11-C,04-11-2013,09-10-2022,100,59,51,74,60,74,81.44,Hosteller,Kanchipuram,None,Art Club
+STU0292,Arun Shankar,Class 9-B,06-02-2010,01-02-2026,73,69,69,31,99,55,88.39,Day Scholar,Vellore,Football,Robotics Club
+STU0293,Aadhya Mohan,Class 11-B,22-12-2012,01-02-2025,59,56,83,58,52,95,66.16,Day Scholar,Erode,Tennis,Dance Club
+STU0294,Aarav Shankar,Class 6-B,09-11-2013,17-09-2020,44,69,44,63,62,84,87.48,Hosteller,Tirunelveli,Kho-Kho,Science Club
+STU0295,Siva Vel,Class 8-C,31-07-2011,11-05-2024,56,72,67,42,86,54,65.97,Day Scholar,Coimbatore,Cricket,Drama Club
+STU0296,Keerthana Devi,Class 10-C,29-06-2011,16-04-2026,21,32,39,90,94,72,62.03,Hosteller,Erode,None,Science Club
+STU0297,Dharani Devi,Class 6-C,03-07-2011,21-02-2023,94,79,91,79,64,48,98.95,Day Scholar,Kanchipuram,Badminton,Coding Club
+STU0298,Krishna Venkatesh,Class 7-C,01-12-2014,22-04-2022,35,35,60,72,58,75,87.98,Day Scholar,Tirunelveli,Kho-Kho,Robotics Club
+STU0299,Raja Murugan,Class 9-A,14-03-2009,25-01-2023,85,35,71,94,100,86,81.31,Day Scholar,Kanchipuram,Kabaddi,Music Club
+STU0300,Surya Raman,Class 7-C,02-11-2011,09-07-2025,39,85,34,32,23,88,86.5,Hosteller,Puducherry,Table Tennis,Robotics Club
+STU0301,Nithya Raj,Class 6-C,01-04-2012,01-02-2023,92,37,89,62,70,100,68.7,Hosteller,Kanchipuram,None,Science Club
+STU0302,Meena Srinivasan,Class 6-C,15-08-2015,30-10-2022,85,50,72,29,65,87,83.31,Day Scholar,Madurai,Basketball,Science Club
+STU0303,Kavya Venkatesh,Class 10-A,02-06-2012,04-06-2026,37,73,59,92,20,20,75.26,Hosteller,Hosur,Badminton,Robotics Club
+STU0304,Siva Balaji,Class 7-B,12-08-2009,14-11-2024,79,85,74,61,50,96,63.39,Day Scholar,Erode,Table Tennis,Eco Club
+STU0305,Ishwarya Balaji,Class 11-C,27-08-2010,15-01-2025,57,94,43,98,79,83,83.05,Hosteller,Chennai,Table Tennis,Robotics Club
+STU0306,Hari Mohan,Class 12-C,03-11-2014,28-05-2020,69,71,50,82,86,76,89.67,Hosteller,Hosur,None,Quiz Club
+STU0307,Jeeva Babu,Class 6-B,16-12-2011,19-09-2022,35,86,29,89,35,36,87.8,Day Scholar,Puducherry,Table Tennis,Dance Club
+STU0308,Harini Selvam,Class 12-B,10-11-2008,13-07-2022,38,92,61,94,61,52,71.24,Day Scholar,Chennai,Football,Drama Club
+STU0309,Bhavya Selvam,Class 11-A,05-11-2011,11-05-2020,90,38,72,28,57,34,90.11,Day Scholar,Vellore,Volleyball,None
+STU0310,Karthik Mohan,Class 11-C,21-06-2012,02-10-2024,77,49,74,83,52,37,69.35,Day Scholar,Erode,Basketball,Literary Club
+STU0311,Meena Krishnan,Class 9-B,23-02-2015,20-05-2023,99,65,87,83,94,70,70.81,Hosteller,Salem,None,Drama Club
+STU0312,Sowmiya Kumar,Class 6-C,21-02-2014,14-07-2019,64,66,20,53,92,63,60.48,Hosteller,Thanjavur,Football,None
+STU0313,Swathi Vel,Class 6-C,21-09-2014,11-10-2020,61,94,29,54,67,94,94.26,Hosteller,Vellore,None,None
+STU0314,Harini Babu,Class 6-C,27-06-2015,15-01-2023,66,66,22,62,61,56,71.09,Hosteller,Vellore,Kabaddi,Art Club
+STU0315,Vishal Balaji,Class 8-A,12-08-2009,23-06-2025,22,66,51,59,50,92,84.56,Hosteller,Erode,Basketball,Coding Club
+STU0316,Bhavya Natarajan,Class 10-A,18-05-2012,27-05-2022,99,54,50,94,80,37,82.99,Day Scholar,Erode,Kabaddi,Eco Club
+STU0317,Sowmiya Shankar,Class 10-A,10-01-2012,25-02-2023,34,68,61,74,69,56,62.21,Hosteller,Tirunelveli,Tennis,Art Club
+STU0318,Nithya Murugan,Class 12-C,27-01-2015,11-06-2023,38,74,37,81,78,51,77.52,Hosteller,Madurai,Cricket,Music Club
+STU0319,Akash Natarajan,Class 6-B,31-05-2008,21-03-2023,93,84,38,54,24,51,76.22,Hosteller,Hosur,None,Quiz Club
+STU0320,Aditya Raman,Class 12-C,14-04-2013,07-05-2026,56,60,54,56,39,64,65.22,Hosteller,Hosur,Cricket,Dance Club
+STU0321,Meena Natarajan,Class 10-A,15-09-2008,08-09-2021,71,28,33,31,78,87,72.97,Hosteller,Tirunelveli,Volleyball,Science Club
+STU0322,Arjun Venkatesh,Class 7-C,15-06-2008,28-11-2020,22,87,76,100,94,24,60.63,Day Scholar,Coimbatore,Cricket,Science Club
+STU0323,Priya Senthil,Class 10-B,05-03-2015,14-06-2022,35,55,100,76,27,36,69.57,Hosteller,Kanchipuram,Cricket,Drama Club
+STU0324,Krishna Devi,Class 11-B,26-01-2009,10-05-2026,24,80,60,52,31,77,68.77,Hosteller,Salem,Cricket,Music Club
+STU0325,Sanjay Senthil,Class 6-B,26-10-2010,01-03-2023,81,54,96,87,62,70,64.18,Hosteller,Thanjavur,Badminton,Literary Club
+STU0326,Kavya Raman,Class 7-A,31-07-2010,25-08-2020,38,77,49,61,58,62,69.48,Day Scholar,Trichy,Kabaddi,Music Club
+STU0327,Ishwarya Prasad,Class 9-B,01-02-2015,08-06-2023,79,98,68,100,89,86,65.09,Hosteller,Salem,Badminton,Coding Club
+STU0328,Ananya Balaji,Class 11-B,14-03-2014,27-12-2021,96,65,77,87,86,76,79.57,Hosteller,Kanchipuram,Kho-Kho,Robotics Club
+STU0329,Naveen Reddy,Class 6-B,30-06-2008,12-11-2019,55,50,76,58,65,55,77.03,Day Scholar,Erode,Football,Robotics Club
+STU0330,Siva Shankar,Class 7-C,06-03-2008,17-10-2024,75,47,79,50,54,94,88.13,Hosteller,Erode,Kho-Kho,Literary Club
+STU0331,Aditya Shankar,Class 10-B,25-09-2011,14-05-2025,97,82,93,53,31,52,90.12,Hosteller,Hosur,Football,Drama Club
+STU0332,Deepa Devi,Class 6-C,06-02-2012,10-07-2023,91,98,94,97,70,67,82.43,Hosteller,Madurai,Athletics,Music Club
+STU0333,Ishwarya Raj,Class 6-C,24-08-2013,27-02-2024,80,93,68,73,94,54,74.91,Day Scholar,Erode,Tennis,Quiz Club
+STU0334,Ananya Murugan,Class 10-A,10-02-2010,19-07-2024,94,24,83,51,93,58,95.92,Day Scholar,Coimbatore,Football,Literary Club
+STU0335,Manoj Senthil,Class 12-C,25-04-2013,21-04-2023,83,76,91,70,92,85,60.86,Hosteller,Coimbatore,Cricket,Music Club
+STU0336,Karthik Selvam,Class 9-A,28-12-2012,19-07-2024,99,59,79,89,95,61,66.87,Day Scholar,Trichy,Kho-Kho,Art Club
+STU0337,Charan Raman,Class 7-A,19-12-2009,18-02-2021,61,95,30,59,84,84,61.65,Day Scholar,Kanchipuram,Badminton,Robotics Club
+STU0338,Aadhya Venkatesh,Class 11-A,20-05-2011,10-10-2020,84,71,68,68,98,86,90.74,Day Scholar,Tirunelveli,Badminton,Science Club
+STU0339,Ranjith Senthil,Class 9-B,24-06-2015,23-01-2021,69,39,78,70,40,36,87.57,Day Scholar,Chennai,Badminton,None
+STU0340,Dharani Kumar,Class 6-C,28-06-2010,13-07-2022,75,30,82,92,59,77,81.54,Day Scholar,Hosur,None,Coding Club
+STU0341,Krishna Kumar,Class 9-A,23-02-2012,29-09-2023,78,76,68,43,77,76,73.8,Day Scholar,Erode,Tennis,Coding Club
+STU0342,Rohit Murugan,Class 7-B,25-07-2009,31-12-2025,87,55,40,76,34,98,68.31,Day Scholar,Thanjavur,Athletics,Coding Club
+STU0343,Deepa Venkatesh,Class 9-A,14-07-2009,25-08-2021,97,51,59,90,80,41,82.15,Hosteller,Salem,Table Tennis,Dance Club
+STU0344,Deepa Mohan,Class 12-C,24-03-2011,03-02-2024,73,86,66,80,57,96,69.79,Hosteller,Salem,Kho-Kho,Coding Club
+STU0345,Harini Babu,Class 12-A,14-06-2014,11-08-2019,28,90,72,29,54,99,62.34,Day Scholar,Erode,Badminton,Art Club
+STU0346,Vignesh Vel,Class 12-B,16-01-2015,20-06-2021,94,56,72,50,29,81,90.11,Day Scholar,Tirunelveli,None,Dance Club
+STU0347,Charan Vel,Class 8-A,14-08-2012,25-03-2023,83,95,98,76,54,24,66.18,Hosteller,Trichy,Tennis,Drama Club
+STU0348,Kishore Shankar,Class 9-C,12-03-2008,16-10-2024,29,46,24,59,69,24,65.56,Day Scholar,Kanchipuram,Tennis,Art Club
+STU0349,Surya Vel,Class 6-C,17-11-2008,06-03-2024,45,87,23,52,41,23,60.75,Day Scholar,Vellore,Cricket,Music Club
+STU0350,Divya Prasad,Class 7-C,22-05-2009,28-02-2026,72,82,89,86,46,50,86.82,Hosteller,Coimbatore,Badminton,Dance Club
+STU0351,Swathi Prasad,Class 9-A,06-12-2013,05-11-2021,95,94,78,56,31,77,66.87,Hosteller,Puducherry,Football,Music Club
+STU0352,Gokul Balaji,Class 7-A,27-05-2010,07-03-2025,81,95,96,30,74,88,90.46,Day Scholar,Coimbatore,Kho-Kho,Coding Club
+STU0353,Gokul Devi,Class 10-B,01-07-2011,23-05-2024,73,41,56,83,55,32,71.62,Day Scholar,Trichy,Football,Robotics Club
+STU0354,Arjun Babu,Class 6-C,28-06-2012,13-01-2026,75,46,81,95,87,100,74.55,Hosteller,Tirunelveli,Volleyball,Drama Club
+STU0355,Kishore Mohan,Class 12-B,22-03-2015,26-11-2023,56,35,90,51,21,81,98.01,Day Scholar,Thanjavur,Basketball,Literary Club
+STU0356,Deepa Venkatesh,Class 12-B,09-08-2015,18-09-2019,22,83,100,68,81,84,87.17,Hosteller,Salem,Table Tennis,Drama Club
+STU0357,Rahul Kumar,Class 6-B,08-11-2011,23-06-2025,78,52,41,69,60,58,99.63,Hosteller,Vellore,Kho-Kho,Art Club
+STU0358,Nithya Vel,Class 12-A,03-07-2011,11-10-2023,75,87,89,99,70,38,87.0,Day Scholar,Erode,Tennis,Literary Club
+STU0359,Krishna Srinivasan,Class 12-A,03-07-2008,07-11-2020,72,53,65,69,94,29,61.08,Day Scholar,Vellore,Football,Eco Club
+STU0360,Charan Kumar,Class 11-C,13-04-2009,14-03-2023,76,94,51,74,70,81,73.04,Day Scholar,Hosur,Kabaddi,Drama Club
+STU0361,Keerthana Mohan,Class 11-B,13-02-2009,21-09-2021,77,90,100,47,68,69,92.46,Day Scholar,Madurai,Table Tennis,Dance Club
+STU0362,Gokul Murugan,Class 12-A,07-06-2014,03-12-2023,80,72,91,82,77,70,63.79,Day Scholar,Salem,Football,Drama Club
+STU0363,Lokesh Krishnan,Class 12-B,30-03-2010,23-01-2024,86,92,97,67,84,99,80.61,Hosteller,Chennai,None,Quiz Club
+STU0364,Tamil Raj,Class 11-B,11-11-2012,05-10-2025,98,77,54,76,68,66,68.03,Day Scholar,Madurai,Volleyball,Literary Club
+STU0365,Hari Venkatesh,Class 8-B,14-09-2015,26-02-2026,85,77,52,67,28,67,64.54,Hosteller,Chennai,Volleyball,Dance Club
+STU0366,Deepa Raj,Class 11-A,21-05-2015,03-08-2025,54,76,92,55,96,65,91.29,Hosteller,Coimbatore,Athletics,Drama Club
+STU0367,Usha Reddy,Class 7-A,03-04-2009,25-10-2025,99,71,97,97,77,56,80.88,Day Scholar,Erode,Football,Music Club
+STU0368,Ishwarya Senthil,Class 10-B,18-12-2009,24-10-2021,57,77,65,100,73,73,70.17,Hosteller,Erode,Tennis,Art Club
+STU0369,Shalini Raj,Class 6-B,16-06-2011,26-08-2019,94,93,47,78,75,66,87.63,Hosteller,Salem,Tennis,Eco Club
+STU0370,Vignesh Raman,Class 9-A,17-05-2011,04-06-2020,99,100,47,44,80,71,68.42,Hosteller,Erode,None,Art Club
+STU0371,Charan Krishnan,Class 11-B,26-09-2012,16-07-2020,51,91,90,91,32,69,62.65,Day Scholar,Kanchipuram,Tennis,Art Club
+STU0372,Ananya Vel,Class 7-C,09-07-2011,14-11-2025,70,97,25,70,62,31,69.98,Hosteller,Kanchipuram,None,Eco Club
+STU0373,Lakshmi Raman,Class 6-A,15-01-2010,29-10-2023,60,39,66,31,38,42,97.92,Hosteller,Coimbatore,Kho-Kho,Music Club
+STU0374,Vishal Senthil,Class 11-A,23-11-2013,17-04-2024,74,47,63,68,62,76,64.74,Hosteller,Trichy,Basketball,Dance Club
+STU0375,Jeeva Krishnan,Class 8-B,20-08-2009,26-09-2019,55,24,94,63,95,88,84.71,Hosteller,Tirunelveli,Table Tennis,None
+STU0376,Arjun Devi,Class 6-B,15-11-2010,26-03-2020,88,52,36,69,92,85,62.08,Hosteller,Erode,Athletics,Drama Club
+STU0377,Deepa Krishnan,Class 7-C,17-06-2008,03-12-2025,83,66,21,81,67,77,80.15,Day Scholar,Erode,Badminton,Coding Club
+STU0378,Sanjay Krishnan,Class 11-B,04-03-2011,14-05-2022,92,78,24,25,28,34,72.52,Hosteller,Tirunelveli,Kho-Kho,Literary Club
+STU0379,Nithya Raj,Class 10-C,22-11-2012,18-09-2020,59,22,68,25,67,92,74.26,Day Scholar,Erode,Kho-Kho,Coding Club
+STU0380,Rithika Kumar,Class 11-B,26-07-2014,17-10-2021,93,30,41,57,87,56,90.67,Hosteller,Vellore,Football,Music Club
+STU0381,Aadhya Murugan,Class 10-C,18-08-2011,19-02-2021,50,52,78,96,86,47,93.23,Day Scholar,Erode,None,Dance Club
+STU0382,Kavya Raj,Class 6-C,18-07-2008,02-08-2022,44,55,26,44,91,91,81.89,Day Scholar,Coimbatore,Kabaddi,Dance Club
+STU0383,Karthik Mohan,Class 10-B,23-09-2009,06-10-2020,56,82,34,80,88,98,89.44,Day Scholar,Hosur,Table Tennis,Literary Club
+STU0384,Sanjay Babu,Class 10-B,26-09-2012,18-07-2023,93,93,81,91,68,55,85.23,Hosteller,Chennai,Tennis,Art Club
+STU0385,Bhavya Selvam,Class 9-A,10-05-2013,13-10-2022,52,82,56,96,66,87,93.66,Day Scholar,Salem,Table Tennis,Science Club
+STU0386,Aadhya Vel,Class 10-C,30-11-2008,22-01-2025,95,87,98,89,71,61,67.18,Hosteller,Vellore,Cricket,Coding Club
+STU0387,Ananya Krishnan,Class 7-A,14-05-2010,28-06-2021,40,94,92,88,69,89,77.35,Hosteller,Chennai,Kabaddi,Coding Club
+STU0388,Karthik Murugan,Class 7-B,17-01-2012,04-11-2023,63,59,77,100,55,79,65.4,Hosteller,Coimbatore,Cricket,Music Club
+STU0389,Meena Kumar,Class 7-A,29-08-2009,23-09-2024,78,62,75,20,47,76,66.64,Hosteller,Puducherry,Kho-Kho,Robotics Club
+STU0390,Rohit Devi,Class 9-A,23-07-2013,26-11-2025,93,81,53,77,85,48,61.48,Day Scholar,Erode,Tennis,Drama Club
+STU0391,Naveen Vel,Class 11-A,09-04-2015,03-02-2024,43,31,82,93,88,95,84.91,Day Scholar,Erode,Kabaddi,Science Club
+STU0392,Bala Shankar,Class 10-A,14-05-2015,31-08-2024,94,92,61,39,100,81,98.39,Day Scholar,Erode,Badminton,Drama Club
+STU0393,Divya Devi,Class 6-B,28-05-2011,17-01-2022,46,82,22,57,57,81,99.97,Day Scholar,Salem,Athletics,None
+STU0394,Yazhini Srinivasan,Class 6-B,22-11-2010,25-03-2023,95,34,98,23,89,56,90.8,Day Scholar,Madurai,Tennis,Drama Club
+STU0395,Pranav Vel,Class 7-C,22-04-2014,19-11-2019,98,96,59,71,57,78,85.2,Hosteller,Tirunelveli,Badminton,Dance Club
+STU0396,Hari Mohan,Class 9-B,29-08-2012,27-06-2019,76,92,98,76,58,76,71.47,Hosteller,Coimbatore,Basketball,Art Club
+STU0397,Priya Srinivasan,Class 6-A,03-08-2012,23-07-2024,30,99,21,52,91,38,77.7,Hosteller,Puducherry,Tennis,Coding Club
+STU0398,Jeeva Balaji,Class 10-A,24-08-2008,30-03-2025,28,89,94,91,84,89,95.43,Day Scholar,Puducherry,Athletics,Art Club
+STU0399,Surya Srinivasan,Class 12-C,24-04-2015,16-05-2024,74,97,83,68,82,83,76.18,Hosteller,Salem,Football,Science Club
+STU0400,Aadhya Kumar,Class 11-C,27-10-2011,17-03-2021,21,66,72,44,57,86,83.7,Hosteller,Salem,Kabaddi,Quiz Club
+STU0401,Keerthana Raman,Class 12-A,22-01-2008,30-06-2024,95,58,83,56,87,44,82.62,Hosteller,Tirunelveli,Basketball,Dance Club
+STU0402,Arjun Selvam,Class 10-B,19-01-2012,04-07-2024,80,54,83,85,75,87,93.14,Hosteller,Coimbatore,Cricket,Eco Club
+STU0403,Mithun Mohan,Class 10-B,05-08-2013,29-02-2024,58,82,57,79,97,37,92.95,Hosteller,Thanjavur,Badminton,Robotics Club
+STU0404,Rohit Balaji,Class 7-A,21-02-2012,29-09-2020,29,69,51,59,76,48,64.83,Day Scholar,Chennai,Tennis,Literary Club
+STU0405,Divya Babu,Class 11-A,03-06-2011,05-08-2022,69,71,80,88,24,79,60.08,Day Scholar,Coimbatore,Cricket,Eco Club
+STU0406,Bhavya Natarajan,Class 6-C,16-01-2013,13-06-2024,52,78,91,25,86,99,91.99,Day Scholar,Vellore,Volleyball,Eco Club
+STU0407,Raja Vel,Class 12-C,07-12-2015,17-11-2022,86,98,51,49,51,63,82.37,Hosteller,Kanchipuram,Tennis,Drama Club
+STU0408,Mithun Murugan,Class 11-C,01-10-2010,29-11-2025,51,61,83,66,23,68,84.27,Day Scholar,Kanchipuram,Cricket,Robotics Club
+STU0409,Harini Murugan,Class 7-B,12-08-2009,18-06-2021,70,42,32,24,70,57,72.27,Day Scholar,Hosur,Badminton,Science Club
+STU0410,Hari Raman,Class 11-A,31-07-2008,07-09-2021,85,80,40,51,87,65,80.34,Day Scholar,Coimbatore,Basketball,Science Club
+STU0411,Karthik Balaji,Class 10-C,22-03-2014,27-10-2020,100,77,85,50,89,60,63.36,Hosteller,Madurai,Athletics,Quiz Club
+STU0412,Naveen Krishnan,Class 12-B,03-01-2008,02-02-2020,82,60,86,22,57,96,70.04,Day Scholar,Tirunelveli,None,Music Club
+STU0413,Meena Prasad,Class 12-B,29-03-2014,19-07-2022,98,67,70,79,71,42,80.19,Day Scholar,Hosur,Athletics,None
+STU0414,Rohit Mohan,Class 6-A,01-07-2009,09-06-2019,84,48,54,92,57,74,96.06,Hosteller,Vellore,Tennis,Robotics Club
+STU0415,Lakshmi Babu,Class 6-A,28-09-2014,06-06-2023,51,93,72,46,69,64,64.99,Day Scholar,Trichy,Kho-Kho,Science Club
+STU0416,Krishna Raj,Class 8-C,17-08-2010,13-12-2024,67,81,26,86,88,54,79.71,Hosteller,Chennai,Volleyball,None
+STU0417,Usha Murugan,Class 7-B,06-08-2014,07-11-2020,51,94,89,85,50,91,70.38,Hosteller,Thanjavur,Basketball,Music Club
+STU0418,Kavya Balaji,Class 10-B,20-07-2015,30-12-2019,96,67,84,50,71,38,70.96,Day Scholar,Erode,Athletics,Quiz Club
+STU0419,Surya Balaji,Class 6-C,13-04-2008,11-12-2021,40,35,51,90,66,80,96.68,Hosteller,Madurai,Athletics,Dance Club
+STU0420,Akash Natarajan,Class 11-B,03-09-2010,27-03-2023,90,57,21,74,94,24,91.76,Hosteller,Kanchipuram,Table Tennis,Robotics Club
+STU0421,Akash Shankar,Class 12-B,10-09-2008,15-05-2024,68,75,44,88,89,32,85.05,Hosteller,Coimbatore,None,Science Club
+STU0422,Sanjay Vel,Class 9-B,16-03-2013,19-03-2024,56,39,87,62,58,66,86.04,Hosteller,Erode,Tennis,Art Club
+STU0423,Naveen Senthil,Class 7-C,26-12-2011,19-02-2024,82,98,87,99,35,71,69.73,Hosteller,Chennai,Badminton,Dance Club
+STU0424,Aarav Reddy,Class 12-A,07-04-2011,20-07-2023,85,77,62,62,71,35,86.31,Hosteller,Chennai,Volleyball,Quiz Club
+STU0425,Rohit Natarajan,Class 12-A,16-10-2015,27-08-2024,56,100,81,50,94,89,82.64,Day Scholar,Kanchipuram,Basketball,Eco Club
+STU0426,Naveen Natarajan,Class 10-A,23-05-2010,04-02-2022,20,59,62,98,51,29,68.21,Hosteller,Chennai,Athletics,Science Club
+STU0427,Harini Babu,Class 9-B,14-12-2009,13-11-2021,28,51,58,100,71,69,93.9,Hosteller,Madurai,Volleyball,Science Club
+STU0428,Krishna Srinivasan,Class 7-C,11-02-2013,08-02-2022,49,26,32,70,90,52,97.65,Day Scholar,Puducherry,Football,Coding Club
+STU0429,Dharani Devi,Class 9-A,28-11-2014,31-12-2025,58,87,63,100,92,60,91.58,Day Scholar,Trichy,Cricket,None
+STU0430,Vignesh Reddy,Class 9-C,14-09-2013,07-10-2023,80,81,87,100,52,62,79.94,Day Scholar,Madurai,Athletics,Art Club
+STU0431,Lokesh Prasad,Class 9-A,25-01-2013,16-01-2022,55,22,83,87,36,77,77.0,Day Scholar,Kanchipuram,Badminton,Art Club
+STU0432,Meena Balaji,Class 9-C,21-01-2013,28-08-2024,27,54,55,82,91,28,92.18,Day Scholar,Salem,Kabaddi,Science Club
+STU0433,Arun Murugan,Class 9-C,21-07-2010,08-07-2020,69,99,67,39,98,84,61.53,Hosteller,Tirunelveli,Volleyball,None
+STU0434,Vishal Shankar,Class 9-A,05-12-2010,05-07-2019,40,98,75,96,80,87,92.89,Day Scholar,Vellore,Table Tennis,None
+STU0435,Tamil Senthil,Class 9-B,13-03-2014,01-09-2024,78,51,86,69,50,92,91.68,Day Scholar,Trichy,Kabaddi,Eco Club
+STU0436,Gokul Balaji,Class 10-B,23-12-2011,23-03-2023,51,52,59,71,88,86,87.43,Day Scholar,Puducherry,Tennis,Dance Club
+STU0437,Divya Venkatesh,Class 6-C,20-05-2012,09-09-2023,78,69,23,61,42,51,81.38,Hosteller,Erode,Football,Art Club
+STU0438,Akshaya Venkatesh,Class 9-A,03-02-2010,24-08-2021,73,60,76,57,33,54,68.24,Day Scholar,Hosur,Tennis,Coding Club
+STU0439,Bala Prasad,Class 9-A,12-05-2012,23-09-2021,87,95,67,59,75,65,77.29,Day Scholar,Madurai,Table Tennis,Drama Club
+STU0440,Ranjith Mohan,Class 10-C,23-11-2013,07-02-2023,79,95,75,61,61,96,78.51,Hosteller,Puducherry,Football,Dance Club
+STU0441,Lakshmi Babu,Class 12-A,04-11-2012,19-07-2024,84,54,96,81,98,73,63.82,Hosteller,Trichy,Badminton,Dance Club
+STU0442,Pranav Natarajan,Class 10-B,09-11-2008,04-08-2020,54,93,74,75,75,28,78.04,Day Scholar,Trichy,Tennis,Science Club
+STU0443,Kavya Senthil,Class 11-A,14-04-2009,11-12-2020,78,46,60,20,61,84,78.45,Hosteller,Thanjavur,None,Music Club
+STU0444,Akshaya Kumar,Class 8-C,19-05-2012,20-04-2021,84,94,40,91,92,74,66.14,Day Scholar,Madurai,Volleyball,Science Club
+STU0445,Mithun Raj,Class 12-B,28-09-2015,14-11-2022,62,33,20,62,54,56,60.19,Day Scholar,Trichy,Volleyball,Art Club
+STU0446,Tamil Babu,Class 6-B,13-06-2015,18-04-2021,89,84,77,26,30,32,76.63,Hosteller,Tirunelveli,Athletics,Quiz Club
+STU0447,Aarav Venkatesh,Class 8-A,02-05-2015,17-12-2022,52,26,99,56,100,86,78.35,Hosteller,Hosur,Basketball,None
+STU0448,Arjun Natarajan,Class 12-C,03-12-2009,28-03-2022,94,92,71,49,74,97,87.85,Hosteller,Tirunelveli,Badminton,None
+STU0449,Rithika Kumar,Class 8-B,10-08-2010,22-01-2025,89,24,68,74,52,96,60.85,Hosteller,Salem,Volleyball,Eco Club
+STU0450,Usha Natarajan,Class 7-B,15-09-2014,22-05-2024,98,47,71,84,49,65,71.13,Hosteller,Thanjavur,Kabaddi,None
+STU0451,Rohit Venkatesh,Class 11-B,16-09-2015,28-11-2021,54,53,59,58,38,100,72.87,Day Scholar,Hosur,Cricket,Coding Club
+STU0452,Pranav Murugan,Class 10-B,17-04-2010,23-01-2022,88,68,90,100,73,60,89.0,Day Scholar,Madurai,Volleyball,Music Club
+STU0453,Meena Reddy,Class 12-B,12-04-2013,12-05-2024,55,69,59,61,79,68,89.4,Hosteller,Erode,Cricket,Eco Club
+STU0454,Rohit Mohan,Class 6-C,16-03-2012,19-09-2025,47,96,75,75,73,69,73.33,Day Scholar,Trichy,Badminton,Music Club
+STU0455,Akshaya Balaji,Class 6-B,10-03-2015,04-01-2026,33,99,96,95,94,53,99.7,Hosteller,Vellore,Table Tennis,Literary Club
+STU0456,Meena Raman,Class 8-B,20-04-2015,26-09-2023,91,39,93,27,92,50,79.11,Day Scholar,Hosur,None,Science Club
+STU0457,Shalini Venkatesh,Class 10-A,23-04-2009,13-06-2020,33,69,84,74,96,96,88.24,Hosteller,Thanjavur,Volleyball,Eco Club
+STU0458,Sathish Srinivasan,Class 7-B,30-12-2008,21-08-2020,25,50,44,83,68,60,70.76,Hosteller,Puducherry,Kabaddi,Dance Club
+STU0459,Deepa Selvam,Class 8-A,23-12-2009,13-08-2023,21,98,48,78,89,40,79.46,Hosteller,Erode,Table Tennis,Music Club
+STU0460,Jeeva Murugan,Class 10-A,11-11-2009,22-04-2020,81,56,28,50,100,56,64.99,Hosteller,Tirunelveli,Cricket,Drama Club
+STU0461,Yazhini Kumar,Class 10-A,14-05-2010,09-04-2025,71,71,65,92,89,31,84.12,Day Scholar,Erode,Kho-Kho,Art Club
+STU0462,Aarav Senthil,Class 10-A,14-09-2011,15-07-2020,67,98,73,93,80,92,89.01,Hosteller,Chennai,Table Tennis,Coding Club
+STU0463,Sathish Natarajan,Class 6-A,08-02-2010,13-06-2019,88,97,55,80,94,96,85.35,Hosteller,Puducherry,Athletics,None
+STU0464,Rohit Prasad,Class 7-B,25-04-2012,16-09-2022,93,79,34,80,65,60,94.79,Hosteller,Madurai,Kho-Kho,Coding Club
+STU0465,Arjun Balaji,Class 6-A,26-05-2015,01-06-2020,92,92,24,90,55,71,66.41,Day Scholar,Vellore,Basketball,Music Club
+STU0466,Vishal Murugan,Class 12-C,05-07-2010,15-11-2025,77,64,68,22,87,97,73.73,Day Scholar,Hosur,None,Quiz Club
+STU0467,Krishna Selvam,Class 9-B,20-04-2009,02-11-2025,74,70,93,58,88,56,98.16,Hosteller,Salem,Cricket,Drama Club
+STU0468,Rahul Senthil,Class 9-B,07-06-2012,08-07-2019,88,97,94,30,94,47,65.79,Day Scholar,Trichy,Kho-Kho,None
+STU0469,Naveen Prasad,Class 11-A,03-12-2015,06-11-2025,63,64,53,99,35,69,71.66,Day Scholar,Chennai,Athletics,Literary Club
+STU0470,Aadhya Devi,Class 10-A,24-05-2015,14-03-2021,43,94,94,75,30,87,73.5,Day Scholar,Tirunelveli,Kabaddi,Eco Club
+STU0471,Nandhini Babu,Class 12-A,09-08-2008,28-10-2022,97,40,43,56,59,77,65.5,Day Scholar,Salem,Badminton,Music Club
+STU0472,Akash Vel,Class 9-C,15-08-2015,20-04-2021,87,59,75,57,81,88,98.97,Hosteller,Chennai,Football,Quiz Club
+STU0473,Vishal Murugan,Class 10-C,07-12-2009,16-08-2023,50,22,40,82,87,86,94.6,Day Scholar,Salem,None,None
+STU0474,Surya Vel,Class 12-A,18-05-2013,26-06-2022,56,95,100,75,51,84,67.24,Day Scholar,Hosur,Kabaddi,Dance Club
+STU0475,Akshaya Reddy,Class 12-A,11-12-2013,22-11-2024,39,50,70,24,91,37,81.56,Hosteller,Trichy,None,Coding Club
+STU0476,Ananya Vel,Class 11-B,17-11-2010,22-10-2019,52,83,68,78,35,83,71.94,Hosteller,Vellore,None,Science Club
+STU0477,Rahul Reddy,Class 8-A,13-12-2011,18-03-2026,47,58,63,67,39,85,87.52,Hosteller,Trichy,Cricket,Music Club
+STU0478,Lakshmi Babu,Class 10-A,10-11-2010,03-05-2022,54,67,94,95,92,82,78.24,Day Scholar,Hosur,Kabaddi,Literary Club
+STU0479,Manoj Selvam,Class 9-B,13-10-2014,02-04-2021,67,23,76,40,49,67,99.7,Day Scholar,Vellore,Cricket,Drama Club
+STU0480,Ishwarya Kumar,Class 7-A,22-08-2009,11-12-2021,43,87,81,31,68,88,75.09,Hosteller,Vellore,Football,Coding Club
+STU0481,Charan Natarajan,Class 10-A,09-02-2009,14-12-2019,93,59,59,97,96,73,67.23,Day Scholar,Erode,Table Tennis,Literary Club
+STU0482,Sowmiya Balaji,Class 10-C,07-12-2015,17-03-2022,77,95,64,55,76,55,67.32,Day Scholar,Erode,Tennis,Dance Club
+STU0483,Akshaya Raman,Class 6-C,12-02-2015,21-04-2020,50,77,96,35,93,94,66.6,Hosteller,Coimbatore,Basketball,Quiz Club
+STU0484,Aarav Prasad,Class 6-A,25-05-2009,17-12-2023,52,60,98,64,31,82,88.57,Day Scholar,Trichy,None,Quiz Club
+STU0485,Meena Mohan,Class 10-A,18-12-2011,26-12-2019,99,68,68,50,86,69,66.82,Hosteller,Tirunelveli,None,Music Club
+STU0486,Aditya Senthil,Class 12-B,18-03-2015,12-03-2025,69,50,96,31,33,55,93.93,Hosteller,Tirunelveli,Cricket,Drama Club
+STU0487,Bhavya Balaji,Class 7-A,07-12-2013,07-03-2025,75,73,61,67,34,78,96.52,Hosteller,Madurai,None,Dance Club
+STU0488,Kishore Balaji,Class 6-A,24-10-2009,24-12-2020,32,71,60,80,67,35,74.37,Hosteller,Coimbatore,Volleyball,Dance Club
+STU0489,Sowmiya Selvam,Class 9-B,03-03-2014,20-12-2024,23,58,36,41,93,77,90.04,Day Scholar,Thanjavur,Kabaddi,Literary Club
+STU0490,Meena Mohan,Class 9-A,11-09-2014,03-07-2019,36,28,66,65,77,42,71.29,Hosteller,Vellore,Volleyball,Drama Club
+STU0491,Sanjay Babu,Class 8-A,26-02-2009,17-01-2025,67,59,89,47,33,94,99.7,Hosteller,Trichy,Football,Literary Club
+STU0492,Gokul Natarajan,Class 10-B,07-02-2015,03-01-2022,31,72,65,53,20,43,79.17,Day Scholar,Hosur,Cricket,Dance Club
+STU0493,Jeeva Mohan,Class 8-C,10-08-2011,16-10-2021,73,57,20,99,71,73,96.34,Hosteller,Vellore,Badminton,Dance Club
+STU0494,Rohit Srinivasan,Class 8-B,09-08-2014,06-05-2025,58,88,38,91,62,56,86.01,Hosteller,Kanchipuram,Kabaddi,Coding Club
+STU0495,Sanjay Natarajan,Class 9-A,02-11-2008,17-07-2025,33,66,98,85,73,95,89.01,Hosteller,Thanjavur,Badminton,Science Club
+STU0496,Akshaya Mohan,Class 10-B,25-04-2009,21-04-2024,58,86,42,46,93,82,80.95,Hosteller,Madurai,Table Tennis,Dance Club
+STU0497,Mithun Reddy,Class 10-A,03-11-2008,08-04-2021,50,26,50,100,82,83,82.5,Day Scholar,Vellore,Table Tennis,Dance Club
+STU0498,Gokul Shankar,Class 8-C,26-11-2010,25-10-2022,52,67,67,53,65,63,82.09,Hosteller,Trichy,Cricket,Quiz Club
+STU0499,Aarav Srinivasan,Class 12-C,29-12-2013,18-09-2020,58,89,53,50,64,67,84.21,Day Scholar,Tirunelveli,Football,Quiz Club
+STU0500,Aadhya Devi,Class 12-A,24-12-2009,14-04-2022,85,78,67,90,98,78,64.26,Day Scholar,Hosur,Basketball,None

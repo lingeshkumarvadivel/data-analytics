@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Onam Shopping Sales PowerBI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4b1f9254-dd7a-4b01-999f-de0357b00c4b"
+  }
+}
