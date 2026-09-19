@@ -1,0 +1,551 @@
+patient_id,age,gender,bmi,smoking_status,hypertension,diabetes,cholesterol_mg_dl,systolic_bp,fasting_glucose_mg_dl,max_heart_rate,chest_pain_type,family_history,exercise_angina,heart_disease_actual,risk_probability,risk_category,follow_up_required,hospital,prediction_date
+P0001,26,Female,24.7,Never,1,0,179,141,78,203,Typical Angina,0,1,0,0.168,Low,No,Madurai Medical Center,2026-08-11
+P0002,62,Male,38.7,Current,0,1,205,159,129,159,Asymptomatic,0,0,1,0.575,Medium,Yes,Salem Care Hospital,2026-01-14
+P0003,65,Male,32.3,Current,0,0,176,143,73,157,Non-anginal Pain,1,0,0,0.242,Low,No,Madurai Medical Center,2026-07-11
+P0004,48,Female,23.3,Former,0,0,204,114,96,163,Atypical Angina,1,0,1,0.183,Low,Yes,Salem Care Hospital,2026-04-21
+P0005,33,Male,33.1,Never,0,0,192,124,60,205,Asymptomatic,0,1,0,0.168,Low,No,Madurai Medical Center,2026-07-28
+P0006,56,Female,17.1,Current,0,0,220,133,93,156,Asymptomatic,0,0,0,0.327,Low,No,Chennai City Hospital,2026-01-17
+P0007,43,Female,33.7,Never,1,0,256,162,86,185,Non-anginal Pain,1,0,1,0.696,High,Yes,Coimbatore General Hospital,2026-07-27
+P0008,70,Male,29.7,Never,1,1,254,188,123,152,Atypical Angina,1,0,1,0.812,High,Yes,Madurai Medical Center,2026-08-04
+P0009,33,Female,36.4,Never,0,0,226,118,72,181,Non-anginal Pain,0,0,0,0.19,Low,No,Salem Care Hospital,2026-08-15
+P0010,65,Female,19.2,Current,1,0,250,167,79,164,Asymptomatic,0,0,1,0.734,High,Yes,Madurai Medical Center,2026-04-02
+P0011,77,Female,25.8,Never,0,0,240,131,60,168,Asymptomatic,1,0,1,0.652,Medium,Yes,Madurai Medical Center,2026-08-13
+P0012,55,Male,30.5,Never,0,0,148,117,60,163,Non-anginal Pain,0,1,0,0.125,Low,No,Chennai City Hospital,2026-03-12
+P0013,51,Female,28.6,Former,0,0,208,162,60,192,Asymptomatic,0,0,0,0.342,Medium,No,Salem Care Hospital,2026-02-17
+P0014,67,Male,28.4,Never,1,1,253,166,115,161,Atypical Angina,1,0,1,0.879,High,Yes,Coimbatore General Hospital,2026-03-15
+P0015,67,Male,33.3,Current,1,0,186,165,87,159,Non-anginal Pain,0,0,0,0.451,Medium,No,Chennai City Hospital,2026-06-13
+P0016,41,Male,23.8,Never,0,1,170,137,126,161,Typical Angina,1,1,0,0.3,Low,No,Madurai Medical Center,2026-07-11
+P0017,66,Male,24.5,Current,0,0,210,134,78,172,Non-anginal Pain,1,0,1,0.458,Medium,Yes,Salem Care Hospital,2026-03-17
+P0018,42,Female,26.2,Never,1,0,138,151,94,196,Asymptomatic,0,0,0,0.121,Low,No,Chennai City Hospital,2026-03-10
+P0019,32,Female,21.1,Former,0,0,196,90,82,196,Non-anginal Pain,1,0,0,0.163,Low,No,Madurai Medical Center,2026-06-16
+P0020,28,Female,23.2,Former,0,0,190,104,85,202,Non-anginal Pain,1,1,0,0.18,Low,No,Madurai Medical Center,2026-01-13
+P0021,45,Female,28.9,Never,1,0,277,161,94,188,Atypical Angina,0,1,1,0.781,High,Yes,Madurai Medical Center,2026-05-19
+P0022,70,Female,26.5,Former,0,0,204,148,63,154,Atypical Angina,1,1,1,0.535,Medium,Yes,Salem Care Hospital,2026-04-05
+P0023,64,Female,27.3,Never,0,0,270,160,100,177,Typical Angina,0,0,1,0.729,High,Yes,Madurai Medical Center,2026-04-09
+P0024,58,Female,28.9,Former,0,0,225,138,88,142,Asymptomatic,0,0,0,0.344,Medium,No,Madurai Medical Center,2026-06-30
+P0025,39,Female,25.3,Never,1,0,143,158,72,161,Atypical Angina,0,0,0,0.121,Low,No,Salem Care Hospital,2026-04-04
+P0026,50,Male,27.2,Never,0,0,223,132,90,169,Asymptomatic,0,0,0,0.22,Low,No,Coimbatore General Hospital,2026-04-12
+P0027,34,Female,23.9,Former,1,0,221,156,93,198,Asymptomatic,1,1,1,0.54,Medium,Yes,Madurai Medical Center,2026-03-02
+P0028,51,Male,30.8,Former,0,0,176,125,76,161,Non-anginal Pain,0,0,0,0.175,Low,No,Chennai City Hospital,2026-07-11
+P0029,57,Male,22.8,Never,0,1,234,138,116,166,Non-anginal Pain,0,0,1,0.418,Medium,Yes,Madurai Medical Center,2026-06-01
+P0030,73,Female,31.7,Former,0,0,207,137,87,149,Asymptomatic,0,0,0,0.42,Medium,No,Salem Care Hospital,2026-01-06
+P0031,51,Female,24.0,Never,1,0,210,151,89,142,Asymptomatic,0,0,0,0.244,Low,No,Coimbatore General Hospital,2026-03-04
+P0032,44,Male,23.2,Former,0,0,196,135,89,146,Asymptomatic,0,0,0,0.136,Low,No,Salem Care Hospital,2026-01-17
+P0033,38,Male,29.6,Never,0,0,148,117,65,158,Atypical Angina,0,1,0,0.153,Low,No,Coimbatore General Hospital,2026-02-14
+P0034,74,Male,26.7,Never,0,0,217,149,74,162,Asymptomatic,1,0,1,0.572,Medium,Yes,Madurai Medical Center,2026-06-28
+P0035,68,Female,24.9,Former,0,0,213,151,73,150,Asymptomatic,1,1,0,0.636,Medium,No,Chennai City Hospital,2026-06-19
+P0036,64,Female,19.2,Never,1,0,237,164,89,150,Atypical Angina,1,0,0,0.703,High,Yes,Coimbatore General Hospital,2026-02-23
+P0037,30,Male,29.9,Never,1,1,220,153,93,178,Typical Angina,1,1,0,0.622,Medium,No,Madurai Medical Center,2026-08-25
+P0038,25,Female,25.8,Former,1,1,193,144,129,172,Atypical Angina,1,0,0,0.325,Low,No,Coimbatore General Hospital,2026-08-14
+P0039,30,Female,35.7,Current,1,0,128,150,68,181,Non-anginal Pain,0,0,0,0.149,Low,No,Coimbatore General Hospital,2026-06-13
+P0040,40,Female,38.7,Never,0,0,150,128,81,175,Atypical Angina,0,0,0,0.119,Low,No,Salem Care Hospital,2026-06-16
+P0041,66,Male,20.7,Never,0,0,200,128,79,136,Non-anginal Pain,1,0,0,0.282,Low,No,Salem Care Hospital,2026-07-07
+P0042,74,Male,26.1,Current,0,0,247,143,92,138,Atypical Angina,1,0,1,0.677,High,Yes,Coimbatore General Hospital,2026-05-31
+P0043,63,Male,31.1,Never,0,0,217,135,90,163,Atypical Angina,0,0,0,0.327,Low,No,Salem Care Hospital,2026-07-25
+P0044,69,Female,26.9,Never,0,0,169,145,68,159,Typical Angina,0,0,0,0.206,Low,No,Salem Care Hospital,2026-08-30
+P0045,27,Male,24.0,Former,0,0,144,119,75,196,Asymptomatic,0,0,0,0.137,Low,No,Madurai Medical Center,2026-04-07
+P0046,35,Female,17.0,Never,1,1,226,131,116,177,Atypical Angina,0,1,1,0.33,Low,Yes,Coimbatore General Hospital,2026-07-04
+P0047,61,Female,19.2,Never,1,0,192,168,70,176,Non-anginal Pain,0,0,0,0.228,Low,No,Coimbatore General Hospital,2026-01-11
+P0048,42,Female,23.6,Current,0,0,153,127,72,162,Atypical Angina,0,0,0,0.147,Low,No,Madurai Medical Center,2026-03-19
+P0049,51,Male,22.6,Current,1,0,198,154,75,185,Non-anginal Pain,1,0,0,0.355,Medium,No,Madurai Medical Center,2026-02-24
+P0050,77,Male,31.8,Never,1,0,228,162,81,163,Atypical Angina,0,1,1,0.706,High,Yes,Coimbatore General Hospital,2026-07-08
+P0051,42,Female,33.3,Never,0,0,192,141,67,189,Typical Angina,0,0,0,0.214,Low,No,Chennai City Hospital,2026-02-27
+P0052,44,Male,26.0,Never,0,1,174,147,130,184,Typical Angina,0,0,0,0.199,Low,No,Chennai City Hospital,2026-04-20
+P0053,26,Female,31.2,Never,0,0,145,127,78,205,Asymptomatic,1,1,0,0.172,Low,No,Coimbatore General Hospital,2026-08-31
+P0054,38,Female,18.9,Never,0,0,227,144,63,176,Atypical Angina,0,1,0,0.288,Low,No,Madurai Medical Center,2026-05-21
+P0055,65,Female,32.3,Never,0,0,227,138,60,149,Non-anginal Pain,0,0,0,0.363,Medium,No,Salem Care Hospital,2026-06-18
+P0056,47,Male,30.9,Current,1,0,199,146,81,155,Non-anginal Pain,1,0,0,0.407,Medium,No,Coimbatore General Hospital,2026-05-13
+P0057,71,Male,30.9,Current,0,0,231,146,75,171,Typical Angina,0,0,1,0.637,Medium,Yes,Chennai City Hospital,2026-08-23
+P0058,43,Female,28.1,Current,0,0,157,121,60,185,Asymptomatic,0,0,0,0.175,Low,No,Chennai City Hospital,2026-05-24
+P0059,74,Female,21.1,Never,0,0,269,143,80,156,Typical Angina,1,0,1,0.797,High,Yes,Madurai Medical Center,2026-04-06
+P0060,73,Male,29.7,Never,0,0,226,140,75,139,Non-anginal Pain,1,1,1,0.658,Medium,Yes,Coimbatore General Hospital,2026-05-22
+P0061,34,Female,25.7,Never,0,0,169,122,60,181,Non-anginal Pain,0,0,0,0.087,Low,No,Chennai City Hospital,2026-05-11
+P0062,61,Male,24.5,Current,0,0,269,125,85,134,Non-anginal Pain,0,1,1,0.692,High,Yes,Salem Care Hospital,2026-08-28
+P0063,73,Male,23.5,Former,0,0,237,139,72,167,Asymptomatic,1,0,1,0.699,High,Yes,Coimbatore General Hospital,2026-01-02
+P0064,59,Male,29.3,Never,0,1,263,123,127,150,Non-anginal Pain,0,0,1,0.63,Medium,Yes,Salem Care Hospital,2026-04-27
+P0065,55,Male,21.9,Former,0,0,235,141,94,140,Non-anginal Pain,0,0,1,0.401,Medium,Yes,Coimbatore General Hospital,2026-04-10
+P0066,54,Female,22.9,Current,0,1,279,149,108,180,Asymptomatic,1,0,1,0.755,High,Yes,Madurai Medical Center,2026-01-12
+P0067,72,Male,32.3,Never,0,0,242,149,95,146,Non-anginal Pain,0,0,1,0.626,Medium,Yes,Coimbatore General Hospital,2026-07-08
+P0068,75,Female,23.2,Never,0,0,206,131,79,163,Atypical Angina,1,0,0,0.346,Medium,No,Madurai Medical Center,2026-03-01
+P0069,31,Female,24.9,Never,1,0,214,141,91,175,Asymptomatic,0,0,0,0.239,Low,No,Chennai City Hospital,2026-02-14
+P0070,69,Female,22.5,Never,0,0,217,132,79,159,Typical Angina,1,0,0,0.496,Medium,No,Coimbatore General Hospital,2026-01-25
+P0071,65,Female,33.9,Former,0,0,191,126,111,148,Typical Angina,0,0,0,0.372,Medium,No,Madurai Medical Center,2026-05-22
+P0072,61,Male,18.3,Never,0,0,250,148,70,148,Asymptomatic,1,1,1,0.759,High,Yes,Chennai City Hospital,2026-03-18
+P0073,54,Male,22.7,Never,1,0,179,152,71,161,Atypical Angina,0,0,1,0.212,Low,Yes,Salem Care Hospital,2026-06-21
+P0074,51,Male,23.5,Former,0,0,223,125,83,165,Non-anginal Pain,0,0,0,0.266,Low,No,Chennai City Hospital,2026-03-01
+P0075,70,Female,21.2,Former,1,0,242,194,70,180,Non-anginal Pain,1,0,0,0.826,High,Yes,Chennai City Hospital,2026-05-19
+P0076,29,Male,30.0,Current,0,1,189,114,129,204,Asymptomatic,0,1,0,0.242,Low,No,Salem Care Hospital,2026-06-17
+P0077,71,Female,26.5,Never,1,1,289,176,120,160,Typical Angina,1,0,1,0.811,High,Yes,Coimbatore General Hospital,2026-05-02
+P0078,77,Male,26.3,Current,0,0,205,147,94,157,Non-anginal Pain,0,0,1,0.359,Medium,Yes,Coimbatore General Hospital,2026-08-28
+P0079,61,Female,33.2,Former,1,0,240,167,86,155,Asymptomatic,0,0,1,0.769,High,Yes,Coimbatore General Hospital,2026-05-24
+P0080,47,Male,22.8,Never,0,0,133,145,75,171,Asymptomatic,0,1,0,0.141,Low,No,Salem Care Hospital,2026-05-27
+P0081,64,Female,31.0,Current,0,0,241,136,82,178,Asymptomatic,0,0,0,0.557,Medium,No,Salem Care Hospital,2026-04-10
+P0082,26,Female,29.8,Never,0,0,161,104,97,167,Atypical Angina,0,0,0,0.149,Low,No,Madurai Medical Center,2026-04-08
+P0083,75,Female,23.4,Never,1,0,248,155,90,147,Non-anginal Pain,0,0,1,0.626,Medium,Yes,Chennai City Hospital,2026-08-04
+P0084,56,Female,28.7,Former,0,1,232,139,127,171,Asymptomatic,1,0,1,0.617,Medium,Yes,Salem Care Hospital,2026-04-24
+P0085,32,Male,22.5,Never,0,0,133,126,91,188,Atypical Angina,0,0,0,0.146,Low,No,Madurai Medical Center,2026-09-04
+P0086,68,Female,26.0,Current,0,0,193,160,87,129,Non-anginal Pain,0,0,0,0.3,Low,No,Chennai City Hospital,2026-05-09
+P0087,35,Male,23.6,Never,0,0,172,126,64,194,Asymptomatic,0,0,0,0.114,Low,No,Salem Care Hospital,2026-08-31
+P0088,80,Male,32.0,Never,0,0,250,161,81,138,Asymptomatic,1,0,1,0.662,High,Yes,Chennai City Hospital,2026-08-03
+P0089,36,Male,29.3,Current,1,0,238,139,67,182,Typical Angina,0,0,0,0.525,Medium,No,Salem Care Hospital,2026-07-03
+P0090,33,Female,25.5,Never,0,0,193,121,95,181,Asymptomatic,0,0,0,0.176,Low,No,Madurai Medical Center,2026-01-04
+P0091,32,Male,30.2,Current,0,1,188,118,127,199,Asymptomatic,1,1,0,0.331,Medium,No,Chennai City Hospital,2026-06-20
+P0092,63,Male,18.3,Current,0,0,245,156,60,155,Non-anginal Pain,1,0,0,0.707,High,Yes,Chennai City Hospital,2026-08-01
+P0093,73,Male,22.9,Never,0,0,228,126,66,155,Atypical Angina,0,0,0,0.311,Low,No,Chennai City Hospital,2026-07-07
+P0094,72,Female,30.2,Never,0,0,268,128,74,150,Non-anginal Pain,1,1,1,0.766,High,Yes,Chennai City Hospital,2026-07-10
+P0095,56,Male,29.9,Never,0,0,120,144,98,177,Asymptomatic,0,0,0,0.061,Low,No,Coimbatore General Hospital,2026-06-23
+P0096,68,Female,27.2,Current,0,0,159,156,96,180,Asymptomatic,1,0,0,0.27,Low,No,Chennai City Hospital,2026-02-04
+P0097,52,Female,24.7,Current,1,0,211,151,89,161,Non-anginal Pain,0,1,0,0.429,Medium,No,Chennai City Hospital,2026-04-16
+P0098,45,Male,24.4,Current,1,0,189,128,75,176,Non-anginal Pain,0,1,0,0.308,Low,No,Chennai City Hospital,2026-07-16
+P0099,32,Male,23.1,Never,1,0,166,146,94,192,Atypical Angina,0,0,0,0.114,Low,No,Chennai City Hospital,2026-09-07
+P0100,63,Male,31.8,Never,0,0,272,148,70,175,Atypical Angina,0,1,0,0.786,High,Yes,Madurai Medical Center,2026-02-10
+P0101,62,Female,38.3,Former,0,0,250,116,74,156,Asymptomatic,0,1,1,0.642,Medium,Yes,Madurai Medical Center,2026-05-25
+P0102,65,Male,29.9,Never,0,0,285,134,69,151,Atypical Angina,1,0,1,0.702,High,Yes,Coimbatore General Hospital,2026-08-25
+P0103,51,Female,31.5,Never,0,0,230,137,73,168,Non-anginal Pain,0,0,0,0.308,Low,No,Madurai Medical Center,2026-01-27
+P0104,32,Male,22.4,Never,0,0,133,121,60,194,Asymptomatic,0,1,0,0.148,Low,No,Coimbatore General Hospital,2026-06-05
+P0105,60,Female,29.3,Never,0,0,204,108,93,165,Atypical Angina,0,0,0,0.241,Low,No,Chennai City Hospital,2026-05-21
+P0106,73,Female,21.7,Never,0,0,213,134,84,159,Asymptomatic,1,0,0,0.39,Medium,No,Chennai City Hospital,2026-04-16
+P0107,77,Female,31.5,Never,1,1,275,175,151,166,Non-anginal Pain,1,0,1,0.844,High,Yes,Chennai City Hospital,2026-04-21
+P0108,74,Female,23.8,Never,0,0,206,143,73,184,Typical Angina,1,1,1,0.601,Medium,Yes,Salem Care Hospital,2026-05-27
+P0109,71,Male,31.1,Never,0,0,228,164,75,154,Atypical Angina,0,0,1,0.505,Medium,Yes,Madurai Medical Center,2026-05-13
+P0110,79,Male,25.0,Current,0,1,198,142,113,165,Asymptomatic,0,0,1,0.521,Medium,Yes,Salem Care Hospital,2026-07-30
+P0111,46,Male,33.0,Current,0,0,171,137,94,185,Atypical Angina,0,0,0,0.187,Low,No,Coimbatore General Hospital,2026-02-07
+P0112,31,Male,33.3,Never,0,0,156,127,91,179,Typical Angina,1,1,0,0.128,Low,No,Coimbatore General Hospital,2026-08-22
+P0113,67,Female,31.6,Current,0,1,258,129,121,181,Atypical Angina,1,0,0,0.799,High,Yes,Coimbatore General Hospital,2026-06-10
+P0114,40,Female,28.4,Never,0,0,157,112,85,182,Non-anginal Pain,1,0,0,0.164,Low,No,Salem Care Hospital,2026-05-10
+P0115,75,Female,30.3,Former,0,0,239,148,63,147,Non-anginal Pain,0,0,1,0.554,Medium,Yes,Salem Care Hospital,2026-04-23
+P0116,54,Male,25.9,Never,0,0,187,127,62,168,Atypical Angina,1,1,0,0.259,Low,No,Salem Care Hospital,2026-06-25
+P0117,42,Male,32.1,Former,1,1,163,164,111,151,Non-anginal Pain,0,1,0,0.325,Low,No,Madurai Medical Center,2026-01-26
+P0118,66,Male,27.7,Never,0,0,248,151,76,178,Typical Angina,1,1,1,0.8,High,Yes,Salem Care Hospital,2026-03-10
+P0119,49,Male,26.7,Never,1,1,252,158,135,195,Atypical Angina,0,0,1,0.702,High,Yes,Salem Care Hospital,2026-08-17
+P0120,56,Male,33.9,Never,0,0,216,135,98,184,Non-anginal Pain,0,0,0,0.318,Low,No,Madurai Medical Center,2026-06-29
+P0121,60,Female,25.4,Former,1,0,244,141,92,143,Non-anginal Pain,1,0,1,0.684,High,Yes,Madurai Medical Center,2026-07-19
+P0122,27,Female,31.1,Never,0,0,201,123,72,181,Non-anginal Pain,1,0,0,0.172,Low,No,Salem Care Hospital,2026-06-02
+P0123,49,Female,29.7,Never,0,1,260,117,122,171,Non-anginal Pain,1,0,1,0.613,Medium,Yes,Salem Care Hospital,2026-03-03
+P0124,58,Male,27.6,Current,0,0,190,136,62,150,Atypical Angina,1,0,0,0.227,Low,No,Salem Care Hospital,2026-03-26
+P0125,61,Female,23.0,Former,0,1,162,145,107,159,Typical Angina,0,0,0,0.174,Low,No,Madurai Medical Center,2026-05-21
+P0126,66,Male,37.6,Never,0,0,241,149,86,151,Asymptomatic,1,1,1,0.762,High,Yes,Madurai Medical Center,2026-08-08
+P0127,30,Male,29.0,Current,1,0,203,157,86,193,Non-anginal Pain,0,1,1,0.378,Medium,Yes,Coimbatore General Hospital,2026-01-11
+P0128,43,Male,24.1,Never,0,0,180,138,81,192,Atypical Angina,0,1,0,0.172,Low,No,Salem Care Hospital,2026-02-22
+P0129,43,Female,35.0,Never,0,0,125,130,76,188,Non-anginal Pain,0,0,0,0.11,Low,No,Coimbatore General Hospital,2026-09-11
+P0130,56,Female,26.4,Never,0,0,191,122,96,176,Atypical Angina,0,0,0,0.183,Low,No,Salem Care Hospital,2026-02-07
+P0131,30,Male,22.9,Never,0,0,158,132,77,177,Atypical Angina,1,1,0,0.157,Low,No,Salem Care Hospital,2026-03-08
+P0132,52,Male,17.0,Former,0,0,210,159,99,168,Atypical Angina,0,0,0,0.226,Low,No,Chennai City Hospital,2026-04-04
+P0133,77,Female,27.6,Never,0,0,305,144,67,179,Atypical Angina,1,1,1,0.886,High,Yes,Chennai City Hospital,2026-07-05
+P0134,75,Female,25.2,Former,0,0,264,132,60,166,Typical Angina,0,0,1,0.689,High,Yes,Madurai Medical Center,2026-04-21
+P0135,53,Male,34.0,Never,0,0,214,127,95,194,Non-anginal Pain,0,1,1,0.279,Low,Yes,Madurai Medical Center,2026-08-10
+P0136,53,Male,29.2,Never,1,0,180,149,80,193,Non-anginal Pain,0,0,0,0.204,Low,No,Madurai Medical Center,2026-04-26
+P0137,69,Male,25.0,Never,0,0,165,146,67,171,Asymptomatic,0,0,0,0.172,Low,No,Salem Care Hospital,2026-06-17
+P0138,73,Female,17.5,Never,0,1,263,145,108,165,Non-anginal Pain,0,1,1,0.769,High,Yes,Coimbatore General Hospital,2026-06-19
+P0139,34,Female,27.0,Former,0,0,165,127,98,195,Typical Angina,0,0,0,0.142,Low,No,Coimbatore General Hospital,2026-04-24
+P0140,25,Female,29.9,Current,0,0,133,123,65,181,Atypical Angina,0,1,0,0.183,Low,No,Salem Care Hospital,2026-03-14
+P0141,37,Female,24.6,Never,0,0,131,115,85,187,Typical Angina,1,0,0,0.139,Low,No,Salem Care Hospital,2026-04-20
+P0142,56,Male,17.8,Never,0,1,235,136,120,170,Non-anginal Pain,0,0,1,0.352,Medium,Yes,Salem Care Hospital,2026-02-25
+P0143,54,Female,37.6,Never,0,0,239,136,94,155,Non-anginal Pain,1,0,1,0.463,Medium,Yes,Chennai City Hospital,2026-04-11
+P0144,53,Female,32.7,Never,1,0,191,150,78,164,Non-anginal Pain,0,1,0,0.378,Medium,No,Coimbatore General Hospital,2026-04-14
+P0145,32,Female,19.3,Never,0,0,216,125,73,189,Asymptomatic,0,1,1,0.206,Low,Yes,Madurai Medical Center,2026-08-17
+P0146,79,Male,31.4,Never,0,0,232,140,76,149,Non-anginal Pain,1,0,1,0.645,Medium,Yes,Coimbatore General Hospital,2026-07-05
+P0147,47,Male,21.3,Current,1,0,180,167,86,197,Asymptomatic,0,1,1,0.352,Medium,Yes,Salem Care Hospital,2026-06-23
+P0148,43,Female,33.6,Never,0,0,166,108,70,195,Asymptomatic,0,1,0,0.158,Low,No,Salem Care Hospital,2026-05-14
+P0149,53,Male,30.9,Never,1,1,271,165,137,166,Typical Angina,1,0,1,0.799,High,Yes,Madurai Medical Center,2026-04-09
+P0150,32,Female,22.5,Never,0,1,203,126,98,190,Typical Angina,0,0,0,0.094,Low,No,Salem Care Hospital,2026-06-15
+P0151,41,Female,32.0,Former,0,1,183,140,117,183,Non-anginal Pain,0,1,0,0.254,Low,No,Salem Care Hospital,2026-08-15
+P0152,29,Male,31.0,Current,0,0,120,100,97,183,Atypical Angina,0,0,0,0.09,Low,No,Coimbatore General Hospital,2026-05-04
+P0153,52,Female,25.4,Never,0,0,190,134,79,183,Atypical Angina,0,1,0,0.171,Low,No,Salem Care Hospital,2026-02-24
+P0154,59,Female,36.2,Former,1,1,282,163,101,152,Asymptomatic,0,0,1,0.752,High,Yes,Coimbatore General Hospital,2026-04-12
+P0155,80,Male,31.6,Former,1,0,236,161,75,157,Asymptomatic,1,1,1,0.741,High,Yes,Coimbatore General Hospital,2026-07-28
+P0156,62,Male,31.2,Never,0,0,221,144,61,168,Non-anginal Pain,0,0,1,0.402,Medium,Yes,Salem Care Hospital,2026-04-01
+P0157,76,Female,20.3,Former,1,0,208,178,82,188,Asymptomatic,0,0,0,0.609,Medium,No,Madurai Medical Center,2026-02-25
+P0158,27,Male,30.3,Former,0,0,175,107,95,184,Atypical Angina,0,0,0,0.149,Low,No,Chennai City Hospital,2026-07-17
+P0159,37,Male,25.1,Current,0,0,256,108,82,175,Asymptomatic,1,0,0,0.436,Medium,No,Coimbatore General Hospital,2026-04-05
+P0160,69,Female,28.4,Former,0,0,210,141,98,167,Atypical Angina,0,0,1,0.38,Medium,Yes,Coimbatore General Hospital,2026-04-09
+P0161,26,Male,28.5,Never,1,1,238,122,101,160,Asymptomatic,0,0,0,0.362,Medium,No,Coimbatore General Hospital,2026-03-08
+P0162,33,Female,35.0,Never,0,1,241,157,111,190,Non-anginal Pain,0,0,0,0.387,Medium,No,Coimbatore General Hospital,2026-03-24
+P0163,41,Female,30.5,Current,1,0,191,153,82,179,Atypical Angina,0,0,0,0.324,Low,No,Coimbatore General Hospital,2026-03-24
+P0164,28,Female,24.3,Never,0,0,213,125,60,205,Asymptomatic,0,0,0,0.161,Low,No,Chennai City Hospital,2026-07-27
+P0165,56,Female,27.3,Current,0,0,197,139,84,164,Asymptomatic,1,0,0,0.316,Low,No,Coimbatore General Hospital,2026-06-28
+P0166,28,Male,17.6,Current,0,0,202,122,90,195,Non-anginal Pain,0,0,0,0.123,Low,No,Chennai City Hospital,2026-05-25
+P0167,63,Male,36.3,Never,1,1,267,178,107,180,Typical Angina,1,1,1,0.903,High,Yes,Coimbatore General Hospital,2026-06-11
+P0168,74,Male,23.8,Never,0,0,261,141,74,144,Asymptomatic,0,0,1,0.661,High,Yes,Chennai City Hospital,2026-03-04
+P0169,49,Female,20.8,Never,0,0,148,142,74,164,Typical Angina,1,0,0,0.136,Low,No,Coimbatore General Hospital,2026-07-14
+P0170,74,Female,34.8,Current,0,0,238,144,68,157,Non-anginal Pain,0,0,1,0.697,High,Yes,Madurai Medical Center,2026-02-24
+P0171,39,Male,31.8,Former,0,1,157,129,103,178,Non-anginal Pain,0,0,0,0.18,Low,No,Chennai City Hospital,2026-08-30
+P0172,63,Male,25.2,Never,0,0,232,124,90,142,Non-anginal Pain,0,1,1,0.481,Medium,Yes,Salem Care Hospital,2026-08-27
+P0173,48,Male,31.8,Current,0,0,205,135,70,203,Non-anginal Pain,1,0,1,0.326,Low,Yes,Chennai City Hospital,2026-07-10
+P0174,79,Female,31.9,Former,0,0,255,164,74,136,Non-anginal Pain,0,0,1,0.745,High,Yes,Coimbatore General Hospital,2026-01-14
+P0175,50,Female,27.8,Never,1,0,206,152,75,166,Asymptomatic,1,1,1,0.503,Medium,Yes,Coimbatore General Hospital,2026-06-03
+P0176,35,Male,26.4,Never,0,1,216,115,128,185,Atypical Angina,1,0,1,0.282,Low,Yes,Coimbatore General Hospital,2026-08-15
+P0177,27,Male,25.6,Never,0,0,173,108,74,186,Non-anginal Pain,0,1,0,0.124,Low,No,Madurai Medical Center,2026-04-29
+P0178,30,Female,24.5,Never,0,0,210,125,72,198,Non-anginal Pain,1,1,0,0.175,Low,No,Chennai City Hospital,2026-02-25
+P0179,36,Male,26.0,Never,1,0,238,133,98,172,Atypical Angina,0,0,0,0.307,Low,No,Salem Care Hospital,2026-02-08
+P0180,28,Male,22.6,Current,0,1,254,134,124,205,Non-anginal Pain,0,0,0,0.425,Medium,No,Coimbatore General Hospital,2026-06-10
+P0181,76,Male,29.9,Never,0,0,250,139,113,150,Atypical Angina,1,0,1,0.739,High,Yes,Madurai Medical Center,2026-01-15
+P0182,31,Male,26.3,Former,1,0,174,151,79,192,Asymptomatic,0,0,0,0.125,Low,No,Chennai City Hospital,2026-02-02
+P0183,28,Male,32.8,Never,0,1,221,123,119,188,Non-anginal Pain,0,0,0,0.158,Low,No,Chennai City Hospital,2026-03-22
+P0184,43,Female,30.7,Current,0,0,217,125,84,187,Typical Angina,0,1,0,0.488,Medium,No,Chennai City Hospital,2026-08-04
+P0185,66,Female,31.5,Never,0,0,224,139,66,148,Non-anginal Pain,0,1,0,0.494,Medium,No,Coimbatore General Hospital,2026-04-03
+P0186,30,Male,29.7,Former,0,0,215,107,86,185,Non-anginal Pain,1,0,0,0.22,Low,No,Coimbatore General Hospital,2026-03-31
+P0187,34,Male,23.4,Never,1,0,185,162,69,205,Non-anginal Pain,0,0,0,0.208,Low,No,Coimbatore General Hospital,2026-04-07
+P0188,66,Male,36.9,Former,0,0,242,138,101,170,Typical Angina,0,0,0,0.652,Medium,No,Coimbatore General Hospital,2026-03-31
+P0189,37,Male,26.6,Current,1,0,160,149,64,184,Atypical Angina,1,0,0,0.239,Low,No,Salem Care Hospital,2026-01-28
+P0190,48,Male,34.5,Never,1,0,227,157,68,182,Non-anginal Pain,1,0,0,0.597,Medium,No,Salem Care Hospital,2026-03-11
+P0191,55,Male,19.2,Former,0,0,274,134,66,205,Non-anginal Pain,1,0,0,0.605,Medium,No,Coimbatore General Hospital,2026-08-26
+P0192,77,Female,25.8,Former,0,0,241,145,71,167,Non-anginal Pain,1,0,1,0.652,Medium,Yes,Chennai City Hospital,2026-06-23
+P0193,53,Male,29.9,Never,0,0,233,136,68,161,Atypical Angina,0,1,0,0.393,Medium,No,Chennai City Hospital,2026-04-27
+P0194,47,Female,40.1,Former,0,0,128,149,81,173,Typical Angina,1,0,0,0.187,Low,No,Madurai Medical Center,2026-01-02
+P0195,54,Male,31.4,Former,1,0,216,152,75,146,Atypical Angina,1,0,0,0.486,Medium,No,Coimbatore General Hospital,2026-05-23
+P0196,71,Male,25.3,Never,1,0,242,175,85,166,Atypical Angina,1,0,1,0.722,High,Yes,Salem Care Hospital,2026-02-12
+P0197,51,Male,26.9,Former,0,0,147,127,88,170,Asymptomatic,1,1,0,0.178,Low,No,Salem Care Hospital,2026-01-18
+P0198,80,Male,26.0,Never,0,0,232,153,82,160,Atypical Angina,1,1,1,0.711,High,Yes,Madurai Medical Center,2026-03-17
+P0199,46,Female,32.4,Current,1,0,202,159,82,186,Typical Angina,0,0,1,0.44,Medium,Yes,Salem Care Hospital,2026-07-31
+P0200,53,Female,25.0,Former,0,1,194,133,115,171,Non-anginal Pain,1,0,0,0.265,Low,No,Chennai City Hospital,2026-03-14
+P0201,55,Male,22.3,Former,0,1,256,119,126,187,Asymptomatic,0,0,0,0.595,Medium,No,Chennai City Hospital,2026-04-09
+P0202,51,Male,31.0,Never,1,1,222,163,92,199,Atypical Angina,0,0,0,0.57,Medium,No,Chennai City Hospital,2026-03-30
+P0203,73,Female,23.0,Current,0,1,279,127,129,143,Non-anginal Pain,1,0,1,0.816,High,Yes,Salem Care Hospital,2026-04-25
+P0204,53,Male,21.0,Current,1,1,227,163,126,183,Typical Angina,0,0,1,0.658,Medium,Yes,Coimbatore General Hospital,2026-07-05
+P0205,33,Female,26.9,Never,0,0,188,133,83,179,Non-anginal Pain,0,0,0,0.162,Low,No,Chennai City Hospital,2026-07-29
+P0206,27,Female,26.6,Never,1,0,219,162,88,205,Non-anginal Pain,0,0,0,0.204,Low,No,Coimbatore General Hospital,2026-03-23
+P0207,42,Male,20.2,Never,0,0,176,130,93,169,Non-anginal Pain,1,1,0,0.161,Low,No,Coimbatore General Hospital,2026-07-06
+P0208,33,Male,33.2,Former,0,0,181,114,86,192,Asymptomatic,1,0,0,0.156,Low,No,Coimbatore General Hospital,2026-05-10
+P0209,73,Male,31.7,Never,0,0,166,147,66,192,Non-anginal Pain,0,0,0,0.205,Low,No,Madurai Medical Center,2026-02-15
+P0210,45,Female,21.1,Current,1,1,228,127,109,204,Non-anginal Pain,0,0,1,0.488,Medium,Yes,Chennai City Hospital,2026-03-01
+P0211,68,Female,28.7,Current,0,0,241,153,90,138,Typical Angina,0,0,1,0.664,High,Yes,Madurai Medical Center,2026-06-10
+P0212,75,Male,25.1,Current,1,1,271,194,105,160,Atypical Angina,0,0,1,0.834,High,Yes,Madurai Medical Center,2026-06-09
+P0213,73,Male,24.4,Current,0,0,222,144,60,154,Asymptomatic,0,0,0,0.529,Medium,No,Coimbatore General Hospital,2026-05-08
+P0214,80,Male,30.6,Current,0,0,244,158,85,146,Asymptomatic,1,0,1,0.809,High,Yes,Chennai City Hospital,2026-07-20
+P0215,38,Female,21.7,Never,0,1,149,117,123,142,Typical Angina,1,0,1,0.149,Low,Yes,Chennai City Hospital,2026-03-13
+P0216,35,Female,27.4,Never,0,1,241,109,113,156,Atypical Angina,0,0,1,0.3,Low,Yes,Coimbatore General Hospital,2026-03-10
+P0217,69,Male,25.3,Never,0,1,262,142,117,148,Asymptomatic,0,0,1,0.708,High,Yes,Madurai Medical Center,2026-03-11
+P0218,37,Male,24.3,Never,0,1,150,111,114,166,Asymptomatic,0,0,0,0.118,Low,No,Chennai City Hospital,2026-06-05
+P0219,40,Male,28.5,Current,0,0,163,107,73,168,Typical Angina,1,0,0,0.105,Low,No,Salem Care Hospital,2026-07-17
+P0220,52,Male,24.4,Current,0,0,210,134,60,182,Asymptomatic,0,0,1,0.27,Low,Yes,Chennai City Hospital,2026-06-19
+P0221,74,Male,26.0,Never,1,0,249,159,74,136,Asymptomatic,0,0,1,0.754,High,Yes,Salem Care Hospital,2026-02-16
+P0222,29,Female,28.9,Never,0,1,153,106,113,177,Typical Angina,0,1,0,0.153,Low,No,Madurai Medical Center,2026-02-11
+P0223,72,Male,25.6,Never,0,1,271,109,113,171,Asymptomatic,1,1,1,0.771,High,Yes,Madurai Medical Center,2026-02-14
+P0224,54,Female,25.3,Never,0,1,252,132,128,179,Non-anginal Pain,0,1,0,0.609,Medium,No,Chennai City Hospital,2026-01-22
+P0225,55,Female,34.6,Former,0,1,242,159,101,157,Asymptomatic,0,1,1,0.778,High,Yes,Salem Care Hospital,2026-01-02
+P0226,67,Female,27.9,Never,1,0,177,163,60,182,Asymptomatic,1,1,0,0.543,Medium,No,Madurai Medical Center,2026-06-29
+P0227,60,Female,29.8,Current,0,0,211,146,75,169,Non-anginal Pain,0,0,0,0.366,Medium,No,Salem Care Hospital,2026-01-10
+P0228,63,Male,30.9,Never,1,1,242,170,112,172,Asymptomatic,1,0,1,0.809,High,Yes,Madurai Medical Center,2026-02-21
+P0229,37,Female,25.9,Never,0,0,152,134,65,205,Asymptomatic,1,0,0,0.106,Low,No,Coimbatore General Hospital,2026-08-11
+P0230,65,Female,32.8,Never,0,0,269,164,78,174,Asymptomatic,0,1,1,0.742,High,Yes,Madurai Medical Center,2026-05-19
+P0231,49,Male,31.6,Never,0,0,247,146,82,167,Typical Angina,0,1,0,0.596,Medium,No,Madurai Medical Center,2026-09-01
+P0232,59,Female,23.9,Never,0,0,234,149,76,149,Asymptomatic,1,0,0,0.539,Medium,No,Madurai Medical Center,2026-02-23
+P0233,60,Female,23.5,Current,0,0,275,129,80,153,Asymptomatic,1,1,1,0.803,High,Yes,Chennai City Hospital,2026-06-06
+P0234,25,Male,30.6,Former,1,0,182,128,75,197,Non-anginal Pain,0,0,0,0.199,Low,No,Chennai City Hospital,2026-05-10
+P0235,56,Male,17.4,Current,1,0,251,157,60,172,Non-anginal Pain,0,1,1,0.696,High,Yes,Coimbatore General Hospital,2026-08-24
+P0236,58,Male,19.4,Never,0,0,227,156,87,178,Atypical Angina,0,0,0,0.306,Low,No,Coimbatore General Hospital,2026-05-29
+P0237,64,Male,27.1,Never,1,0,216,166,83,162,Atypical Angina,0,0,1,0.467,Medium,Yes,Chennai City Hospital,2026-07-26
+P0238,40,Male,27.6,Never,0,1,299,139,110,184,Typical Angina,0,1,1,0.777,High,Yes,Madurai Medical Center,2026-01-22
+P0239,50,Female,28.6,Never,0,0,222,120,83,176,Atypical Angina,1,0,1,0.297,Low,Yes,Chennai City Hospital,2026-01-18
+P0240,76,Female,18.4,Current,0,0,243,159,82,167,Typical Angina,1,0,1,0.786,High,Yes,Chennai City Hospital,2026-05-24
+P0241,58,Female,23.6,Never,1,0,236,153,92,205,Atypical Angina,0,0,0,0.47,Medium,No,Chennai City Hospital,2026-05-01
+P0242,25,Male,20.3,Never,0,1,209,117,103,203,Asymptomatic,0,0,0,0.237,Low,No,Chennai City Hospital,2026-02-03
+P0243,27,Female,23.7,Former,1,0,202,153,87,205,Atypical Angina,1,0,0,0.188,Low,No,Coimbatore General Hospital,2026-05-30
+P0244,51,Male,26.3,Never,0,1,261,151,122,174,Non-anginal Pain,1,1,1,0.695,High,Yes,Coimbatore General Hospital,2026-05-20
+P0245,39,Female,17.0,Current,1,0,174,139,98,177,Typical Angina,0,0,0,0.146,Low,No,Salem Care Hospital,2026-08-06
+P0246,44,Female,26.4,Current,1,0,150,156,69,169,Non-anginal Pain,0,0,0,0.213,Low,No,Chennai City Hospital,2026-01-11
+P0247,30,Male,30.2,Never,0,0,120,133,64,182,Non-anginal Pain,0,0,0,0.116,Low,No,Madurai Medical Center,2026-07-29
+P0248,77,Female,31.5,Current,0,0,158,142,87,169,Non-anginal Pain,0,0,1,0.229,Low,Yes,Coimbatore General Hospital,2026-06-15
+P0249,27,Female,31.2,Current,0,0,150,119,66,199,Atypical Angina,1,1,0,0.135,Low,No,Coimbatore General Hospital,2026-03-29
+P0250,67,Male,25.6,Current,1,0,189,162,85,132,Asymptomatic,0,0,0,0.431,Medium,No,Coimbatore General Hospital,2026-08-29
+P0251,46,Female,23.6,Never,1,0,169,166,72,177,Typical Angina,0,0,0,0.157,Low,No,Chennai City Hospital,2026-02-21
+P0252,30,Female,28.3,Current,1,0,208,143,87,173,Atypical Angina,0,0,1,0.227,Low,Yes,Coimbatore General Hospital,2026-06-23
+P0253,37,Male,24.7,Never,0,0,162,152,90,174,Non-anginal Pain,0,0,0,0.121,Low,No,Salem Care Hospital,2026-05-12
+P0254,40,Male,27.0,Former,0,0,185,142,64,163,Non-anginal Pain,0,0,0,0.106,Low,No,Salem Care Hospital,2026-01-26
+P0255,35,Male,24.3,Never,1,1,156,120,117,173,Non-anginal Pain,0,0,0,0.241,Low,No,Madurai Medical Center,2026-05-12
+P0256,45,Male,33.0,Never,0,0,190,135,65,145,Non-anginal Pain,0,0,0,0.164,Low,No,Coimbatore General Hospital,2026-02-09
+P0257,48,Male,22.0,Never,1,0,198,152,71,171,Typical Angina,0,0,0,0.263,Low,No,Coimbatore General Hospital,2026-01-13
+P0258,25,Male,23.5,Never,0,0,151,109,62,190,Asymptomatic,1,0,0,0.16,Low,No,Coimbatore General Hospital,2026-07-20
+P0259,60,Female,31.5,Never,0,1,209,123,125,174,Asymptomatic,0,0,0,0.332,Medium,No,Madurai Medical Center,2026-03-18
+P0260,69,Male,29.7,Former,0,1,243,144,125,137,Asymptomatic,1,0,1,0.761,High,Yes,Madurai Medical Center,2026-04-02
+P0261,68,Female,25.8,Never,1,0,271,148,60,150,Asymptomatic,0,1,1,0.82,High,Yes,Coimbatore General Hospital,2026-08-04
+P0262,77,Male,28.6,Never,1,1,221,168,140,149,Asymptomatic,1,0,1,0.741,High,Yes,Salem Care Hospital,2026-06-15
+P0263,66,Male,26.4,Never,0,0,199,144,98,181,Non-anginal Pain,1,0,0,0.364,Medium,No,Salem Care Hospital,2026-01-06
+P0264,76,Male,28.4,Never,0,0,293,160,86,155,Non-anginal Pain,1,0,1,0.792,High,Yes,Salem Care Hospital,2026-02-05
+P0265,68,Male,24.1,Former,1,0,285,156,83,183,Atypical Angina,0,1,1,0.859,High,Yes,Chennai City Hospital,2026-02-23
+P0266,54,Male,26.5,Current,1,0,211,134,88,179,Non-anginal Pain,0,0,0,0.392,Medium,No,Chennai City Hospital,2026-08-20
+P0267,59,Female,23.4,Current,0,1,213,135,111,154,Typical Angina,0,0,1,0.571,Medium,Yes,Madurai Medical Center,2026-06-20
+P0268,65,Female,20.9,Former,1,0,262,136,95,153,Atypical Angina,0,0,1,0.645,Medium,Yes,Salem Care Hospital,2026-01-27
+P0269,26,Female,25.6,Former,0,0,206,121,71,190,Non-anginal Pain,1,1,0,0.231,Low,No,Madurai Medical Center,2026-05-21
+P0270,35,Female,22.0,Never,0,0,200,116,77,205,Atypical Angina,0,0,0,0.142,Low,No,Coimbatore General Hospital,2026-07-25
+P0271,27,Male,27.4,Never,1,1,210,149,103,183,Non-anginal Pain,0,0,0,0.265,Low,No,Salem Care Hospital,2026-06-19
+P0272,25,Male,29.1,Never,1,0,202,139,64,196,Non-anginal Pain,1,0,1,0.211,Low,Yes,Coimbatore General Hospital,2026-08-18
+P0273,57,Female,28.2,Never,0,0,232,132,70,170,Atypical Angina,0,1,1,0.433,Medium,Yes,Madurai Medical Center,2026-06-29
+P0274,76,Male,26.0,Former,0,0,220,146,106,141,Atypical Angina,1,0,1,0.583,Medium,Yes,Chennai City Hospital,2026-01-23
+P0275,33,Male,24.3,Current,0,1,212,128,85,201,Asymptomatic,0,1,0,0.326,Low,No,Salem Care Hospital,2026-03-13
+P0276,48,Male,29.0,Never,1,0,207,159,62,188,Typical Angina,0,0,0,0.355,Medium,No,Chennai City Hospital,2026-03-17
+P0277,70,Female,30.9,Never,0,0,179,147,75,155,Typical Angina,0,0,0,0.275,Low,No,Madurai Medical Center,2026-05-24
+P0278,25,Female,17.0,Never,1,0,163,171,110,201,Atypical Angina,0,0,0,0.124,Low,No,Madurai Medical Center,2026-04-09
+P0279,62,Female,35.9,Never,0,0,206,122,81,174,Asymptomatic,0,0,0,0.335,Medium,No,Coimbatore General Hospital,2026-02-21
+P0280,68,Female,24.2,Never,0,1,258,147,116,138,Atypical Angina,1,1,1,0.814,High,Yes,Coimbatore General Hospital,2026-01-13
+P0281,60,Female,20.7,Never,1,0,259,170,65,154,Asymptomatic,1,1,1,0.88,High,Yes,Coimbatore General Hospital,2026-05-07
+P0282,44,Male,23.9,Never,0,0,161,135,86,165,Non-anginal Pain,0,0,0,0.15,Low,No,Chennai City Hospital,2026-01-05
+P0283,75,Female,25.6,Never,0,1,206,139,101,149,Non-anginal Pain,0,0,0,0.455,Medium,No,Chennai City Hospital,2026-07-02
+P0284,43,Male,24.6,Never,1,1,209,142,132,174,Asymptomatic,0,0,0,0.337,Medium,No,Chennai City Hospital,2026-05-01
+P0285,61,Female,17.0,Former,0,1,192,132,110,171,Atypical Angina,1,0,0,0.313,Low,No,Madurai Medical Center,2026-05-13
+P0286,75,Male,20.5,Never,0,0,189,148,85,161,Atypical Angina,1,0,1,0.317,Low,Yes,Chennai City Hospital,2026-06-02
+P0287,76,Male,31.7,Never,0,0,220,141,60,132,Asymptomatic,0,0,1,0.509,Medium,Yes,Salem Care Hospital,2026-03-24
+P0288,56,Female,25.7,Current,0,0,169,132,82,179,Typical Angina,0,0,0,0.192,Low,No,Chennai City Hospital,2026-03-25
+P0289,50,Female,26.6,Never,0,0,193,173,106,167,Asymptomatic,1,0,0,0.217,Low,No,Madurai Medical Center,2026-07-30
+P0290,29,Male,22.9,Former,0,0,162,127,77,182,Atypical Angina,0,0,0,0.087,Low,No,Salem Care Hospital,2026-07-07
+P0291,51,Female,24.1,Former,0,0,194,151,78,159,Asymptomatic,0,1,1,0.33,Low,Yes,Madurai Medical Center,2026-08-02
+P0292,65,Male,33.4,Former,1,0,195,155,60,159,Non-anginal Pain,0,0,1,0.426,Medium,Yes,Salem Care Hospital,2026-02-16
+P0293,32,Female,24.5,Current,1,0,182,137,105,190,Non-anginal Pain,0,0,0,0.144,Low,No,Madurai Medical Center,2026-07-29
+P0294,38,Male,31.5,Never,1,0,221,136,82,196,Atypical Angina,1,1,1,0.539,Medium,Yes,Madurai Medical Center,2026-08-25
+P0295,53,Male,31.8,Never,0,0,174,136,84,188,Asymptomatic,0,0,0,0.133,Low,No,Madurai Medical Center,2026-09-10
+P0296,79,Female,29.1,Never,1,0,205,177,74,119,Asymptomatic,1,0,0,0.735,High,Yes,Chennai City Hospital,2026-09-11
+P0297,56,Female,28.4,Current,0,1,263,147,116,169,Typical Angina,1,1,1,0.837,High,Yes,Chennai City Hospital,2026-05-22
+P0298,70,Female,22.2,Never,0,0,299,128,81,176,Atypical Angina,0,0,1,0.704,High,Yes,Madurai Medical Center,2026-04-15
+P0299,36,Male,27.3,Never,0,0,148,133,74,194,Typical Angina,0,0,0,0.13,Low,No,Chennai City Hospital,2026-06-18
+P0300,28,Male,26.8,Never,0,0,187,131,85,181,Non-anginal Pain,0,0,0,0.105,Low,No,Chennai City Hospital,2026-03-08
+P0301,67,Female,31.7,Never,0,0,226,126,82,149,Atypical Angina,0,0,0,0.358,Medium,No,Coimbatore General Hospital,2026-06-23
+P0302,50,Female,25.4,Former,1,1,216,146,115,177,Asymptomatic,1,0,1,0.658,Medium,Yes,Madurai Medical Center,2026-06-27
+P0303,65,Male,28.9,Never,0,0,214,130,89,164,Asymptomatic,1,0,0,0.41,Medium,No,Coimbatore General Hospital,2026-02-21
+P0304,47,Male,26.8,Never,0,0,185,144,78,183,Atypical Angina,1,0,0,0.173,Low,No,Chennai City Hospital,2026-02-09
+P0305,51,Female,25.2,Never,1,0,207,160,78,161,Atypical Angina,0,0,0,0.294,Low,No,Madurai Medical Center,2026-08-15
+P0306,53,Female,25.5,Never,1,0,234,174,72,166,Asymptomatic,0,0,1,0.527,Medium,Yes,Chennai City Hospital,2026-06-06
+P0307,65,Female,21.3,Never,0,1,234,144,124,177,Typical Angina,0,0,0,0.56,Medium,No,Coimbatore General Hospital,2026-01-08
+P0308,60,Male,24.3,Current,1,0,221,169,60,177,Asymptomatic,0,0,0,0.594,Medium,No,Madurai Medical Center,2026-01-17
+P0309,33,Female,23.0,Never,1,0,222,156,88,176,Asymptomatic,1,0,0,0.312,Low,No,Salem Care Hospital,2026-07-05
+P0310,58,Male,25.3,Never,0,0,244,139,93,160,Atypical Angina,0,1,1,0.487,Medium,Yes,Salem Care Hospital,2026-07-01
+P0311,35,Female,28.6,Current,0,0,157,118,72,205,Atypical Angina,1,0,0,0.183,Low,No,Salem Care Hospital,2026-04-25
+P0312,47,Male,28.6,Never,0,1,262,136,108,159,Non-anginal Pain,0,0,0,0.554,Medium,No,Salem Care Hospital,2026-04-06
+P0313,56,Male,25.3,Never,0,1,243,147,102,170,Atypical Angina,0,0,1,0.534,Medium,Yes,Chennai City Hospital,2026-06-13
+P0314,44,Male,33.4,Never,0,0,228,127,99,158,Typical Angina,1,1,0,0.538,Medium,No,Madurai Medical Center,2026-07-16
+P0315,48,Male,28.4,Current,1,0,275,140,90,183,Atypical Angina,0,0,1,0.71,High,Yes,Salem Care Hospital,2026-05-10
+P0316,77,Female,32.3,Never,0,0,270,156,83,147,Typical Angina,0,0,1,0.845,High,Yes,Chennai City Hospital,2026-01-30
+P0317,43,Female,34.1,Former,0,0,169,104,88,197,Asymptomatic,1,0,0,0.183,Low,No,Madurai Medical Center,2026-03-07
+P0318,66,Female,26.3,Current,1,0,201,173,78,154,Non-anginal Pain,1,1,1,0.744,High,Yes,Chennai City Hospital,2026-05-08
+P0319,28,Female,24.9,Former,1,0,132,141,60,205,Non-anginal Pain,0,0,0,0.157,Low,No,Chennai City Hospital,2026-02-06
+P0320,52,Male,24.8,Former,0,0,230,148,92,200,Atypical Angina,0,0,0,0.37,Medium,No,Chennai City Hospital,2026-07-20
+P0321,27,Female,28.4,Never,0,1,191,127,140,182,Typical Angina,1,0,0,0.185,Low,No,Coimbatore General Hospital,2026-04-26
+P0322,56,Female,35.7,Never,0,0,242,126,72,192,Atypical Angina,1,0,1,0.517,Medium,Yes,Chennai City Hospital,2026-05-18
+P0323,72,Male,26.2,Never,0,0,248,154,66,174,Atypical Angina,0,1,1,0.724,High,Yes,Chennai City Hospital,2026-04-20
+P0324,34,Male,35.1,Never,0,1,198,121,108,186,Atypical Angina,1,0,0,0.19,Low,No,Coimbatore General Hospital,2026-08-28
+P0325,25,Male,24.8,Never,0,0,182,120,78,187,Typical Angina,0,0,0,0.085,Low,No,Coimbatore General Hospital,2026-03-12
+P0326,39,Female,32.8,Former,0,0,184,148,78,183,Asymptomatic,1,0,1,0.224,Low,Yes,Salem Care Hospital,2026-01-08
+P0327,32,Male,31.8,Former,0,0,202,135,67,187,Non-anginal Pain,1,1,1,0.248,Low,Yes,Chennai City Hospital,2026-05-08
+P0328,71,Female,29.6,Never,0,0,159,144,76,191,Atypical Angina,0,1,0,0.221,Low,No,Salem Care Hospital,2026-02-15
+P0329,48,Female,21.9,Never,1,0,226,144,66,183,Non-anginal Pain,1,0,0,0.409,Medium,No,Madurai Medical Center,2026-05-05
+P0330,73,Male,24.0,Never,0,0,244,144,77,158,Atypical Angina,0,0,0,0.537,Medium,No,Madurai Medical Center,2026-02-28
+P0331,46,Male,34.5,Current,0,1,228,112,107,205,Atypical Angina,1,1,1,0.581,Medium,Yes,Madurai Medical Center,2026-06-11
+P0332,30,Female,28.2,Former,1,0,137,140,88,181,Atypical Angina,1,0,0,0.133,Low,No,Chennai City Hospital,2026-02-09
+P0333,57,Male,25.4,Current,1,0,241,173,60,143,Atypical Angina,1,0,1,0.707,High,Yes,Madurai Medical Center,2026-04-30
+P0334,30,Male,21.4,Never,0,0,166,126,115,165,Atypical Angina,0,1,1,0.189,Low,Yes,Chennai City Hospital,2026-02-08
+P0335,53,Male,30.9,Never,0,0,191,138,92,173,Atypical Angina,0,0,0,0.201,Low,No,Chennai City Hospital,2026-06-29
+P0336,54,Male,23.2,Current,0,0,249,121,92,155,Asymptomatic,0,0,0,0.477,Medium,No,Salem Care Hospital,2026-08-22
+P0337,47,Female,27.8,Never,0,0,259,139,75,165,Non-anginal Pain,1,0,0,0.536,Medium,No,Salem Care Hospital,2026-07-15
+P0338,71,Female,24.8,Current,1,0,246,180,92,150,Atypical Angina,0,0,1,0.665,High,Yes,Salem Care Hospital,2026-09-01
+P0339,35,Female,28.3,Current,1,0,218,149,74,189,Asymptomatic,1,0,0,0.518,Medium,No,Coimbatore General Hospital,2026-07-15
+P0340,68,Female,33.4,Never,1,0,227,173,78,151,Asymptomatic,0,0,0,0.679,High,Yes,Madurai Medical Center,2026-03-30
+P0341,43,Female,23.4,Former,0,0,256,135,64,158,Asymptomatic,0,1,0,0.523,Medium,No,Coimbatore General Hospital,2026-04-14
+P0342,48,Male,29.7,Never,0,0,186,179,86,181,Typical Angina,0,1,1,0.267,Low,Yes,Salem Care Hospital,2026-09-03
+P0343,51,Male,27.9,Former,1,0,237,122,60,168,Non-anginal Pain,1,0,0,0.508,Medium,No,Salem Care Hospital,2026-03-31
+P0344,42,Male,22.8,Current,0,0,170,120,86,150,Typical Angina,0,0,0,0.2,Low,No,Salem Care Hospital,2026-02-24
+P0345,65,Male,31.6,Current,0,0,160,129,79,181,Asymptomatic,1,0,0,0.233,Low,No,Salem Care Hospital,2026-07-20
+P0346,58,Male,34.1,Never,0,0,216,165,60,172,Non-anginal Pain,1,0,0,0.488,Medium,No,Coimbatore General Hospital,2026-03-23
+P0347,80,Male,32.7,Never,1,0,226,167,80,165,Typical Angina,0,0,1,0.76,High,Yes,Coimbatore General Hospital,2026-02-25
+P0348,78,Male,28.6,Former,1,1,303,157,82,143,Asymptomatic,1,0,1,0.784,High,Yes,Chennai City Hospital,2026-05-14
+P0349,38,Female,29.4,Former,0,0,187,135,81,183,Typical Angina,0,0,1,0.202,Low,Yes,Chennai City Hospital,2026-08-09
+P0350,58,Male,30.2,Never,0,0,219,143,111,174,Atypical Angina,1,1,0,0.504,Medium,No,Salem Care Hospital,2026-05-04
+P0351,53,Female,32.4,Never,1,0,215,163,60,180,Non-anginal Pain,1,0,0,0.541,Medium,No,Salem Care Hospital,2026-07-15
+P0352,39,Male,24.7,Never,0,1,215,144,128,190,Typical Angina,0,0,1,0.346,Medium,Yes,Salem Care Hospital,2026-01-08
+P0353,53,Female,33.5,Never,0,1,209,135,101,189,Atypical Angina,0,0,0,0.318,Low,No,Chennai City Hospital,2026-02-27
+P0354,68,Female,22.8,Never,0,0,191,166,74,168,Non-anginal Pain,1,1,0,0.433,Medium,No,Chennai City Hospital,2026-06-09
+P0355,37,Female,28.6,Never,0,0,179,141,60,189,Asymptomatic,0,0,0,0.119,Low,No,Madurai Medical Center,2026-08-19
+P0356,30,Female,27.7,Never,0,0,162,128,75,157,Asymptomatic,1,0,0,0.098,Low,No,Salem Care Hospital,2026-01-18
+P0357,54,Female,27.0,Current,0,0,200,144,83,173,Asymptomatic,1,0,0,0.337,Medium,No,Coimbatore General Hospital,2026-05-01
+P0358,33,Female,35.5,Never,0,1,170,153,90,191,Atypical Angina,1,1,0,0.226,Low,No,Salem Care Hospital,2026-03-27
+P0359,52,Male,26.2,Never,1,0,242,148,95,196,Typical Angina,0,1,1,0.734,High,Yes,Madurai Medical Center,2026-07-30
+P0360,36,Female,23.6,Never,0,0,229,130,67,186,Asymptomatic,1,0,0,0.288,Low,No,Madurai Medical Center,2026-03-07
+P0361,57,Female,19.1,Former,0,0,205,143,86,156,Asymptomatic,0,1,1,0.372,Medium,Yes,Madurai Medical Center,2026-04-08
+P0362,40,Male,23.0,Never,1,0,201,154,69,185,Atypical Angina,0,0,1,0.188,Low,Yes,Madurai Medical Center,2026-01-07
+P0363,30,Female,29.3,Former,1,0,207,150,72,182,Asymptomatic,0,0,0,0.239,Low,No,Salem Care Hospital,2026-01-12
+P0364,27,Male,24.7,Never,1,0,199,145,93,188,Asymptomatic,0,1,1,0.224,Low,Yes,Chennai City Hospital,2026-08-05
+P0365,65,Female,21.9,Current,1,0,191,159,76,158,Typical Angina,0,0,0,0.46,Medium,No,Madurai Medical Center,2026-08-08
+P0366,36,Female,39.2,Former,1,0,184,160,78,180,Non-anginal Pain,1,0,1,0.341,Medium,Yes,Madurai Medical Center,2026-08-07
+P0367,50,Male,23.4,Never,1,0,227,154,101,183,Typical Angina,1,0,0,0.555,Medium,No,Coimbatore General Hospital,2026-01-15
+P0368,30,Female,25.3,Never,1,0,219,140,94,192,Atypical Angina,1,0,0,0.238,Low,No,Coimbatore General Hospital,2026-03-02
+P0369,34,Male,27.5,Never,1,0,244,131,88,189,Typical Angina,0,0,0,0.393,Medium,No,Coimbatore General Hospital,2026-04-28
+P0370,25,Male,28.9,Never,0,0,205,96,92,201,Non-anginal Pain,0,0,0,0.179,Low,No,Coimbatore General Hospital,2026-03-12
+P0371,33,Female,23.5,Former,0,0,164,107,79,184,Atypical Angina,1,0,0,0.163,Low,No,Madurai Medical Center,2026-08-26
+P0372,58,Female,27.1,Never,0,0,151,148,71,155,Typical Angina,1,0,0,0.195,Low,No,Coimbatore General Hospital,2026-03-20
+P0373,47,Female,27.1,Former,0,1,167,140,125,174,Atypical Angina,0,0,1,0.145,Low,Yes,Salem Care Hospital,2026-06-21
+P0374,56,Female,17.0,Never,0,0,261,126,66,162,Non-anginal Pain,1,1,1,0.592,Medium,Yes,Coimbatore General Hospital,2026-04-12
+P0375,47,Female,36.9,Former,1,0,162,141,92,176,Asymptomatic,0,0,0,0.187,Low,No,Chennai City Hospital,2026-03-17
+P0376,58,Female,20.5,Never,1,0,227,191,70,178,Atypical Angina,1,1,1,0.733,High,Yes,Salem Care Hospital,2026-05-01
+P0377,69,Female,29.3,Never,0,1,200,142,103,165,Atypical Angina,1,0,0,0.434,Medium,No,Chennai City Hospital,2026-07-04
+P0378,30,Female,22.8,Never,1,1,167,123,115,172,Atypical Angina,0,0,0,0.182,Low,No,Salem Care Hospital,2026-06-08
+P0379,71,Female,28.8,Former,1,0,220,160,95,166,Non-anginal Pain,0,1,1,0.65,Medium,Yes,Coimbatore General Hospital,2026-01-21
+P0380,62,Male,25.4,Current,1,0,222,173,63,175,Non-anginal Pain,0,0,0,0.658,Medium,No,Chennai City Hospital,2026-06-25
+P0381,76,Female,21.9,Never,0,0,183,149,89,167,Non-anginal Pain,0,1,0,0.292,Low,No,Chennai City Hospital,2026-03-28
+P0382,68,Male,21.5,Current,0,0,258,149,92,180,Non-anginal Pain,1,0,1,0.705,High,Yes,Chennai City Hospital,2026-06-24
+P0383,41,Female,30.9,Never,0,1,224,150,129,187,Typical Angina,0,0,0,0.418,Medium,No,Salem Care Hospital,2026-06-01
+P0384,71,Male,22.9,Current,0,0,241,150,75,171,Asymptomatic,1,0,0,0.697,High,Yes,Chennai City Hospital,2026-03-04
+P0385,47,Female,27.1,Never,0,0,216,130,92,183,Non-anginal Pain,1,0,0,0.262,Low,No,Coimbatore General Hospital,2026-06-04
+P0386,64,Male,23.7,Current,0,0,187,146,100,175,Typical Angina,0,0,0,0.299,Low,No,Coimbatore General Hospital,2026-04-07
+P0387,30,Female,26.6,Current,0,0,217,112,83,205,Non-anginal Pain,1,0,0,0.191,Low,No,Coimbatore General Hospital,2026-07-20
+P0388,26,Female,35.2,Never,0,0,195,114,65,204,Atypical Angina,0,0,0,0.131,Low,No,Madurai Medical Center,2026-08-29
+P0389,29,Female,35.5,Never,0,0,132,127,92,164,Typical Angina,0,0,0,0.103,Low,No,Salem Care Hospital,2026-01-08
+P0390,29,Male,28.4,Never,0,1,206,113,112,192,Atypical Angina,1,0,0,0.23,Low,No,Salem Care Hospital,2026-05-03
+P0391,70,Female,27.3,Never,0,1,251,142,115,186,Asymptomatic,0,0,1,0.724,High,Yes,Madurai Medical Center,2026-05-04
+P0392,79,Male,20.0,Never,0,0,237,149,60,147,Atypical Angina,1,0,0,0.611,Medium,No,Madurai Medical Center,2026-01-18
+P0393,54,Female,30.2,Never,0,0,166,136,91,158,Typical Angina,1,0,0,0.166,Low,No,Coimbatore General Hospital,2026-08-04
+P0394,80,Male,24.2,Never,0,0,223,142,81,163,Typical Angina,1,0,1,0.562,Medium,Yes,Salem Care Hospital,2026-02-22
+P0395,63,Female,32.3,Former,0,0,245,143,87,163,Atypical Angina,0,0,1,0.493,Medium,Yes,Salem Care Hospital,2026-02-14
+P0396,76,Male,34.5,Never,0,0,229,155,79,166,Non-anginal Pain,0,0,1,0.597,Medium,Yes,Chennai City Hospital,2026-05-02
+P0397,51,Male,31.5,Former,0,0,157,141,64,155,Non-anginal Pain,0,0,0,0.149,Low,No,Chennai City Hospital,2026-05-03
+P0398,41,Female,31.8,Former,1,0,207,145,78,171,Atypical Angina,0,0,0,0.23,Low,No,Madurai Medical Center,2026-08-18
+P0399,40,Female,26.6,Current,0,0,141,132,100,186,Non-anginal Pain,0,0,0,0.119,Low,No,Madurai Medical Center,2026-07-02
+P0400,38,Male,27.0,Never,0,1,197,121,112,184,Asymptomatic,0,0,0,0.189,Low,No,Coimbatore General Hospital,2026-03-14
+P0401,62,Male,20.7,Current,1,0,156,182,64,166,Non-anginal Pain,0,0,0,0.219,Low,No,Salem Care Hospital,2026-02-06
+P0402,28,Male,28.0,Former,1,1,201,149,105,185,Atypical Angina,0,1,0,0.414,Medium,No,Chennai City Hospital,2026-04-19
+P0403,77,Female,28.1,Never,1,1,254,178,128,153,Non-anginal Pain,0,0,0,0.805,High,Yes,Madurai Medical Center,2026-06-28
+P0404,32,Female,22.9,Never,0,1,185,120,123,166,Atypical Angina,0,0,0,0.191,Low,No,Salem Care Hospital,2026-06-09
+P0405,59,Male,17.5,Never,1,1,183,154,108,172,Asymptomatic,0,1,1,0.436,Medium,Yes,Salem Care Hospital,2026-02-01
+P0406,40,Male,28.8,Current,0,0,171,137,104,184,Typical Angina,0,0,0,0.184,Low,No,Chennai City Hospital,2026-06-08
+P0407,75,Male,25.9,Never,1,0,210,167,60,133,Asymptomatic,0,0,0,0.588,Medium,No,Chennai City Hospital,2026-03-14
+P0408,38,Male,29.2,Never,1,0,120,156,91,166,Typical Angina,0,1,0,0.155,Low,No,Chennai City Hospital,2026-06-13
+P0409,76,Male,23.6,Never,1,1,248,169,116,148,Asymptomatic,0,0,1,0.81,High,Yes,Coimbatore General Hospital,2026-08-24
+P0410,39,Male,19.4,Never,0,0,177,129,92,177,Asymptomatic,0,0,0,0.138,Low,No,Coimbatore General Hospital,2026-01-15
+P0411,48,Female,28.3,Current,0,0,187,138,68,177,Atypical Angina,0,1,0,0.219,Low,No,Salem Care Hospital,2026-04-26
+P0412,59,Male,28.5,Never,0,0,245,141,90,182,Non-anginal Pain,0,1,0,0.618,Medium,No,Salem Care Hospital,2026-02-11
+P0413,26,Male,21.0,Never,1,1,191,150,121,183,Non-anginal Pain,0,0,0,0.142,Low,No,Coimbatore General Hospital,2026-07-19
+P0414,41,Female,21.9,Never,1,0,186,161,78,173,Typical Angina,1,1,0,0.331,Medium,No,Madurai Medical Center,2026-06-07
+P0415,61,Female,23.8,Never,0,1,250,113,72,156,Atypical Angina,1,0,1,0.547,Medium,Yes,Coimbatore General Hospital,2026-08-15
+P0416,31,Male,25.2,Current,1,0,156,151,62,205,Asymptomatic,1,0,0,0.178,Low,No,Chennai City Hospital,2026-02-10
+P0417,71,Male,29.7,Never,1,0,281,177,64,139,Asymptomatic,0,1,1,0.866,High,Yes,Coimbatore General Hospital,2026-04-23
+P0418,53,Male,31.6,Never,1,0,253,152,65,147,Typical Angina,0,0,1,0.654,Medium,Yes,Coimbatore General Hospital,2026-09-01
+P0419,27,Male,29.4,Current,0,0,154,130,107,172,Non-anginal Pain,0,1,0,0.145,Low,No,Chennai City Hospital,2026-07-22
+P0420,70,Female,34.9,Never,1,0,203,155,96,153,Atypical Angina,0,0,0,0.446,Medium,No,Coimbatore General Hospital,2026-06-02
+P0421,49,Male,33.3,Never,0,0,223,115,90,157,Non-anginal Pain,1,0,0,0.226,Low,No,Salem Care Hospital,2026-03-04
+P0422,51,Male,29.8,Never,0,0,188,123,60,160,Non-anginal Pain,1,1,0,0.24,Low,No,Salem Care Hospital,2026-01-22
+P0423,59,Male,32.8,Current,0,0,268,152,86,172,Non-anginal Pain,0,0,0,0.722,High,Yes,Chennai City Hospital,2026-01-28
+P0424,79,Male,19.7,Former,0,1,293,144,105,164,Non-anginal Pain,0,1,1,0.799,High,Yes,Coimbatore General Hospital,2026-05-31
+P0425,53,Male,32.5,Never,1,1,251,156,136,184,Asymptomatic,1,0,1,0.768,High,Yes,Coimbatore General Hospital,2026-04-27
+P0426,55,Female,30.5,Never,0,1,272,146,132,169,Atypical Angina,0,0,0,0.735,High,Yes,Salem Care Hospital,2026-01-03
+P0427,74,Female,29.0,Never,0,0,194,140,67,148,Asymptomatic,0,0,1,0.254,Low,Yes,Coimbatore General Hospital,2026-06-13
+P0428,45,Male,27.6,Never,1,1,210,183,98,191,Asymptomatic,0,0,0,0.503,Medium,No,Chennai City Hospital,2026-07-27
+P0429,60,Female,27.7,Former,0,0,254,139,71,185,Atypical Angina,0,1,1,0.62,Medium,Yes,Salem Care Hospital,2026-06-02
+P0430,51,Female,28.8,Former,1,0,176,175,75,179,Non-anginal Pain,1,0,0,0.359,Medium,No,Coimbatore General Hospital,2026-08-20
+P0431,26,Male,31.5,Never,0,0,202,118,79,192,Typical Angina,0,0,0,0.165,Low,No,Salem Care Hospital,2026-08-20
+P0432,38,Male,23.3,Never,0,0,198,112,65,181,Asymptomatic,0,0,0,0.126,Low,No,Coimbatore General Hospital,2026-03-11
+P0433,46,Male,35.6,Never,0,1,260,128,108,169,Non-anginal Pain,0,0,1,0.508,Medium,Yes,Salem Care Hospital,2026-06-25
+P0434,33,Male,24.3,Never,1,0,200,120,66,195,Non-anginal Pain,1,1,0,0.204,Low,No,Coimbatore General Hospital,2026-01-27
+P0435,79,Female,26.9,Never,0,0,244,146,93,172,Non-anginal Pain,0,0,1,0.591,Medium,Yes,Madurai Medical Center,2026-09-03
+P0436,55,Male,17.0,Former,0,0,236,134,79,178,Non-anginal Pain,1,0,0,0.364,Medium,No,Madurai Medical Center,2026-07-06
+P0437,69,Female,36.1,Never,1,0,279,141,80,176,Non-anginal Pain,1,0,0,0.819,High,Yes,Coimbatore General Hospital,2026-05-26
+P0438,70,Male,29.5,Never,0,1,250,146,119,125,Asymptomatic,1,1,1,0.819,High,Yes,Salem Care Hospital,2026-04-14
+P0439,70,Female,18.3,Former,1,0,255,190,86,149,Atypical Angina,0,0,1,0.754,High,Yes,Salem Care Hospital,2026-08-22
+P0440,61,Male,30.6,Former,1,0,253,127,67,186,Asymptomatic,0,0,0,0.674,High,Yes,Salem Care Hospital,2026-08-02
+P0441,60,Male,23.4,Current,0,1,245,142,108,154,Asymptomatic,0,1,1,0.735,High,Yes,Salem Care Hospital,2026-07-10
+P0442,60,Male,28.6,Never,0,1,253,131,96,187,Atypical Angina,0,1,1,0.634,Medium,Yes,Salem Care Hospital,2026-03-21
+P0443,75,Female,29.2,Never,0,0,192,158,79,138,Asymptomatic,1,0,1,0.389,Medium,Yes,Salem Care Hospital,2026-08-04
+P0444,41,Female,22.6,Never,0,0,169,119,61,166,Typical Angina,1,0,0,0.089,Low,No,Chennai City Hospital,2026-06-05
+P0445,66,Male,22.1,Never,0,0,236,125,100,162,Asymptomatic,0,1,0,0.506,Medium,No,Madurai Medical Center,2026-06-10
+P0446,25,Female,27.7,Never,1,1,120,133,112,200,Asymptomatic,0,1,0,0.124,Low,No,Coimbatore General Hospital,2026-02-01
+P0447,79,Female,33.8,Never,0,0,300,119,96,150,Asymptomatic,0,0,1,0.784,High,Yes,Coimbatore General Hospital,2026-06-16
+P0448,68,Male,39.8,Never,0,0,214,143,87,172,Typical Angina,0,1,1,0.643,Medium,Yes,Madurai Medical Center,2026-01-09
+P0449,39,Female,34.1,Never,1,0,251,161,74,160,Typical Angina,0,0,0,0.577,Medium,No,Chennai City Hospital,2026-05-22
+P0450,77,Male,27.6,Current,0,0,216,140,95,154,Typical Angina,0,0,1,0.619,Medium,Yes,Chennai City Hospital,2026-02-11
+P0451,55,Male,18.9,Former,0,0,174,131,60,168,Asymptomatic,1,0,0,0.19,Low,No,Coimbatore General Hospital,2026-08-23
+P0452,66,Male,32.5,Never,1,0,203,153,102,158,Asymptomatic,0,0,1,0.434,Medium,Yes,Chennai City Hospital,2026-04-18
+P0453,41,Male,27.2,Never,0,0,156,104,98,196,Atypical Angina,1,0,0,0.128,Low,No,Salem Care Hospital,2026-06-05
+P0454,76,Male,27.6,Current,0,1,284,132,96,131,Non-anginal Pain,0,0,1,0.771,High,Yes,Coimbatore General Hospital,2026-03-05
+P0455,74,Male,27.4,Current,0,1,180,169,111,160,Atypical Angina,1,0,0,0.551,Medium,No,Chennai City Hospital,2026-05-14
+P0456,37,Male,28.1,Never,0,1,214,109,103,153,Non-anginal Pain,0,1,0,0.298,Low,No,Salem Care Hospital,2026-06-08
+P0457,44,Female,28.2,Never,1,0,188,163,79,177,Non-anginal Pain,1,0,0,0.274,Low,No,Chennai City Hospital,2026-07-27
+P0458,68,Female,22.8,Current,0,0,230,150,68,154,Non-anginal Pain,1,0,1,0.603,Medium,Yes,Chennai City Hospital,2026-02-25
+P0459,34,Female,23.5,Current,0,0,155,145,74,179,Asymptomatic,0,0,0,0.142,Low,No,Salem Care Hospital,2026-05-04
+P0460,66,Female,22.2,Current,0,0,221,153,78,152,Asymptomatic,0,0,1,0.451,Medium,Yes,Chennai City Hospital,2026-08-16
+P0461,66,Male,29.9,Former,0,1,269,154,108,168,Non-anginal Pain,0,1,1,0.765,High,Yes,Coimbatore General Hospital,2026-06-11
+P0462,46,Female,33.0,Current,1,0,255,163,86,193,Asymptomatic,0,1,1,0.84,High,Yes,Madurai Medical Center,2026-03-05
+P0463,29,Female,17.0,Former,1,0,156,133,94,199,Asymptomatic,1,0,0,0.166,Low,No,Chennai City Hospital,2026-01-27
+P0464,30,Male,31.3,Former,1,0,194,155,84,192,Non-anginal Pain,1,1,1,0.408,Medium,Yes,Madurai Medical Center,2026-08-21
+P0465,42,Male,29.3,Never,1,0,191,162,85,181,Asymptomatic,0,0,0,0.217,Low,No,Coimbatore General Hospital,2026-08-19
+P0466,74,Male,26.0,Current,0,0,213,144,60,156,Typical Angina,1,1,1,0.715,High,Yes,Chennai City Hospital,2026-05-01
+P0467,27,Male,39.4,Never,0,1,170,103,78,198,Atypical Angina,1,1,0,0.158,Low,No,Chennai City Hospital,2026-01-02
+P0468,61,Female,27.9,Never,1,0,236,153,69,140,Non-anginal Pain,0,0,0,0.554,Medium,No,Coimbatore General Hospital,2026-03-10
+P0469,37,Male,26.4,Never,1,1,152,139,129,168,Non-anginal Pain,0,1,0,0.131,Low,No,Salem Care Hospital,2026-01-08
+P0470,30,Male,26.0,Current,1,0,157,127,60,187,Atypical Angina,0,0,0,0.218,Low,No,Chennai City Hospital,2026-06-15
+P0471,49,Male,26.8,Former,1,0,189,182,75,201,Non-anginal Pain,0,0,0,0.299,Low,No,Madurai Medical Center,2026-08-24
+P0472,32,Female,24.4,Current,1,0,120,155,82,160,Asymptomatic,0,0,0,0.103,Low,No,Salem Care Hospital,2026-06-19
+P0473,46,Male,25.1,Never,0,1,178,120,133,184,Asymptomatic,0,0,1,0.116,Low,Yes,Coimbatore General Hospital,2026-02-15
+P0474,53,Male,24.9,Former,0,0,252,151,80,165,Non-anginal Pain,0,0,1,0.408,Medium,Yes,Chennai City Hospital,2026-05-16
+P0475,67,Female,29.7,Current,1,0,232,199,72,174,Non-anginal Pain,0,0,1,0.689,High,Yes,Coimbatore General Hospital,2026-04-24
+P0476,42,Male,18.9,Never,0,1,185,122,98,183,Typical Angina,1,0,0,0.235,Low,No,Salem Care Hospital,2026-03-05
+P0477,78,Female,23.7,Never,0,0,259,139,60,170,Atypical Angina,0,0,1,0.573,Medium,Yes,Chennai City Hospital,2026-09-09
+P0478,77,Male,25.7,Never,1,1,278,157,99,138,Atypical Angina,1,0,1,0.8,High,Yes,Chennai City Hospital,2026-07-14
+P0479,26,Female,32.6,Former,0,0,181,113,67,205,Non-anginal Pain,0,1,0,0.065,Low,No,Chennai City Hospital,2026-01-26
+P0480,47,Male,27.9,Never,0,0,195,147,80,193,Asymptomatic,1,0,0,0.265,Low,No,Coimbatore General Hospital,2026-05-23
+P0481,80,Male,19.2,Current,1,1,259,146,124,160,Typical Angina,1,0,1,0.86,High,Yes,Chennai City Hospital,2026-06-19
+P0482,42,Male,29.9,Current,0,1,235,106,107,198,Asymptomatic,0,0,1,0.418,Medium,Yes,Chennai City Hospital,2026-07-19
+P0483,45,Female,22.1,Former,0,0,226,132,69,156,Typical Angina,0,0,1,0.243,Low,Yes,Salem Care Hospital,2026-07-06
+P0484,39,Male,28.8,Current,0,0,221,104,67,168,Asymptomatic,0,1,1,0.279,Low,Yes,Chennai City Hospital,2026-07-18
+P0485,53,Female,36.4,Never,0,0,254,116,95,162,Typical Angina,0,1,0,0.666,High,Yes,Salem Care Hospital,2026-02-21
+P0486,40,Female,30.5,Former,0,0,186,123,73,173,Asymptomatic,1,0,0,0.181,Low,No,Coimbatore General Hospital,2026-02-21
+P0487,62,Male,21.7,Never,0,0,220,166,94,177,Non-anginal Pain,0,0,1,0.286,Low,Yes,Coimbatore General Hospital,2026-07-17
+P0488,61,Male,28.3,Current,1,1,187,159,103,185,Asymptomatic,0,0,1,0.61,Medium,Yes,Coimbatore General Hospital,2026-01-19
+P0489,62,Male,18.4,Current,0,0,205,141,102,163,Atypical Angina,1,0,0,0.36,Medium,No,Chennai City Hospital,2026-01-24
+P0490,33,Male,31.9,Never,1,0,189,119,60,205,Atypical Angina,0,0,0,0.177,Low,No,Madurai Medical Center,2026-03-05
+P0491,44,Male,26.2,Never,0,0,148,125,65,186,Asymptomatic,0,1,0,0.171,Low,No,Chennai City Hospital,2026-03-09
+P0492,26,Female,29.0,Never,0,0,146,130,87,205,Non-anginal Pain,1,0,0,0.157,Low,No,Salem Care Hospital,2026-08-14
+P0493,42,Female,31.6,Former,0,0,202,128,60,166,Non-anginal Pain,0,0,0,0.16,Low,No,Salem Care Hospital,2026-05-05
+P0494,80,Female,25.1,Current,0,0,270,138,60,149,Non-anginal Pain,0,0,1,0.712,High,Yes,Chennai City Hospital,2026-04-30
+P0495,37,Male,26.4,Never,0,1,233,139,100,187,Typical Angina,0,1,0,0.571,Medium,No,Chennai City Hospital,2026-04-19
+P0496,78,Male,30.2,Current,0,0,271,157,82,154,Non-anginal Pain,1,0,1,0.776,High,Yes,Madurai Medical Center,2026-01-26
+P0497,65,Male,25.8,Never,0,0,190,149,86,174,Non-anginal Pain,0,0,0,0.274,Low,No,Madurai Medical Center,2026-01-16
+P0498,47,Female,25.5,Never,1,0,185,158,83,173,Asymptomatic,0,0,0,0.246,Low,No,Salem Care Hospital,2026-02-23
+P0499,31,Female,33.1,Former,0,0,123,105,86,171,Asymptomatic,1,0,0,0.127,Low,No,Madurai Medical Center,2026-05-03
+P0500,49,Female,30.7,Current,1,0,211,155,80,144,Atypical Angina,1,0,0,0.574,Medium,No,Salem Care Hospital,2026-01-18
+P0501,54,Female,19.6,Never,1,0,232,156,74,181,Asymptomatic,1,0,1,0.545,Medium,Yes,Madurai Medical Center,2026-08-14
+P0502,40,Female,38.3,Never,1,0,157,119,65,187,Asymptomatic,0,0,0,0.176,Low,No,Coimbatore General Hospital,2026-06-03
+P0503,69,Female,21.1,Never,1,0,195,175,87,156,Non-anginal Pain,1,1,1,0.623,Medium,Yes,Madurai Medical Center,2026-02-08
+P0504,70,Male,19.9,Never,1,0,208,167,84,163,Asymptomatic,0,0,1,0.503,Medium,Yes,Madurai Medical Center,2026-05-14
+P0505,51,Male,25.2,Current,1,0,190,153,68,177,Asymptomatic,0,0,1,0.296,Low,Yes,Coimbatore General Hospital,2026-03-17
+P0506,63,Male,28.4,Former,1,1,227,140,126,167,Atypical Angina,1,0,1,0.734,High,Yes,Chennai City Hospital,2026-07-17
+P0507,42,Male,29.6,Never,0,0,192,115,84,199,Asymptomatic,0,0,0,0.148,Low,No,Madurai Medical Center,2026-02-26
+P0508,45,Male,23.7,Former,1,0,187,151,93,174,Non-anginal Pain,1,0,0,0.292,Low,No,Chennai City Hospital,2026-02-07
+P0509,69,Female,18.4,Former,0,0,176,144,75,161,Atypical Angina,1,0,1,0.203,Low,Yes,Salem Care Hospital,2026-03-02
+P0510,67,Male,26.6,Never,0,0,241,134,97,144,Atypical Angina,0,1,1,0.637,Medium,Yes,Coimbatore General Hospital,2026-01-09
+P0511,29,Female,26.8,Never,0,0,218,96,75,149,Non-anginal Pain,0,0,0,0.169,Low,No,Salem Care Hospital,2026-06-20
+P0512,64,Female,21.7,Never,0,0,199,137,112,174,Non-anginal Pain,0,0,1,0.222,Low,Yes,Chennai City Hospital,2026-08-27
+P0513,54,Female,37.5,Never,0,0,226,140,64,199,Asymptomatic,0,0,0,0.381,Medium,No,Salem Care Hospital,2026-06-18
+P0514,51,Male,22.3,Current,0,0,215,132,97,161,Asymptomatic,0,1,0,0.379,Medium,No,Chennai City Hospital,2026-02-09
+P0515,51,Female,30.1,Never,1,1,217,158,100,175,Non-anginal Pain,0,0,0,0.503,Medium,No,Salem Care Hospital,2026-04-04
+P0516,31,Male,30.3,Never,0,0,154,97,83,160,Atypical Angina,0,1,0,0.102,Low,No,Salem Care Hospital,2026-02-11
+P0517,45,Male,30.3,Former,0,0,240,141,62,191,Asymptomatic,0,0,0,0.382,Medium,No,Chennai City Hospital,2026-06-14
+P0518,57,Male,22.5,Current,1,0,253,146,67,172,Non-anginal Pain,0,0,1,0.643,Medium,Yes,Salem Care Hospital,2026-03-09
+P0519,64,Male,22.9,Never,0,0,225,127,98,156,Typical Angina,0,0,0,0.41,Medium,No,Coimbatore General Hospital,2026-04-01
+P0520,38,Male,24.5,Never,0,0,231,130,95,182,Non-anginal Pain,1,1,0,0.367,Medium,No,Coimbatore General Hospital,2026-05-29
+P0521,62,Female,28.2,Current,0,0,221,168,96,158,Asymptomatic,0,0,0,0.532,Medium,No,Coimbatore General Hospital,2026-07-22
+P0522,52,Female,27.7,Former,0,0,234,133,66,174,Typical Angina,1,0,1,0.468,Medium,Yes,Chennai City Hospital,2026-07-10
+P0523,30,Female,28.3,Never,0,0,215,90,77,174,Atypical Angina,0,1,0,0.158,Low,No,Madurai Medical Center,2026-05-26
+P0524,72,Male,21.0,Former,1,0,251,156,91,149,Atypical Angina,0,0,1,0.711,High,Yes,Chennai City Hospital,2026-06-23
+P0525,72,Female,24.6,Never,1,0,221,162,67,149,Atypical Angina,1,0,1,0.593,Medium,Yes,Salem Care Hospital,2026-02-25
+P0526,36,Female,17.0,Former,1,0,194,142,60,175,Non-anginal Pain,1,0,0,0.156,Low,No,Chennai City Hospital,2026-09-07
+P0527,40,Male,36.1,Never,1,0,158,146,81,188,Non-anginal Pain,1,0,0,0.186,Low,No,Salem Care Hospital,2026-08-17
+P0528,80,Male,22.7,Former,1,0,260,182,60,133,Non-anginal Pain,0,0,1,0.806,High,Yes,Salem Care Hospital,2026-06-15
+P0529,48,Male,17.7,Current,0,1,237,118,116,183,Atypical Angina,0,0,0,0.342,Medium,No,Madurai Medical Center,2026-03-30
+P0530,68,Male,38.4,Never,1,0,239,142,60,176,Asymptomatic,1,0,1,0.713,High,Yes,Salem Care Hospital,2026-07-21
+P0531,71,Male,30.0,Former,1,0,155,170,72,162,Typical Angina,1,1,0,0.575,Medium,No,Chennai City Hospital,2026-03-14
+P0532,64,Female,28.0,Never,1,1,264,163,134,154,Non-anginal Pain,0,0,1,0.752,High,Yes,Salem Care Hospital,2026-08-11
+P0533,60,Male,28.6,Never,1,0,198,174,60,170,Typical Angina,0,0,0,0.401,Medium,No,Coimbatore General Hospital,2026-09-01
+P0534,47,Female,29.6,Never,0,1,246,124,100,195,Asymptomatic,0,1,1,0.632,Medium,Yes,Chennai City Hospital,2026-04-11
+P0535,40,Female,30.4,Never,0,0,215,128,77,170,Atypical Angina,0,1,0,0.253,Low,No,Madurai Medical Center,2026-02-24
+P0536,29,Male,19.6,Never,0,0,160,138,67,201,Asymptomatic,0,0,0,0.15,Low,No,Salem Care Hospital,2026-08-10
+P0537,46,Male,28.3,Never,0,0,251,118,76,189,Typical Angina,1,0,1,0.495,Medium,Yes,Salem Care Hospital,2026-05-15
+P0538,68,Male,25.4,Never,0,1,200,144,124,162,Non-anginal Pain,1,1,1,0.554,Medium,Yes,Coimbatore General Hospital,2026-03-05
+P0539,46,Female,31.9,Former,0,0,176,107,76,185,Asymptomatic,0,0,0,0.152,Low,No,Chennai City Hospital,2026-07-24
+P0540,52,Male,27.2,Never,0,0,172,122,71,188,Asymptomatic,0,0,0,0.107,Low,No,Coimbatore General Hospital,2026-05-27
+P0541,75,Male,27.7,Former,0,0,177,141,72,166,Asymptomatic,0,0,0,0.237,Low,No,Salem Care Hospital,2026-08-30
+P0542,48,Female,32.1,Never,0,0,223,131,75,150,Non-anginal Pain,0,0,1,0.15,Low,Yes,Salem Care Hospital,2026-07-12
+P0543,80,Female,32.5,Current,0,0,293,139,85,166,Non-anginal Pain,0,0,1,0.831,High,Yes,Salem Care Hospital,2026-08-15
+P0544,58,Male,17.0,Former,0,0,229,130,67,158,Non-anginal Pain,1,0,1,0.279,Low,Yes,Madurai Medical Center,2026-04-12
+P0545,28,Male,25.1,Current,0,0,220,130,75,197,Non-anginal Pain,1,0,0,0.271,Low,No,Chennai City Hospital,2026-08-22
+P0546,53,Male,26.2,Never,0,1,197,123,99,161,Atypical Angina,0,0,0,0.191,Low,No,Chennai City Hospital,2026-08-24
+P0547,48,Female,31.4,Former,0,0,216,152,60,173,Non-anginal Pain,0,0,0,0.21,Low,No,Madurai Medical Center,2026-07-29
+P0548,32,Female,31.9,Never,0,0,128,117,99,169,Asymptomatic,1,0,0,0.159,Low,No,Madurai Medical Center,2026-09-05
+P0549,58,Female,33.1,Former,1,0,271,151,85,179,Typical Angina,0,1,1,0.829,High,Yes,Salem Care Hospital,2026-06-06
+P0550,61,Female,22.7,Current,0,0,227,138,64,181,Asymptomatic,0,0,0,0.399,Medium,No,Madurai Medical Center,2026-08-10
