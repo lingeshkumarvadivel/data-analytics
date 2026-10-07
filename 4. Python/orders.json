@@ -1,0 +1,107 @@
+{
+  "orders": [
+    {
+      "order_id": 101,
+      "customer": {
+        "id": "C001",
+        "name": "Alice",
+        "segment": "Premium",
+        "contact": {
+          "email": "alice@example.com",
+          "phone": "1234567890",
+          "preferred_channel": "email"
+        }
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "qty": 1,
+          "unit_price": 800,
+          "discount": 0.1
+        },
+        {
+          "product": "Mouse",
+          "qty": 2,
+          "unit_price": 20,
+          "discount": 0.0
+        }
+      ],
+      "meta": {
+        "region": "North",
+        "channel": "Online",
+        "is_express": true,
+        "notes": "Urgent delivery"
+      }
+    },
+    {
+      "order_id": 102,
+      "customer": {
+        "id": "C002",
+        "name": "Bob",
+        "segment": "Standard",
+        "contact": {
+          "email": "bob@example.com",
+          "phone": null,
+          "preferred_channel": "phone"
+        }
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "qty": 5,
+          "unit_price": 40,
+          "discount": 0.05
+        },
+        {
+          "product": "Monitor",
+          "qty": 1,
+          "unit_price": 200,
+          "discount": 0.15
+        }
+      ],
+      "meta": {
+        "region": "South",
+        "channel": "Offline",
+        "is_express": false,
+        "notes": null
+      }
+    },
+    {
+      "order_id": 103,
+      "customer": {
+        "id": "C003",
+        "name": "Carol",
+        "segment": "Premium",
+        "contact": {
+          "email": "carol@example.com",
+          "phone": "9876543210",
+          "preferred_channel": "email"
+        }
+      },
+      "items": [
+        {
+          "product": "Headset",
+          "qty": 3,
+          "unit_price": 60,
+          "discount": 0.0
+        },
+        {
+          "product": "Laptop",
+          "qty": 1,
+          "unit_price": 900,
+          "discount": 0.2
+        }
+      ],
+      "meta": {
+        "region": "East",
+        "channel": "Online",
+        "is_express": true,
+        "notes": "Gift wrap"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-12-01T10:00:00Z",
+    "version": "1.0"
+  }
+}

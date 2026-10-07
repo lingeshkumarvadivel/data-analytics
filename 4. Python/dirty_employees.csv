@@ -1,0 +1,11 @@
+employee_id,name,department,salary,join_date,email
+1,  Alice Johnson  ,  HR  ,50000.0,2020-01-15,Alice.Johnson@Company.com
+2,BOB SMITH,IT,,2019-06-01,  bob.smith@company.COM  
+3,carol davis,hr,45000.0,,CAROL.DAVIS@COMPANY.com
+4,  David Wilson ,  Sales ,60000.0,2021-03-10,
+5,EVA MARTINEZ,IT,,2018-11-20,eva.martinez@company.com
+6,francis lee,SALES,55000.0,,francis.lee@Company.COM
+7,  GEORGE BROWN  ,  hr  ,48000.0,2022-02-28,  george.brown@company.com  
+8,hannah clark,Sales,,2020-07-15,hannah.clark@company.com
+9,IAN TAYLOR,it,52000.0,,
+10,  julia white,  HR,47000.0,2021-09-01,JULIA.WHITE@COMPANY.COM

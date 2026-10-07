@@ -1,0 +1,7 @@
+order_id,customer_id,customer_name,customer_segment,contact_email,contact_phone,preferred_channel,product,qty,unit_price,discount,region,channel,is_express,notes,line_amount,discounted_amount,priority_score
+101,C001,Alice,Premium,alice@example.com,1234567890,email,Laptop,1,800,0.1,North,Digital,True,Urgent delivery,800,734.0,3
+101,C001,Alice,Premium,alice@example.com,1234567890,email,Mouse,2,20,0.0,North,Digital,True,Urgent delivery,40,88.0,3
+102,C002,Bob,Standard,bob@example.com,Not provided,phone,Keyboard,5,40,0.05,South,Store,False,No special instructions,200,190.0,1
+102,C002,Bob,Standard,bob@example.com,Not provided,phone,Monitor,1,200,0.15,South,Store,False,No special instructions,200,170.0,1
+103,C003,Carol,Premium,carol@example.com,9876543210,email,Headset,3,60,0.0,East,Digital,True,Gift wrap,180,221.0,3
+103,C003,Carol,Premium,carol@example.com,9876543210,email,Laptop,1,900,0.2,East,Digital,True,Gift wrap,900,734.0,3
